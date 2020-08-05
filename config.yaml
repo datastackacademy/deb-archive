@@ -1,0 +1,31 @@
+logging:
+  # valid levels: DEBUG, INFO, WARNING, ERROR, FATAL, CRITICAL
+  level: INFO
+  # valid outputs: stdout, stderr
+  output: stdout
+
+defaults:
+  ch2:
+    # chapter 2 episode 3 defaults args
+    ep3:
+      input: 'gs://deb.gcs.turalabs.com/bots/csv/2018/flights_2018_01.csv'    # NOTE: change input to your own bucket location
+      output: 'gs://<YOUR-BUCKET>/beam/ch2cp3/'     # NOTE: change output location to your own bucket
+      flights_ext_table: 'deb.tmp_flights'
+      flights_table: 'deb.flights'
+      routes_table: 'deb.routes'
+      airports_table: 'deb.airports'
+    # chapter 2 episode 5 default args
+    ep5:
+      start_date: '2020-01-01'
+      end_date: '2020-01-01'
+      api_url: 'http://localhost:5000/'
+      api_token: '<YOUR API TOKEN>'     # go to turalabs.com/register to get your API token
+      api_timeout: 10.0
+      api_max_retries: 3
+      gcp_proect: 'deb'
+      output: 'gs://<YOUR-BUCKET>/beam/ch2cp5/'     # change to your own bucket name
+      flights_ext_table: 'deb.tmp_flights'
+      flights_table: 'deb.flights'
+      routes_table: 'deb.routes'
+      airports_table: 'deb.airports'
+

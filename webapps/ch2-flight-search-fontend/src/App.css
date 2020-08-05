@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+}
+
+.logo{
+  display: block;
+  text-align: left;
+  margin-left: 10px;
+  width: 10%;
+  height: auto;
+  padding: 20px 0 0 20px;
+}
+
+.no-flights{
+  margin-top: 10%;
+}
+.page-container input{
+  padding: 10px;
+}
+.pin{
+  border-radius: 10px;
+  width: 75px;
+  height: 50px;
+  max-width: 75px;
+  max-height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 2px 8px;
+  font-size: 50%;
+  word-wrap: break-word;
+  cursor: pointer;
+  position: absolute;
+  transform: translate(-50%,-100%);
+  cursor: inherit;
+}
+
+.pin-src{
+  background-color: #CFE3F2;
+}
+
+.pin-dest{
+  background-color: #173B56;
+  color:white;
+}
+
+.pin-content{
+  display:inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.key{
+  position: absolute;
+  transform: translate(50%,-125%);
+}
+
+.key-content{
+  padding: 10px;
+}
+
+h1 img{
+  width: 2%;
+  height: 2%;
+}
+
+
+
+.page-container {
+  padding: 0 10% 5% 10%;
+}
+
+.submit-btn{
+  display: block;
+}
+
+.airline-containers summary{
+  text-align: left;
+}
+
+.airline-container{
+  font-size: x-large;
+}
+
+.airline-container table{
+  font-size: medium;
+  text-align: left; 
+  border-spacing: 20px;
+}
+
+.previous-search{
+  display: block;
+  cursor: pointer;
+}
+
+.modal{
+  background-color: white;
+  text-align: center;
+  width: 75%;
+  height: 75vh;
+  margin: 7vh 7vw;
+  padding: 5%;
+  overflow-y: scroll;
+}
+.modal button{
+  margin-left: 70vw;
+}
+
+.modal-stats{
+  text-align: left;
+}
+
+.canvas-container{
+  margin-bottom: -50%
+}
+.modal canvas{
+  /* position: relative !important; */
+  width: 50% !important;
+  height: 100% !important;
+}
+
+.modal table{
+  font-size: medium;
+  text-align: left; 
+  border-spacing: 20px;
+}
+
+#flight-arrival{
+  transform: translate(100%, -100%)
+}
+
+#filter-label{
+  margin-top: 2%;
+}
+
+.loading{
+  color: #173B56;
+}
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:0.5; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:0.5; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:0.5; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:0.5; }
+}
+.animate-flicker {
+   -webkit-animation: flickerAnimation 1s infinite;
+   -moz-animation: flickerAnimation 1s infinite;
+   -o-animation: flickerAnimation 1s infinite;
+    animation: flickerAnimation 1s infinite;
+}

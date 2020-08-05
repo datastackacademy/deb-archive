@@ -1,0 +1,835 @@
+{"family_id": "AQL-LXU", "family_name": "Weiß", "address": "Gabriela-Tschentscher-Weg 201", "resident_since": "1998-05-22", "car": "TIR-UI-954", "members": ["Donald", "Patric", "Rolf"]}
+{"family_id": "1IY-A20", "family_name": "Rogge", "address": "Sylvie-Zobel-Ring 1", "resident_since": "2015-06-29", "car": "GZ-QU-8", "members": ["Lutz", "Grzegorz"]}
+{"family_id": "ANL-U2H", "family_name": "Spieß", "address": "Striebitzstr. 780", "resident_since": "2014-06-21", "car": "S-K-1752", "members": ["Anastasios"]}
+{"family_id": "PW2-5W8", "family_name": "Schmiedt", "address": "Gerhart-Kruschwitz-Ring 1/1", "resident_since": "2000-01-09", "car": "FFB-H-545", "members": ["Antonie"]}
+{"family_id": "WZW-HF4", "family_name": "Wulf", "address": "Sölzergasse 115", "resident_since": "2011-07-29", "car": "SHA-AS-8", "members": ["Corinne", "Konrad", "Folker", "Hans-Gerd"]}
+{"family_id": "Q4B-OOA", "family_name": "Bender", "address": "Gert-Gnatz-Gasse 9/2", "resident_since": "2011-11-20", "car": "HEL-TO-642", "members": ["Martina", "Yusuf", "Sönke", "Yilmaz"]}
+{"family_id": "UBH-9HG", "family_name": "Weinhage", "address": "Rigo-Drubin-Platz 636", "resident_since": "2011-08-21", "car": "MTK-YV-854", "members": ["Swen"]}
+{"family_id": "ZQ6-YXU", "family_name": "Schüler", "address": "Heserallee 8/0", "resident_since": "2009-06-13", "car": "HP-U-143", "members": ["Käthe", "Frieda", "Christiana", "Rose"]}
+{"family_id": "4OC-V56", "family_name": "Matthäi", "address": "Ullrichallee 8", "resident_since": "2001-01-17", "car": "KG-OF-875", "members": ["Ruthild", "Ricardo"]}
+{"family_id": "2MR-8AX", "family_name": "Weimer", "address": "Angelique-Schomber-Gasse 41", "resident_since": "2016-05-23", "car": "EB-QV-351", "members": ["Julia", "Bertram", "Hilda"]}
+{"family_id": "9R6-7AO", "family_name": "Schleich", "address": "Gottlob-Seifert-Allee 661", "resident_since": "1990-11-25", "car": "UL-F-181", "members": ["Tino", "Arthur"]}
+{"family_id": "4C7-NKS", "family_name": "Ditschlerin", "address": "Gertzstraße 31", "resident_since": "2014-03-19", "car": "ES-RW-45", "members": ["Claudius", "Anna-Maria", "Emil", "Heinrich", "William"]}
+{"family_id": "D1N-ZWR", "family_name": "Geisler", "address": "Jopichgasse 9/3", "resident_since": "1996-08-09", "car": "OVP-C-622", "members": ["Christoph", "Karl-Wilhelm"]}
+{"family_id": "4PM-CNV", "family_name": "Schmiedecke", "address": "Stolzeweg 8", "resident_since": "2001-03-30", "car": "FFB-N-22", "members": ["Ole", "Walli", "Hanns", "Herwig"]}
+{"family_id": "N8D-BEE", "family_name": "Roht", "address": "Agata-Rörricht-Weg 0", "resident_since": "2005-03-20", "car": "PLÖ-OW-75", "members": ["Liesbeth", "Antonios", "Martin", "Olena"]}
+{"family_id": "I5V-WNB", "family_name": "Ziegert", "address": "Bolanderallee 5", "resident_since": "1995-11-12", "car": "EN-A-8", "members": ["Rupert"]}
+{"family_id": "FHD-IKP", "family_name": "Gorlitz", "address": "Dörrallee 7", "resident_since": "2014-06-15", "car": "EE-AM-913", "members": ["Adina", "Egbert", "Falko"]}
+{"family_id": "X3F-893", "family_name": "Trapp", "address": "Kreuselstr. 5", "resident_since": "2010-04-14", "car": "AW-DA-46", "members": ["Melanie"]}
+{"family_id": "AHX-VOM", "family_name": "Drewes", "address": "Elwira-Trommler-Weg 79", "resident_since": "1999-02-18", "car": "NK-PB-23", "members": ["Tanja", "Mohammed", "Wilhelmine"]}
+{"family_id": "9XM-92N", "family_name": "Ditschlerin", "address": "Wulf-Striebitz-Ring 872", "resident_since": "2002-02-25", "car": "PA-ZL-263", "members": ["Sabina"]}
+{"family_id": "DQS-KCM", "family_name": "Barkholz", "address": "Gitte-Seifert-Allee 1", "resident_since": "1999-02-16", "car": "MVL-ZM-31", "members": ["Dino", "Gertrude", "Volker", "Olena"]}
+{"family_id": "PSV-S1I", "family_name": "Ackermann", "address": "Pirmin-Weitzel-Straße 1/7", "resident_since": "2017-05-13", "car": "LDK-O-871", "members": ["Maximilian", "Frithjof", "Elisabet", "Calogero", "Inken"]}
+{"family_id": "EB1-09N", "family_name": "Zirme", "address": "Cord-Förster-Straße 002", "resident_since": "1998-07-16", "car": "MN-JI-5391", "members": ["Ewa"]}
+{"family_id": "N12-OHQ", "family_name": "Schuster", "address": "Hentschelring 5/8", "resident_since": "1990-08-26", "car": "BÜS-MD-55", "members": ["Saskia"]}
+{"family_id": "127-E7P", "family_name": "Nette", "address": "Agatha-Striebitz-Straße 0", "resident_since": "1991-11-13", "car": "GS-W-438", "members": ["Nikolaus", "Martina"]}
+{"family_id": "A2X-H7U", "family_name": "Knappe", "address": "Binnerweg 2", "resident_since": "2015-02-07", "car": "FFB-F-846", "members": ["Ann-Kathrin", "Franco", "Friedbert"]}
+{"family_id": "AW4-XMF", "family_name": "Otto", "address": "Annelie-Schinke-Ring 9", "resident_since": "2007-12-14", "car": "NR-NU-14", "members": ["Hans-Otto", "Emin", "Karl"]}
+{"family_id": "SMY-1KR", "family_name": "Hahn", "address": "Zeljko-Dietz-Ring 62", "resident_since": "2006-02-27", "car": "SM-K-177", "members": ["Isabell", "Aleksandar", "Anne", "Emmi"]}
+{"family_id": "MVD-FSO", "family_name": "Reichmann", "address": "Kochplatz 5/5", "resident_since": "2006-10-18", "car": "HDH-GJ-64", "members": ["Karlheinz"]}
+{"family_id": "ZL3-OA6", "family_name": "Kade", "address": "Adlerstraße 677", "resident_since": "1992-10-17", "car": "WF-WW-2", "members": ["Iwan", "Claus", "Gunther", "Rosi"]}
+{"family_id": "BGX-RDU", "family_name": "Bien", "address": "Manja-Karge-Allee 5/4", "resident_since": "1997-01-05", "car": "G-W-9626", "members": ["Leszek"]}
+{"family_id": "VIN-9YZ", "family_name": "Eigenwillig", "address": "Kobeltgasse 3/9", "resident_since": "2005-07-05", "car": "CB-VW-163", "members": ["Mercedes", "Ralf-Peter", "Inna", "Luigi", "Franz"]}
+{"family_id": "SVR-Z3V", "family_name": "Hellwig", "address": "Irmingard-Beier-Weg 1/2", "resident_since": "1999-12-12", "car": "PS-CS-44", "members": ["Theodora", "Meta", "Lutz", "Roberto", "Resi"]}
+{"family_id": "1WL-9YS", "family_name": "Bärer", "address": "Barthstraße 72", "resident_since": "1995-10-10", "car": "KL-ON-8", "members": ["Ernst-August", "Siegmund", "Ulrike", "Reinhilde"]}
+{"family_id": "JPJ-SQ8", "family_name": "Hamann", "address": "Hinrich-Stiffel-Ring 010", "resident_since": "1993-09-13", "car": "LDS-I-15", "members": ["Regine"]}
+{"family_id": "V64-2UH", "family_name": "Ortmann", "address": "Lorenz-Ebert-Ring 57", "resident_since": "2005-04-01", "car": "NR-S-932", "members": ["Karlheinz", "Dietlinde", "Ismail", "Damian"]}
+{"family_id": "Q5R-FLK", "family_name": "Heydrich", "address": "Gertraude-Scholtz-Gasse 4/9", "resident_since": "2015-08-20", "car": "KIB-F-795", "members": ["Franca"]}
+{"family_id": "RBT-0ME", "family_name": "Weller", "address": "Edelgard-Römer-Weg 05", "resident_since": "1992-09-01", "car": "ST-UD-563", "members": ["Karolina", "Rita", "Serpil", "Ludger"]}
+{"family_id": "Q3P-BIE", "family_name": "Wiek", "address": "Steckelstraße 4/3", "resident_since": "1992-11-02", "car": "NOM-V-963", "members": ["Annette", "Hans-Detlef"]}
+{"family_id": "1MB-YXJ", "family_name": "Schuster", "address": "Häringallee 23", "resident_since": "1996-06-16", "car": "HWI-KK-52", "members": ["Anna-Lena", "Catrin", "Igor"]}
+{"family_id": "IYA-FJS", "family_name": "Haering", "address": "Ivanka-Reichmann-Platz 3/5", "resident_since": "1998-04-04", "car": "TS-L-37", "members": ["Jens", "Knud"]}
+{"family_id": "EPC-DB0", "family_name": "Riehl", "address": "Zobelplatz 241", "resident_since": "2010-09-03", "car": "PAF-Y-6449", "members": ["Herwig", "Arif", "Reingard"]}
+{"family_id": "3FE-Z24", "family_name": "Bohnbach", "address": "Genoveva-Kramer-Straße 6/5", "resident_since": "2013-09-14", "car": "BRB-SA-85", "members": ["Gudula", "Marijan"]}
+{"family_id": "E8V-DK0", "family_name": "Schuster", "address": "Ignaz-Eimer-Weg 68", "resident_since": "2001-01-10", "car": "RÜG-K-633", "members": ["Elly", "Anatol"]}
+{"family_id": "5RM-4ZT", "family_name": "Peukert", "address": "Fauststr. 43", "resident_since": "1990-12-06", "car": "BP-PV-56", "members": ["Wolfhard", "Christa-Maria", "Ryszard", "Ismet", "André"]}
+{"family_id": "33C-670", "family_name": "Mühle", "address": "Annita-Naser-Platz 5", "resident_since": "2009-10-18", "car": "THL-Q-628", "members": ["Helmuth", "Cornelius", "Jens", "Hannchen"]}
+{"family_id": "BH9-GC0", "family_name": "Kohl", "address": "Steffen-Trub-Ring 219", "resident_since": "2016-04-04", "car": "GZ-S-47", "members": ["Regine", "Silva"]}
+{"family_id": "E2B-L3U", "family_name": "Birnbaum", "address": "Matthäistr. 4", "resident_since": "2017-06-01", "car": "RT-I-15", "members": ["Philipp", "Tina", "Marlis"]}
+{"family_id": "N4H-52P", "family_name": "Barth", "address": "Dörthe-Kohl-Ring 33", "resident_since": "2015-05-01", "car": "WIL-N-945", "members": ["Hildegunde", "Yilmaz", "Stefanie"]}
+{"family_id": "1GN-3YU", "family_name": "Jacob", "address": "Bolanderstr. 546", "resident_since": "2004-05-12", "car": "MVL-B-85", "members": ["Ernst-Otto"]}
+{"family_id": "99C-XNN", "family_name": "Köster", "address": "Walterring 67", "resident_since": "2011-06-07", "car": "HSK-L-873", "members": ["Alfonso", "Grazyna", "Danilo", "Ben"]}
+{"family_id": "8AX-7ZT", "family_name": "Spieß", "address": "Alida-Schleich-Allee 809", "resident_since": "2003-12-24", "car": "KÜN-W-532", "members": ["Vincent", "Pascal", "Meinhard", "Kata", "Christa-Maria"]}
+{"family_id": "ESI-HVR", "family_name": "Höfig", "address": "Stumpfring 3", "resident_since": "2010-05-29", "car": "OA-YW-78", "members": ["Eberhardt"]}
+{"family_id": "N7J-7S4", "family_name": "Aumann", "address": "Häringstr. 0", "resident_since": "2010-03-02", "car": "BWL-MV-2", "members": ["Annika", "Traugott", "Adolfine", "Annie", "Hildegunde"]}
+{"family_id": "QM2-Z3I", "family_name": "Eimer", "address": "Weißstr. 19", "resident_since": "2005-08-28", "car": "NW-S-36", "members": ["Karsten", "Albin", "Dursun"]}
+{"family_id": "MOZ-QYR", "family_name": "Beyer", "address": "Beerstr. 9/9", "resident_since": "2006-11-05", "car": "UN-V-24", "members": ["Grete", "Diedrich"]}
+{"family_id": "KM3-XPO", "family_name": "Hiller", "address": "Davidsallee 1/5", "resident_since": "1997-10-15", "car": "DAU-P-533", "members": ["Jacek", "Dogan", "Irina", "Emmi", "Cäcilie"]}
+{"family_id": "E37-SZA", "family_name": "Schmiedt", "address": "Seidelallee 84", "resident_since": "1991-11-05", "car": "KUS-YD-35", "members": ["Hanne-Lore", "Ismail", "Liesel"]}
+{"family_id": "HOG-C9N", "family_name": "Eberhardt", "address": "Sagerstr. 219", "resident_since": "1993-05-11", "car": "MA-AA-3645", "members": ["Birgit", "Frieder", "Walfried", "Rosa"]}
+{"family_id": "XXE-DVD", "family_name": "Mentzel", "address": "Blochring 69", "resident_since": "2000-05-19", "car": "SHG-Y-117", "members": ["Ivanka", "Nicole", "Leo"]}
+{"family_id": "E8M-H0E", "family_name": "Ruppersberger", "address": "Eberhardtstr. 17", "resident_since": "1997-11-30", "car": "HDH-ZE-418", "members": ["Bastian", "Anthony", "Gerhard", "Britta"]}
+{"family_id": "FSN-WUL", "family_name": "Hauffer", "address": "Leyla-Klingelhöfer-Ring 6/0", "resident_since": "2008-02-28", "car": "AÖ-FO-75", "members": ["Elisabet", "Gerald", "Cora"]}
+{"family_id": "T5G-I0Z", "family_name": "Schulz", "address": "Trappweg 4/6", "resident_since": "2016-02-09", "car": "NW-J-552", "members": ["Korbinian"]}
+{"family_id": "PKH-UVG", "family_name": "Huhn", "address": "Oswald-Römer-Ring 781", "resident_since": "2012-06-04", "car": "HOM-BA-245", "members": ["Isabel", "Victor", "Ulrike"]}
+{"family_id": "38X-S73", "family_name": "Zorbach", "address": "Sigmund-Etzold-Weg 1/4", "resident_since": "2013-11-19", "car": "FL-CP-22", "members": ["Ljiljana", "Anni"]}
+{"family_id": "42L-WMZ", "family_name": "Stiffel", "address": "Hahnweg 9", "resident_since": "2006-05-09", "car": "MYK-M-28", "members": ["Erdmute", "Joanna", "Romana"]}
+{"family_id": "4UK-0MJ", "family_name": "Neuschäfer", "address": "Haeringplatz 004", "resident_since": "2015-01-03", "car": "AE-I-81", "members": ["Tilmann", "Danny"]}
+{"family_id": "QLH-XOF", "family_name": "Mohaupt", "address": "Hölzenbecherallee 6", "resident_since": "2011-05-10", "car": "SHA-SB-8", "members": ["Mechtild"]}
+{"family_id": "WTD-DNQ", "family_name": "Rogge", "address": "Meisterallee 7", "resident_since": "2013-04-02", "car": "LD-CL-4527", "members": ["Siegried", "Isabelle", "Gottlieb"]}
+{"family_id": "UEP-HY7", "family_name": "Schweitzer", "address": "Anna-Maria-Gude-Allee 3", "resident_since": "2014-07-23", "car": "EBE-DX-63", "members": ["Elvira", "Reimer", "Hartwig", "Lieselotte"]}
+{"family_id": "PGB-0QS", "family_name": "Ernst", "address": "Gießallee 7", "resident_since": "1994-11-19", "car": "AA-Y-71", "members": ["Violetta", "Ernst-Otto", "Stephan", "Kordula", "Gabriel"]}
+{"family_id": "QCH-RX1", "family_name": "Peukert", "address": "Ruppersbergerstraße 00", "resident_since": "2011-07-30", "car": "KI-XS-3535", "members": ["Anastasios"]}
+{"family_id": "EY7-OY2", "family_name": "Seip", "address": "Helmuth-Gerlach-Platz 2", "resident_since": "2007-07-10", "car": "HX-T-776", "members": ["Dietlinde", "Ronald"]}
+{"family_id": "DZ8-I2O", "family_name": "Margraf", "address": "Fechnergasse 871", "resident_since": "1994-04-15", "car": "OHZ-W-68", "members": ["Clarissa", "Isabelle", "Wanda", "Brigitte", "Gotthard"]}
+{"family_id": "5DB-XLT", "family_name": "Heinrich", "address": "Thanelstr. 1", "resident_since": "1991-01-27", "car": "LWL-YE-8611", "members": ["Sören", "Gereon", "Meral"]}
+{"family_id": "R8B-ZZH", "family_name": "Rädel", "address": "Pieperplatz 570", "resident_since": "1995-02-04", "car": "SI-A-923", "members": ["Maurizio", "Olaf", "Simone", "Karolin"]}
+{"family_id": "Y7Y-ZOX", "family_name": "Heser", "address": "Ante-Barth-Gasse 1", "resident_since": "2013-08-06", "car": "STD-DW-8", "members": ["Felicia", "Beatrix"]}
+{"family_id": "DE2-NF5", "family_name": "Fechner", "address": "Anselm-Hölzenbecher-Straße 8/6", "resident_since": "1999-02-07", "car": "L-AA-648", "members": ["Ariane"]}
+{"family_id": "GTV-WIG", "family_name": "Gumprich", "address": "Baumallee 6", "resident_since": "1999-10-20", "car": "J-Z-51", "members": ["Rico", "Hans-Gerhard", "Christina"]}
+{"family_id": "OQT-X84", "family_name": "Löffler", "address": "Junckgasse 514", "resident_since": "2001-01-06", "car": "PAN-R-38", "members": ["Cathrin", "Sandor"]}
+{"family_id": "W9G-843", "family_name": "Matthäi", "address": "Magrit-Losekann-Weg 04", "resident_since": "2015-07-16", "car": "OD-NK-24", "members": ["Bruno", "Marta", "Wolfgang", "Kreszentia", "Sylvia"]}
+{"family_id": "08V-FCN", "family_name": "Fröhlich", "address": "Timo-Wagner-Straße 10", "resident_since": "1994-12-11", "car": "AS-PG-9", "members": ["Suzanne", "Janusz", "Rabea"]}
+{"family_id": "206-O3X", "family_name": "Losekann", "address": "Lorenzo-van der Dussen-Allee 166", "resident_since": "2003-05-06", "car": "HOL-I-97", "members": ["Gottlob", "Irma", "Louis"]}
+{"family_id": "DRF-WRT", "family_name": "Wirth", "address": "Kreingasse 8", "resident_since": "2005-08-01", "car": "EU-D-4", "members": ["Teresa", "Karl-Ludwig", "Heinz-Dieter"]}
+{"family_id": "NGE-8IZ", "family_name": "Tlustek", "address": "Junckenallee 44", "resident_since": "1993-04-18", "car": "DEL-DU-639", "members": ["Deborah", "Nelli", "Peer", "Heike", "Fatih"]}
+{"family_id": "12J-B2N", "family_name": "Spieß", "address": "Jens-Uwe-Kostolzin-Ring 8", "resident_since": "2012-04-22", "car": "EL-S-183", "members": ["Doreen", "Rosemarie", "Benita", "Diether"]}
+{"family_id": "S26-2QG", "family_name": "Butte", "address": "Schleichplatz 400", "resident_since": "2007-09-24", "car": "J-UD-436", "members": ["Traude", "Dieter", "Ralph"]}
+{"family_id": "K8G-GPB", "family_name": "Langern", "address": "Rafael-Hertrampf-Platz 2", "resident_since": "2015-12-19", "car": "MB-L-971", "members": ["Marten"]}
+{"family_id": "WSO-PAS", "family_name": "Putz", "address": "Scholtzstr. 1", "resident_since": "2008-06-20", "car": "PR-X-76", "members": ["Anne-Rose"]}
+{"family_id": "PNS-4H0", "family_name": "Biggen", "address": "Speerring 5/6", "resident_since": "1996-08-01", "car": "DU-U-83", "members": ["Käthe", "Lisbeth", "Ante", "Pia"]}
+{"family_id": "AX8-KEA", "family_name": "Metz", "address": "Reni-Zänker-Gasse 180", "resident_since": "1991-03-22", "car": "LU-U-52", "members": ["Gordana"]}
+{"family_id": "PUU-VDV", "family_name": "Eberhardt", "address": "Giuseppe-Karz-Allee 42", "resident_since": "1993-01-29", "car": "OE-W-823", "members": ["Lore", "Uwe", "Barbara", "Henriette"]}
+{"family_id": "PWG-L2Z", "family_name": "Schäfer", "address": "Ira-Adler-Ring 5/9", "resident_since": "2007-02-02", "car": "SLK-WA-97", "members": ["Sylvio", "Laila", "Carsten", "Ilka", "Beate"]}
+{"family_id": "KVG-FB0", "family_name": "Neureuther", "address": "Adolphstraße 46", "resident_since": "2017-01-11", "car": "ROS-R-42", "members": ["Milica", "Nikolas", "Hedi", "Karina"]}
+{"family_id": "2E7-V0A", "family_name": "Hornig", "address": "Naserplatz 7/4", "resident_since": "2012-04-07", "car": "EMS-NC-39", "members": ["Hans-Uwe", "Luisa", "Alena", "Eckart", "Luka"]}
+{"family_id": "NBQ-EJ4", "family_name": "Wieloch", "address": "Dietzstr. 9/9", "resident_since": "2016-10-07", "car": "PA-CR-3", "members": ["Valerie", "Pierre"]}
+{"family_id": "O9N-YTK", "family_name": "Ruppert", "address": "Anna-Lena-Ackermann-Straße 5/6", "resident_since": "2014-11-27", "car": "SZ-DC-721", "members": ["Dittmar", "Ute", "Simona", "Harm", "Waltraut"]}
+{"family_id": "40H-QE2", "family_name": "Knappe", "address": "Erdogan-Ritter-Allee 709", "resident_since": "2003-08-03", "car": "ES-RK-632", "members": ["Alicja", "Dominic", "Mareike", "Johan"]}
+{"family_id": "GQ6-1MY", "family_name": "Weinhage", "address": "Ortmannstr. 5/8", "resident_since": "2016-10-27", "car": "DAN-DN-41", "members": ["Sigismund", "Hans-Martin", "Miroslawa"]}
+{"family_id": "UEA-7JS", "family_name": "Hethur", "address": "Canan-Wilms-Ring 94", "resident_since": "2000-02-14", "car": "SPN-EF-219", "members": ["Hansjörg", "Kirstin", "Harry"]}
+{"family_id": "Y5Z-WG1", "family_name": "Conradi", "address": "Misicherring 3", "resident_since": "2000-10-06", "car": "EA-WQ-577", "members": ["Annekatrin", "Belinda"]}
+{"family_id": "D4G-12P", "family_name": "Hörle", "address": "Heide-Misicher-Gasse 1/7", "resident_since": "2009-01-11", "car": "VS-WI-4321", "members": ["Jaroslav", "Hans-Ludwig", "Hildegund", "Heidelinde", "Ilse"]}
+{"family_id": "T1I-MTC", "family_name": "Kruschwitz", "address": "Sandro-Rädel-Ring 659", "resident_since": "2012-05-10", "car": "AIC-QE-232", "members": ["Reinhard", "Sara", "Hendrik", "Steffen", "Frieda"]}
+{"family_id": "92D-QES", "family_name": "Holzapfel", "address": "Gerlachstraße 208", "resident_since": "1990-09-24", "car": "W-BG-118", "members": ["Hedi", "Dursun", "Guntram", "Andrey", "Freddy"]}
+{"family_id": "JVY-T4Y", "family_name": "Hentschel", "address": "Leni-Heinrich-Allee 693", "resident_since": "2003-12-08", "car": "SIG-A-9", "members": ["Yasmin", "Gerhard"]}
+{"family_id": "RXV-26V", "family_name": "Geisel", "address": "Mustafa-Jockel-Gasse 1", "resident_since": "2007-06-14", "car": "DEG-CP-3", "members": ["Heide", "Friedhold", "Brigitte", "Rosel", "Radmila"]}
+{"family_id": "9HF-8BV", "family_name": "Möchlichen", "address": "Rustplatz 390", "resident_since": "1999-02-07", "car": "DN-KF-952", "members": ["Lorenz", "Deborah", "Mariusz", "Jane", "Filiz"]}
+{"family_id": "L6D-K29", "family_name": "Gertz", "address": "Elif-Reichmann-Ring 0", "resident_since": "2010-11-26", "car": "FO-RR-727", "members": ["Johan", "Julie", "Cemil", "Natascha"]}
+{"family_id": "JZ2-QM3", "family_name": "Hauffer", "address": "Schottinstraße 13", "resident_since": "2002-09-30", "car": "TIR-F-322", "members": ["Irmhild", "Heinz-Josef", "Piotr", "Cora"]}
+{"family_id": "RXM-TVT", "family_name": "Ruppert", "address": "Köstergasse 109", "resident_since": "2000-04-20", "car": "SO-Z-874", "members": ["Veli", "Henryk", "Kriemhild", "Madlen"]}
+{"family_id": "D6D-XCF", "family_name": "Jäkel", "address": "Tlustekstr. 519", "resident_since": "2016-09-06", "car": "BK-IE-98", "members": ["Hans-Ludwig"]}
+{"family_id": "8KU-7MF", "family_name": "Kühnert", "address": "Anita-Oestrovsky-Allee 61", "resident_since": "1996-03-25", "car": "HN-CL-66", "members": ["Rudolph", "Reinald"]}
+{"family_id": "8YJ-GM0", "family_name": "Jacob", "address": "Hildegart-Klemt-Gasse 81", "resident_since": "2014-12-28", "car": "HOL-A-92", "members": ["Hatice", "Fatma", "Hansjörg"]}
+{"family_id": "I5C-7YG", "family_name": "Zahn", "address": "Heinz-Döhn-Weg 1", "resident_since": "1996-06-23", "car": "HER-A-94", "members": ["Harm", "Mariusz", "Annaliese", "Felicia"]}
+{"family_id": "CKX-INF", "family_name": "Gunpf", "address": "Schülerring 187", "resident_since": "2008-12-17", "car": "KYF-N-4", "members": ["Irmtraut", "Lena", "Liselotte", "Oda", "Uta"]}
+{"family_id": "ALT-EI4", "family_name": "Wagenknecht", "address": "Hans-Rainer-Loos-Platz 50", "resident_since": "2015-05-19", "car": "UN-U-3962", "members": ["Cornelius"]}
+{"family_id": "WF0-WSA", "family_name": "Vollbrecht", "address": "Conradiplatz 8/6", "resident_since": "2003-09-17", "car": "GS-H-63", "members": ["Leonard", "Amelie", "Constanze", "Kordula", "Tino"]}
+{"family_id": "P9A-8HC", "family_name": "Stey", "address": "Ritterstraße 7/0", "resident_since": "2001-06-01", "car": "BD-N-39", "members": ["Marieluise"]}
+{"family_id": "7U9-MH6", "family_name": "Käster", "address": "Rohtring 754", "resident_since": "2009-08-23", "car": "F-H-888", "members": ["Nelli", "Jolanta", "Heinz-Otto", "Jens"]}
+{"family_id": "YHN-YXU", "family_name": "Berger", "address": "Irmengard-Bähr-Platz 40", "resident_since": "1996-07-17", "car": "TÖL-L-974", "members": ["Hardy", "Irina", "Damian", "Berta"]}
+{"family_id": "O1X-4QE", "family_name": "Roht", "address": "Roswitha-Kusch-Allee 324", "resident_since": "1998-06-13", "car": "DU-DP-8", "members": ["Silja"]}
+{"family_id": "31D-ODD", "family_name": "Wesack", "address": "Gießplatz 6/1", "resident_since": "2015-08-14", "car": "RV-AQ-65", "members": ["Heide", "Tassilo", "Franco", "Klaus-Ulrich", "Thilo"]}
+{"family_id": "KY3-B1F", "family_name": "Werner", "address": "Kallertplatz 042", "resident_since": "2002-01-04", "car": "SB-ZW-871", "members": ["Alfonso"]}
+{"family_id": "YJG-RZY", "family_name": "Köster", "address": "Mälzerweg 6/7", "resident_since": "2000-11-17", "car": "HEF-J-696", "members": ["Betti", "Johann", "Nermin", "Dariusz", "Sylke"]}
+{"family_id": "TAI-816", "family_name": "Zahn", "address": "Jozef-Holsten-Weg 1/9", "resident_since": "2011-03-22", "car": "FD-Y-49", "members": ["Ludwina", "Max", "Solveig", "Gordon", "Sofia"]}
+{"family_id": "BCV-22K", "family_name": "Drubin", "address": "Osman-Kroker-Straße 0", "resident_since": "2014-04-14", "car": "R-C-42", "members": ["Eberhard", "Jochen"]}
+{"family_id": "K3W-X2D", "family_name": "Holzapfel", "address": "Mehmet-Schüler-Weg 44", "resident_since": "1995-08-20", "car": "LIP-CU-242", "members": ["Corinna"]}
+{"family_id": "TZN-VDJ", "family_name": "Schweitzer", "address": "Dörschnergasse 23", "resident_since": "2016-09-26", "car": "SLS-O-59", "members": ["Inna", "Reingard", "Czeslaw", "Gereon", "Emilie"]}
+{"family_id": "G3V-VMU", "family_name": "Lachmann", "address": "Rahel-Aumann-Weg 1/4", "resident_since": "2006-06-07", "car": "RO-P-622", "members": ["Leonard", "Randolf", "Arzu", "Alice"]}
+{"family_id": "YML-I5I", "family_name": "Rudolph", "address": "Schmidtweg 1", "resident_since": "1997-11-13", "car": "KU-B-49", "members": ["Galina"]}
+{"family_id": "S9Q-1XP", "family_name": "Briemer", "address": "Mohammed-Mielcarek-Straße 8", "resident_since": "2008-12-28", "car": "HSK-V-3", "members": ["Bertram"]}
+{"family_id": "HLL-0V0", "family_name": "Henschel", "address": "Angelo-Hertrampf-Allee 348", "resident_since": "2000-07-19", "car": "MG-XC-54", "members": ["Heiderose", "Ramona", "Robert", "Eleonora", "Hans Jörg"]}
+{"family_id": "RBV-WT3", "family_name": "Römer", "address": "Carstenplatz 2/7", "resident_since": "2002-03-13", "car": "LD-CK-793", "members": ["Angelika"]}
+{"family_id": "35W-W92", "family_name": "Seifert", "address": "Janus-Heinz-Weg 4/1", "resident_since": "2001-05-13", "car": "SR-GU-712", "members": ["Asta", "Hubert"]}
+{"family_id": "BRB-H3L", "family_name": "Grein Groth", "address": "Hans-Christian-Gnatz-Ring 072", "resident_since": "2013-08-11", "car": "KN-E-737", "members": ["Walfried", "Slavko", "Hans-Ludwig", "Kristin"]}
+{"family_id": "HGP-P9G", "family_name": "Jähn", "address": "Dietzweg 4/5", "resident_since": "1999-03-17", "car": "AIC-CN-12", "members": ["Matthäus", "Hannchen", "Eckehard"]}
+{"family_id": "4N2-NJJ", "family_name": "Loos", "address": "Zorbachgasse 371", "resident_since": "2011-07-26", "car": "PAF-YC-949", "members": ["Sigurd", "Herlinde", "Henry", "Suzanne", "Kunigunda"]}
+{"family_id": "RI8-2DN", "family_name": "Butte", "address": "Mirja-Reuter-Gasse 78", "resident_since": "2014-06-20", "car": "WAF-G-264", "members": ["Lothar"]}
+{"family_id": "80H-VBG", "family_name": "Juncken", "address": "Paffrathstraße 92", "resident_since": "1991-12-16", "car": "HAM-D-6", "members": ["Laura"]}
+{"family_id": "0KS-OVN", "family_name": "Gnatz", "address": "Oderwaldgasse 8/0", "resident_since": "2001-01-19", "car": "WAK-T-61", "members": ["Agnes", "Regine", "Manfred", "Bert", "Geert"]}
+{"family_id": "MRQ-PMX", "family_name": "Hettner", "address": "Wähnergasse 641", "resident_since": "1990-07-26", "car": "HAM-V-523", "members": ["Gisa", "Margrit", "Adelgunde", "Niels", "Friedrich-Karl"]}
+{"family_id": "1QN-4MQ", "family_name": "Schwital", "address": "Pergandeallee 8", "resident_since": "1996-12-08", "car": "GER-JT-17", "members": ["Jochem", "Kasimir", "Raik", "Ronny", "Cindy"]}
+{"family_id": "AMA-CZH", "family_name": "Kranz", "address": "Canan-Tintzmann-Gasse 1/2", "resident_since": "1995-10-27", "car": "HX-N-7", "members": ["Birthe", "Bernward"]}
+{"family_id": "5HS-P9I", "family_name": "Krein", "address": "Ehlertweg 6", "resident_since": "2010-11-04", "car": "OPR-YS-695", "members": ["Eileen", "Attila"]}
+{"family_id": "QX2-6H6", "family_name": "Kruschwitz", "address": "Ljiljana-Karge-Straße 46", "resident_since": "2014-03-30", "car": "OF-D-629", "members": ["Ryszard", "Wilfried", "Hanne-Lore"]}
+{"family_id": "N5G-0BD", "family_name": "Klotz", "address": "Wendeallee 77", "resident_since": "2007-03-16", "car": "LG-I-3", "members": ["Jelena"]}
+{"family_id": "1CH-KW0", "family_name": "Scholtz", "address": "Budigallee 39", "resident_since": "2006-06-27", "car": "MOL-HA-69", "members": ["Larissa", "Nevenka", "Milos"]}
+{"family_id": "6N3-Y2Z", "family_name": "Stoll", "address": "Döringring 6/9", "resident_since": "2001-03-11", "car": "DU-P-431", "members": ["Nicole", "Irmtraud", "Gisa", "Janette", "Antje"]}
+{"family_id": "GUI-BNS", "family_name": "Kruschwitz", "address": "Adolphplatz 97", "resident_since": "1992-03-13", "car": "WIL-C-44", "members": ["Uwe", "Margarita", "Hans-Walter"]}
+{"family_id": "6HM-1OZ", "family_name": "Thanel", "address": "Adlerstr. 11", "resident_since": "2006-12-01", "car": "KÜN-SR-79", "members": ["Leyla"]}
+{"family_id": "C13-JNW", "family_name": "Schuchhardt", "address": "Heinring 2", "resident_since": "2011-07-20", "car": "BOR-QF-7563", "members": ["Doreen", "Gretl", "Zenta"]}
+{"family_id": "4X1-NMQ", "family_name": "Gertz", "address": "Dietmar-Trapp-Platz 3", "resident_since": "2014-08-24", "car": "BP-O-42", "members": ["Birgitt"]}
+{"family_id": "ZUP-QVW", "family_name": "Hahn", "address": "Pauline-Atzler-Weg 25", "resident_since": "2004-02-03", "car": "P-E-47", "members": ["Anna-Lena", "Christel", "Bertha"]}
+{"family_id": "76N-9NI", "family_name": "Schmiedt", "address": "Jacobi Jäckelweg 2", "resident_since": "1996-09-14", "car": "AK-Q-9", "members": ["Reza", "Anselm", "Yvette", "David"]}
+{"family_id": "WJ9-FEE", "family_name": "Rosemann", "address": "Ditschlerinstraße 051", "resident_since": "1998-11-05", "car": "C-F-37", "members": ["Marit", "Lissy", "Christel", "Abdullah", "Burckhard"]}
+{"family_id": "37J-258", "family_name": "auch Schlauchin", "address": "Gudeweg 4/1", "resident_since": "2001-06-18", "car": "RO-EC-6", "members": ["Isidor", "Wencke"]}
+{"family_id": "BKD-R3T", "family_name": "Mitschke", "address": "Scheuermannweg 0/7", "resident_since": "1998-02-10", "car": "RT-SA-7926", "members": ["Larissa", "Ingeborg", "Klaus-Werner"]}
+{"family_id": "D8C-M3Q", "family_name": "Striebitz", "address": "Zirmestraße 77", "resident_since": "2009-05-31", "car": "GR-S-678", "members": ["Kazim", "Konrad", "Maria"]}
+{"family_id": "E2C-UGP", "family_name": "Metz", "address": "Kranzring 0", "resident_since": "2012-06-16", "car": "SIM-N-72", "members": ["Holger", "Lotte", "Juan"]}
+{"family_id": "MRJ-HPF", "family_name": "Schwital", "address": "Eimerring 45", "resident_since": "1991-11-29", "car": "SOK-YW-9", "members": ["Egbert"]}
+{"family_id": "6E1-RI5", "family_name": "Jungfer", "address": "Diethelm-Sauer-Weg 1/3", "resident_since": "1992-08-15", "car": "RÜD-D-35", "members": ["Danielle", "Valentine", "Alan", "Grazyna", "Aysel"]}
+{"family_id": "NTM-W4R", "family_name": "Dehmel", "address": "Miesplatz 14", "resident_since": "2010-02-12", "car": "BD-OO-2812", "members": ["Suzanne", "Solveig", "Rebekka", "Annegrete"]}
+{"family_id": "M63-XKH", "family_name": "Scheuermann", "address": "Sagerstraße 146", "resident_since": "2003-12-26", "car": "GT-H-11", "members": ["Mara", "Zbigniew"]}
+{"family_id": "FF1-C48", "family_name": "Möchlichen", "address": "Reisingring 6", "resident_since": "2005-04-25", "car": "HF-G-1813", "members": ["Jovan", "Polina", "Ludwina", "Igor"]}
+{"family_id": "8BW-R5A", "family_name": "Jopich", "address": "Jähnallee 1/6", "resident_since": "2008-05-20", "car": "STA-YH-12", "members": ["José", "Nicolaus", "Gerhard", "Hinrich", "Bertram"]}
+{"family_id": "71J-WPT", "family_name": "Jäkel", "address": "Sorgatzallee 14", "resident_since": "1997-09-09", "car": "GAP-WB-57", "members": ["Anke", "Lilija", "Ines", "Necati"]}
+{"family_id": "U7Y-F8C", "family_name": "Biggen", "address": "Rognerweg 65", "resident_since": "1992-09-17", "car": "GÖ-DQ-38", "members": ["Bertold"]}
+{"family_id": "E8R-YPS", "family_name": "Sontag", "address": "Lübsgasse 04", "resident_since": "1998-06-25", "car": "TDO-ZD-529", "members": ["Urszula", "Siegmund", "Markus"]}
+{"family_id": "UA8-2MC", "family_name": "Becker", "address": "Thea-Bauer-Gasse 47", "resident_since": "2009-04-02", "car": "OD-G-493", "members": ["Käthe"]}
+{"family_id": "RTV-2Z0", "family_name": "Beckmann", "address": "Daniela-Martin-Weg 1/8", "resident_since": "2016-06-17", "car": "LOS-M-36", "members": ["Lilian"]}
+{"family_id": "3LM-3N1", "family_name": "Peukert", "address": "Weihmannring 5/7", "resident_since": "2015-01-12", "car": "NB-Y-691", "members": ["Eva-Maria", "Vlado", "Jacqueline", "Hiltrud", "Harry"]}
+{"family_id": "4HP-OHN", "family_name": "Hethur", "address": "Oliver-Hübel-Platz 319", "resident_since": "2014-03-17", "car": "ME-Z-22", "members": ["Henriette", "Ludmilla"]}
+{"family_id": "OOQ-44C", "family_name": "Krebs", "address": "Hans-Otto-Wulf-Allee 4/1", "resident_since": "2008-08-20", "car": "OS-D-832", "members": ["Hans-Ludwig", "Hatice", "Irmi"]}
+{"family_id": "LP7-501", "family_name": "Gertz", "address": "Ruppersbergerplatz 51", "resident_since": "1991-06-22", "car": "WAF-AR-4759", "members": ["Gaetano", "Dorit", "Brunhild"]}
+{"family_id": "JGN-R82", "family_name": "Seifert", "address": "Sophia-Dehmel-Allee 12", "resident_since": "1995-09-10", "car": "AW-PX-62", "members": ["Joanna"]}
+{"family_id": "FUR-9S9", "family_name": "Etzold", "address": "Sabina-Schmidt-Allee 0/1", "resident_since": "1998-11-27", "car": "LSN-HM-976", "members": ["Willibald", "Irmingard", "Lene"]}
+{"family_id": "ENA-2ZC", "family_name": "Davids", "address": "Ines-Hethur-Gasse 6/6", "resident_since": "1998-09-10", "car": "HRO-G-2464", "members": ["Hiltraud", "Gernot", "Roselinde", "Elma", "Marlies"]}
+{"family_id": "NZY-OK1", "family_name": "Reising", "address": "Hörlestraße 5", "resident_since": "1997-05-19", "car": "HER-T-32", "members": ["Emin"]}
+{"family_id": "VXN-3KG", "family_name": "Fröhlich", "address": "Milica-Becker-Ring 231", "resident_since": "1990-08-27", "car": "OF-OY-5221", "members": ["Sieglinde", "Gusti", "Tilmann"]}
+{"family_id": "GIA-N9I", "family_name": "Hentschel", "address": "Justine-Weller-Gasse 321", "resident_since": "2012-10-04", "car": "LD-D-957", "members": ["Laszlo", "Gottlieb"]}
+{"family_id": "O18-2FM", "family_name": "Kaul", "address": "Karl-Jürgen-Schuster-Allee 099", "resident_since": "2001-02-19", "car": "MR-PW-5475", "members": ["Tino", "Marliese"]}
+{"family_id": "P40-OAK", "family_name": "Reichmann", "address": "Natalia-Kaul-Platz 5/5", "resident_since": "1996-10-04", "car": "MD-FU-28", "members": ["Celal"]}
+{"family_id": "RWI-6MU", "family_name": "Rudolph", "address": "Adina-Fliegner-Ring 341", "resident_since": "2007-03-24", "car": "EA-Y-926", "members": ["Brian", "Anneliese", "Gilda"]}
+{"family_id": "RXL-FS1", "family_name": "Trupp", "address": "Plathplatz 693", "resident_since": "2015-02-23", "car": "R-H-92", "members": ["Reimer", "Carsten", "Siegrid", "Georgios", "Luzie"]}
+{"family_id": "N2T-B0U", "family_name": "Bauer", "address": "Walfried-Käster-Ring 7", "resident_since": "2011-07-14", "car": "SM-Z-57", "members": ["Reingard", "Susanne", "Nancy"]}
+{"family_id": "YU4-KIY", "family_name": "Bruder", "address": "Bogdan-Knappe-Ring 08", "resident_since": "1993-05-29", "car": "MS-F-74", "members": ["Miroslav"]}
+{"family_id": "UHQ-6GI", "family_name": "Schmidtke", "address": "Heinrichgasse 68", "resident_since": "2007-10-08", "car": "KF-G-9", "members": ["Tatjana", "Jaqueline"]}
+{"family_id": "KWX-ANE", "family_name": "Hoffmann", "address": "Wesackgasse 143", "resident_since": "1990-09-21", "car": "OE-VX-791", "members": ["Priska", "Leni", "Ole"]}
+{"family_id": "GFP-LRU", "family_name": "Fröhlich", "address": "Zahngasse 03", "resident_since": "1999-11-24", "car": "BWL-T-131", "members": ["Nadine", "Monique", "Maurice", "Nils"]}
+{"family_id": "F8D-OW5", "family_name": "Hartmann", "address": "Kirsten-Zobel-Straße 767", "resident_since": "2002-10-26", "car": "KN-XM-84", "members": ["Gesche", "Fabian", "Steffi"]}
+{"family_id": "1XP-NQ8", "family_name": "Hermann", "address": "Hajo-Hande-Ring 2/9", "resident_since": "2010-05-20", "car": "LIF-K-87", "members": ["Leonhard", "Hiltraud"]}
+{"family_id": "2CA-WJ9", "family_name": "Süßebier", "address": "Isabelle-Kruschwitz-Weg 36", "resident_since": "2011-01-12", "car": "SO-ND-149", "members": ["Krista", "Elli", "Erdogan", "Nicolas", "Annerose"]}
+{"family_id": "QUA-UXQ", "family_name": "Aumann", "address": "Drubinstraße 99", "resident_since": "2007-12-01", "car": "HX-A-86", "members": ["Ilhan", "Heinrich", "Gisbert"]}
+{"family_id": "OSD-0MH", "family_name": "Kreusel", "address": "Kai-Uwe-Seifert-Platz 160", "resident_since": "1998-10-07", "car": "TUT-O-99", "members": ["Alicia", "Meinhard", "Heiderose", "Wigbert", "Hanny"]}
+{"family_id": "6KF-2RE", "family_name": "Schönland", "address": "Winfried-Schleich-Allee 66", "resident_since": "2010-08-22", "car": "DL-CC-26", "members": ["Dorle"]}
+{"family_id": "RVP-2CD", "family_name": "Putz", "address": "Fischerallee 26", "resident_since": "1995-05-20", "car": "SOK-B-14", "members": ["Angelika", "Kreszentia", "Traude", "Erol", "Evangelia"]}
+{"family_id": "FPS-PFP", "family_name": "Heidrich", "address": "Patbergplatz 5", "resident_since": "1995-08-29", "car": "MST-F-51", "members": ["Sabine"]}
+{"family_id": "HE8-499", "family_name": "Möchlichen", "address": "Michael-Hahn-Straße 958", "resident_since": "2002-08-31", "car": "R-OV-1777", "members": ["Rosita", "Gisa"]}
+{"family_id": "6Q7-B8F", "family_name": "Davids", "address": "Jerzy-Kusch-Platz 9", "resident_since": "2014-09-26", "car": "THL-Q-83", "members": ["Hans-Theo", "Karl-Friedrich", "Johann", "Natalja"]}
+{"family_id": "Q2J-9KX", "family_name": "Roskoth", "address": "Baptist-Höfig-Platz 576", "resident_since": "1991-05-11", "car": "TG-JM-7", "members": ["Viktor", "Hasan"]}
+{"family_id": "VD2-3C4", "family_name": "Schleich", "address": "Dorothea-Kruschwitz-Straße 4/4", "resident_since": "2001-06-22", "car": "EA-OM-46", "members": ["Gottlieb", "Robert", "Justine"]}
+{"family_id": "QR0-S1B", "family_name": "Kramer", "address": "Killerallee 0", "resident_since": "1992-02-02", "car": "KU-MW-29", "members": ["Baldur", "Senta"]}
+{"family_id": "N8Y-GLV", "family_name": "Junitz", "address": "Rörrichtstr. 6/2", "resident_since": "2014-09-30", "car": "SL-RS-233", "members": ["Aleksej", "Phillip", "Hermann", "Gordana"]}
+{"family_id": "WXK-NG3", "family_name": "Carsten", "address": "Stumpfstraße 6", "resident_since": "2006-07-06", "car": "SL-AQ-29", "members": ["Danny", "Holger", "Magnus"]}
+{"family_id": "FM0-9VD", "family_name": "Förster", "address": "Albin-Schomber-Straße 50", "resident_since": "1998-02-10", "car": "OHV-NV-458", "members": ["Pierre", "Edelgard", "Marisa", "Karl-Hans", "Polina"]}
+{"family_id": "7TG-HAV", "family_name": "Martin", "address": "Pruschkestraße 6", "resident_since": "2015-09-28", "car": "MTK-J-1", "members": ["Denny", "Uwe", "Anneke", "Domenico"]}
+{"family_id": "EQS-XLP", "family_name": "Eimer", "address": "Tilman-Renner-Gasse 832", "resident_since": "2016-08-05", "car": "UM-NM-412", "members": ["Hatice", "Lorenz", "Helga", "Hella", "Nevenka"]}
+{"family_id": "G4E-2HX", "family_name": "Kuhl", "address": "Girschnerstr. 898", "resident_since": "1995-04-19", "car": "MVL-ZW-92", "members": ["Rochus"]}
+{"family_id": "I7A-U6Z", "family_name": "Vogt", "address": "Stiffelstraße 3", "resident_since": "1999-09-24", "car": "OL-A-623", "members": ["German", "Detlev", "William", "Klaus-Werner", "Hans-Eberhard"]}
+{"family_id": "CWV-J44", "family_name": "Riehl", "address": "Elfie-Gotthard-Weg 5", "resident_since": "2015-06-16", "car": "SÜW-P-3", "members": ["Ingetraud", "Axel", "Renato"]}
+{"family_id": "YXX-ITN", "family_name": "Fechner", "address": "Geiselring 499", "resident_since": "2001-01-17", "car": "KL-O-98", "members": ["Mahmut", "Carlo"]}
+{"family_id": "L1Z-O1X", "family_name": "Scholtz", "address": "Arnfried-Misicher-Straße 87", "resident_since": "2007-03-07", "car": "HWI-F-91", "members": ["Irmi", "Paul", "Henrike", "Eckhard"]}
+{"family_id": "1SD-TKV", "family_name": "Knappe", "address": "Krebsstraße 30", "resident_since": "2014-06-05", "car": "CB-V-324", "members": ["Kornelia", "Manuela", "Aleksandar"]}
+{"family_id": "2KY-KDB", "family_name": "Buchholz", "address": "Torsten-Henschel-Platz 6", "resident_since": "2006-12-10", "car": "WO-M-713", "members": ["Pauline", "Heinz-Josef", "Ronald", "Erhard", "Kristine"]}
+{"family_id": "RUS-WQS", "family_name": "Heinz", "address": "Klingelhöferstr. 30", "resident_since": "1991-08-22", "car": "NWM-E-99", "members": ["Friederike", "Marieluise", "Erdmute", "Johanna"]}
+{"family_id": "35T-UVL", "family_name": "Eckbauer", "address": "Steyweg 3/0", "resident_since": "1990-10-14", "car": "MST-JJ-18", "members": ["Emmerich", "Herlinde", "Waldemar"]}
+{"family_id": "5VJ-K7Z", "family_name": "Jungfer", "address": "Gehringerweg 88", "resident_since": "2010-06-18", "car": "DH-G-8", "members": ["Flora", "Bianka", "Dietlind", "Erhardt", "Cord"]}
+{"family_id": "YFX-V3F", "family_name": "Ackermann", "address": "Weißallee 35", "resident_since": "1994-03-28", "car": "AZ-DH-64", "members": ["Bettina", "Samir", "Klemens", "Damian", "Herbert"]}
+{"family_id": "A1C-NYM", "family_name": "Hahn", "address": "Walterallee 08", "resident_since": "1993-12-07", "car": "MM-RL-4", "members": ["Eveline", "Arif"]}
+{"family_id": "I3P-MRD", "family_name": "Schäfer", "address": "Rotraut-Tröst-Ring 7", "resident_since": "2011-11-30", "car": "AP-PC-542", "members": ["Christiana", "Horst-Peter", "Carin", "Franz-Josef"]}
+{"family_id": "WE2-F7P", "family_name": "Martin", "address": "Hans-Helmut-Matthäi-Straße 511", "resident_since": "2013-08-05", "car": "EA-K-3", "members": ["Sibille"]}
+{"family_id": "U5V-LO5", "family_name": "Hethur", "address": "Hartmannstr. 447", "resident_since": "2016-09-03", "car": "FDS-VW-65", "members": ["Kata"]}
+{"family_id": "94O-EAS", "family_name": "Lehmann", "address": "Katarina-Reinhardt-Weg 574", "resident_since": "1991-10-03", "car": "LOS-JO-45", "members": ["Erwin", "Reingard", "Eileen", "Tadeusz", "Imelda"]}
+{"family_id": "1OA-1KP", "family_name": "Bolander", "address": "Kambsstraße 2/7", "resident_since": "1997-02-08", "car": "ES-P-63", "members": ["Alfonso", "Dogan", "Thaddäus", "Rolf"]}
+{"family_id": "I2H-05Y", "family_name": "Matthäi", "address": "Hornigallee 0", "resident_since": "2010-01-02", "car": "IGB-HT-668", "members": ["Jan-Peter", "Maike", "Kay-Uwe", "Reni"]}
+{"family_id": "B0A-FSH", "family_name": "Rust", "address": "Ronny-Bien-Weg 5/8", "resident_since": "2013-03-10", "car": "FRG-E-4952", "members": ["Hans-Günther", "Ercan"]}
+{"family_id": "BTI-CLG", "family_name": "Scholtz", "address": "Gabriele-Krebs-Gasse 78", "resident_since": "2015-07-31", "car": "TÖL-B-76", "members": ["Elisa", "Diane", "Elke"]}
+{"family_id": "ITL-NOX", "family_name": "Pölitz", "address": "Linda-Gerlach-Ring 6/9", "resident_since": "1993-09-17", "car": "WF-BF-166", "members": ["Anatol", "Gerhard"]}
+{"family_id": "M94-Y42", "family_name": "Dehmel", "address": "Beyerplatz 2", "resident_since": "2012-12-04", "car": "KC-EG-737", "members": ["Daniela", "Sebastian"]}
+{"family_id": "4BJ-MOB", "family_name": "Schweitzer", "address": "Barthstr. 359", "resident_since": "2008-07-20", "car": "GE-GA-18", "members": ["Johanna", "Fabienne", "Sophia", "Kamil", "Augustin"]}
+{"family_id": "M58-OT7", "family_name": "Etzold", "address": "Sagerplatz 963", "resident_since": "1997-08-10", "car": "DH-MT-479", "members": ["Ignatz"]}
+{"family_id": "T17-XYV", "family_name": "Keudel", "address": "Sebastian-Wulf-Weg 3/4", "resident_since": "2016-12-31", "car": "FRG-JI-74", "members": ["Liesel", "Jessica"]}
+{"family_id": "ML6-BM7", "family_name": "Rogner", "address": "Susanne-Heidrich-Gasse 961", "resident_since": "2014-02-20", "car": "VS-LV-958", "members": ["Stefani", "Doreen"]}
+{"family_id": "30X-WWW", "family_name": "Huhn", "address": "Sabina-Koch II-Straße 695", "resident_since": "1997-06-23", "car": "BN-PG-22", "members": ["Zehra", "Janin", "Petar"]}
+{"family_id": "YUN-JAH", "family_name": "Kohl", "address": "Kaulplatz 8/3", "resident_since": "2015-04-01", "car": "EIC-O-898", "members": ["Wigbert", "Samir"]}
+{"family_id": "VB2-KU3", "family_name": "Martin", "address": "Bergergasse 964", "resident_since": "2010-10-12", "car": "A-H-859", "members": ["Elisabeth", "Kläre", "Kilian", "Elizabeth"]}
+{"family_id": "Q5Z-E5W", "family_name": "Striebitz", "address": "Döringweg 560", "resident_since": "2011-03-02", "car": "PE-AP-95", "members": ["Fredy", "Conny"]}
+{"family_id": "PA8-FR2", "family_name": "Hesse", "address": "Viktor-Bolzmann-Gasse 6/9", "resident_since": "2010-08-30", "car": "A-R-195", "members": ["Roland", "Elfriede", "Friedhold", "Matteo"]}
+{"family_id": "LCQ-9DI", "family_name": "Heuser", "address": "Geislerring 024", "resident_since": "2003-08-05", "car": "WZ-GX-1", "members": ["Xaver"]}
+{"family_id": "QAL-5JC", "family_name": "Kade", "address": "Drubinring 8/2", "resident_since": "2004-03-11", "car": "WUG-NT-542", "members": ["Karen", "Kriemhild", "Beata", "Edward", "Ilka"]}
+{"family_id": "HG6-TX7", "family_name": "Mangold", "address": "Orhan-Birnbaum-Straße 177", "resident_since": "1991-03-30", "car": "CE-WA-67", "members": ["Erwin", "Zeynep", "Meinhard", "Philippe", "Melanie"]}
+{"family_id": "5E6-6JD", "family_name": "Zahn", "address": "Sieringgasse 111", "resident_since": "2014-07-21", "car": "SZ-Q-59", "members": ["Dietlinde", "Janette", "Nadja"]}
+{"family_id": "VOP-KN1", "family_name": "Pohl", "address": "Jeannette-Eberhardt-Straße 5", "resident_since": "2001-10-14", "car": "AW-S-6395", "members": ["Francis", "Dunja", "Mattias", "Holm", "Rosalia"]}
+{"family_id": "IMN-NZK", "family_name": "Schmidt", "address": "Luise-Heintze-Straße 70", "resident_since": "1995-02-14", "car": "VIE-B-725", "members": ["Antje", "Heinz-Wilhelm", "Adrian"]}
+{"family_id": "50A-3OQ", "family_name": "Kaul", "address": "Robin-Bloch-Gasse 3/0", "resident_since": "2016-06-01", "car": "GAP-MQ-6", "members": ["Ingbert", "Holm"]}
+{"family_id": "3W6-DNL", "family_name": "Losekann", "address": "Wesackweg 82", "resident_since": "1995-06-27", "car": "IZ-M-331", "members": ["Ante", "Aysel", "Ingolf"]}
+{"family_id": "MIF-GO7", "family_name": "Adler", "address": "Siegrid-Heydrich-Gasse 5", "resident_since": "1996-06-08", "car": "DD-T-4", "members": ["Frieda", "Sigismund", "Antonino"]}
+{"family_id": "05A-6N3", "family_name": "Stoll", "address": "Schottingasse 3", "resident_since": "1990-11-09", "car": "KE-UP-71", "members": ["Jolanda", "Ingmar"]}
+{"family_id": "ZYE-NDY", "family_name": "Koch", "address": "Jähngasse 7", "resident_since": "1998-05-05", "car": "MKK-UL-342", "members": ["Tomas", "Marcel", "Magrit"]}
+{"family_id": "A1P-M39", "family_name": "Ziegert", "address": "Helmar-Seifert-Weg 891", "resident_since": "1998-02-20", "car": "LSA-DT-372", "members": ["Hans-Wolfgang", "Gülten", "Lorenz", "Mehmet", "Jaroslaw"]}
+{"family_id": "BOV-CU2", "family_name": "Nerger", "address": "Schwitalgasse 536", "resident_since": "2008-04-08", "car": "BO-Y-9", "members": ["Jörg-Peter", "Gerhardt", "Irmengard", "Hans Jürgen", "Edeltrud"]}
+{"family_id": "JWB-FW3", "family_name": "Geisler", "address": "Haeringgasse 31", "resident_since": "1993-05-16", "car": "RV-K-225", "members": ["Gotthold", "Emine", "Ruben", "Wieland"]}
+{"family_id": "503-HNA", "family_name": "Zänker", "address": "Siegried-Schacht-Ring 5/6", "resident_since": "2011-10-26", "car": "WT-JM-352", "members": ["Vitus", "Friedhilde", "Volkmar", "Hans-Gerhard", "Nick"]}
+{"family_id": "7V4-AK9", "family_name": "Wernecke", "address": "Albin-Stiffel-Straße 4", "resident_since": "2005-08-22", "car": "PS-YX-11", "members": ["Giesela", "Martha", "Istvan", "Elenore"]}
+{"family_id": "AAG-5P8", "family_name": "Seidel", "address": "Schustergasse 513", "resident_since": "2004-04-24", "car": "LIF-EO-521", "members": ["Hans Dieter", "Janett", "Denny", "Theresa"]}
+{"family_id": "8S2-W1Q", "family_name": "Gerlach", "address": "Steve-Pergande-Ring 8/0", "resident_since": "2006-02-19", "car": "IK-V-18", "members": ["Udo"]}
+{"family_id": "CSR-OFG", "family_name": "Cichorius", "address": "Sandy-Börner-Straße 5/2", "resident_since": "1990-12-19", "car": "V-D-852", "members": ["Jasmina"]}
+{"family_id": "PXD-OHW", "family_name": "Carsten", "address": "Fröhlichgasse 5", "resident_since": "2002-06-03", "car": "NOM-SZ-9", "members": ["Hardy", "Burkhard", "Marisa", "Marcus", "Lia"]}
+{"family_id": "JGF-3MF", "family_name": "Holsten", "address": "Schmiedeckering 1/4", "resident_since": "2011-08-17", "car": "FB-IP-9853", "members": ["Pauline"]}
+{"family_id": "E42-CEF", "family_name": "Trub", "address": "Claus-Peter-Siering-Gasse 149", "resident_since": "2011-05-06", "car": "J-RW-6", "members": ["Hans-Wolfgang", "Harm", "Stilla", "Hans-Detlef"]}
+{"family_id": "EI1-2P3", "family_name": "Heinz", "address": "Reisingplatz 1/2", "resident_since": "2002-06-26", "car": "LDS-L-17", "members": ["Joana", "Josefine", "Abdullah"]}
+{"family_id": "P05-P2F", "family_name": "Pergande", "address": "Wulffstr. 316", "resident_since": "2003-01-02", "car": "RD-Z-98", "members": ["Jörg-Peter", "Frida", "Hilma", "Matteo"]}
+{"family_id": "X81-AVY", "family_name": "Hiller", "address": "Annedore-Hübel-Weg 8", "resident_since": "1991-12-26", "car": "REG-XM-734", "members": ["Adelgunde", "Friedrich-Karl", "Klaus-Ulrich", "Hans-Dieter", "Rosi"]}
+{"family_id": "71Y-7HX", "family_name": "Dörr", "address": "Zobelstr. 97", "resident_since": "1994-10-17", "car": "LRO-XI-699", "members": ["Frederic"]}
+{"family_id": "X9Q-26V", "family_name": "Nohlmans", "address": "Pruschkeallee 522", "resident_since": "1992-02-26", "car": "PB-DR-126", "members": ["Friedrich-Wilhelm", "H.-Dieter", "Mirja", "Gerald", "Stanislav"]}
+{"family_id": "TRN-T7F", "family_name": "Patberg", "address": "Wernerring 127", "resident_since": "2011-01-29", "car": "BOT-TZ-641", "members": ["Sibilla"]}
+{"family_id": "YH7-7AS", "family_name": "Kuhl", "address": "Flantzgasse 4/7", "resident_since": "2013-07-31", "car": "COC-Z-7", "members": ["Ilona", "Karl-Wilhelm", "Wilfried", "Jochem", "Ulf"]}
+{"family_id": "VA9-E3E", "family_name": "Sorgatz", "address": "Mansgasse 15", "resident_since": "2006-02-07", "car": "LDS-A-26", "members": ["Eileen", "Friedrich-Wilhelm", "Enrico", "Wolfram"]}
+{"family_id": "4WM-6PK", "family_name": "Matthäi", "address": "Wolf-Rüdiger-Hartung-Platz 37", "resident_since": "1993-09-24", "car": "OHA-C-92", "members": ["Janna"]}
+{"family_id": "1YP-GHC", "family_name": "Heydrich", "address": "Phillip-Scholtz-Gasse 206", "resident_since": "2003-09-05", "car": "HX-QM-21", "members": ["Justine", "Paulina", "Drago"]}
+{"family_id": "XRG-6EY", "family_name": "Heydrich", "address": "Frank-Noack-Platz 428", "resident_since": "1991-12-28", "car": "LU-QM-5755", "members": ["Hanny", "Samir", "Katarina", "Gabriella"]}
+{"family_id": "HY6-UQU", "family_name": "Klemt", "address": "Frida-Oderwald-Ring 9", "resident_since": "2017-03-27", "car": "LM-SX-381", "members": ["Dino", "Andrej"]}
+{"family_id": "OAM-10L", "family_name": "Johann", "address": "Klingelhöfergasse 5/9", "resident_since": "2010-09-28", "car": "LSN-P-554", "members": ["Ferdinand", "Margit"]}
+{"family_id": "UN7-7WE", "family_name": "Zobel", "address": "Gunpfstr. 2", "resident_since": "2002-10-26", "car": "RE-TB-845", "members": ["Evangelia", "Mahmoud", "Harm"]}
+{"family_id": "V6D-G6S", "family_name": "Beier", "address": "Woldemar-Pieper-Gasse 97", "resident_since": "2016-10-09", "car": "GÜ-RR-98", "members": ["Patric", "Annemarie", "Roswitha", "Hans-Jürgen", "Jörg"]}
+{"family_id": "FL7-AH4", "family_name": "Winkler", "address": "Drubweg 593", "resident_since": "2013-05-29", "car": "GRZ-DG-313", "members": ["Süleyman", "Vinko", "Andrey", "Margret", "Käthe"]}
+{"family_id": "F5G-C0T", "family_name": "Wagner", "address": "Werneckeweg 08", "resident_since": "1996-10-28", "car": "SHK-PN-16", "members": ["Gerhard", "Ludger", "Ronald", "Walter"]}
+{"family_id": "ECN-YLY", "family_name": "Jacob", "address": "Schaafplatz 185", "resident_since": "1991-06-05", "car": "MS-UO-438", "members": ["Clemens", "Karin", "Wolfhard"]}
+{"family_id": "YZ8-Z6X", "family_name": "Kohl", "address": "Dobesplatz 0", "resident_since": "2017-05-18", "car": "IN-L-763", "members": ["Grete", "Berta", "Alfredo"]}
+{"family_id": "A0Q-2XN", "family_name": "Löwer", "address": "Martin-Christoph-Gasse 9/7", "resident_since": "2009-12-26", "car": "MOS-NU-56", "members": ["Hans-Rudolf"]}
+{"family_id": "V0I-02U", "family_name": "Niemeier", "address": "Bonbachstr. 034", "resident_since": "2016-08-30", "car": "TÜ-ZB-288", "members": ["Jens", "Gabriella", "Hans-Friedrich"]}
+{"family_id": "7UH-UGN", "family_name": "Wilmsen", "address": "Metin-Losekann-Weg 21", "resident_since": "2000-02-01", "car": "FR-X-57", "members": ["Kasimir"]}
+{"family_id": "0EP-KIV", "family_name": "Hänel", "address": "Hesseplatz 911", "resident_since": "2010-02-07", "car": "WF-W-6", "members": ["Tibor", "Leander", "Paul-Gerhard"]}
+{"family_id": "YD9-RZB", "family_name": "Rogner", "address": "Ullmannstraße 955", "resident_since": "2010-06-01", "car": "GE-I-1289", "members": ["Angelika", "Beata"]}
+{"family_id": "EO2-FTB", "family_name": "Hermann", "address": "Scheelallee 0", "resident_since": "2014-08-03", "car": "GRZ-X-942", "members": ["Mehdi"]}
+{"family_id": "NST-QW2", "family_name": "Gehringer", "address": "Minna-Kitzmann-Ring 65", "resident_since": "2005-10-01", "car": "LSN-H-11", "members": ["Wieland", "Mandy", "Manja", "Alfons", "Evangelia"]}
+{"family_id": "4HW-QR7", "family_name": "Adler", "address": "Janine-Gotthard-Gasse 2/1", "resident_since": "1996-09-17", "car": "FFB-O-81", "members": ["Marten", "Carina", "Liane", "Mandy", "Annita"]}
+{"family_id": "1DQ-0W3", "family_name": "Schwital", "address": "Hesergasse 08", "resident_since": "2012-12-18", "car": "EB-A-675", "members": ["Gloria", "Annerose", "Marion"]}
+{"family_id": "HP2-9D2", "family_name": "Weinhold", "address": "Haufferallee 50", "resident_since": "2015-12-17", "car": "FRG-D-5289", "members": ["Josef"]}
+{"family_id": "D3Z-5W5", "family_name": "Butte", "address": "Textorallee 8", "resident_since": "1995-02-06", "car": "KO-NH-841", "members": ["Nikolas", "Cosima", "Violetta", "Ludwig", "Annekatrin"]}
+{"family_id": "Z1X-GYA", "family_name": "Kobelt", "address": "Leander-Fechner-Straße 8/7", "resident_since": "2008-07-31", "car": "RV-C-94", "members": ["Rose", "Eckart", "Elzbieta", "Wolf"]}
+{"family_id": "24Q-GD8", "family_name": "Dietz", "address": "Drewesplatz 0", "resident_since": "2012-10-13", "car": "NK-F-548", "members": ["Eva-Marie", "Friedhilde", "Augustin", "Ladislaus", "Orhan"]}
+{"family_id": "G66-I6I", "family_name": "Kaul", "address": "Mansstr. 7/2", "resident_since": "2004-09-13", "car": "NOH-ZD-37", "members": ["Hans-Dietrich"]}
+{"family_id": "N43-YZN", "family_name": "Wieloch", "address": "Sölzerstr. 3/7", "resident_since": "1991-09-28", "car": "TÖL-J-243", "members": ["Korinna", "Norma", "Birgit", "Susana"]}
+{"family_id": "CK4-RO1", "family_name": "Juncken", "address": "Freudenbergerstraße 8", "resident_since": "2006-11-21", "car": "MA-H-94", "members": ["Simone"]}
+{"family_id": "RHG-GMK", "family_name": "Reichmann", "address": "Hellwigallee 68", "resident_since": "2011-03-10", "car": "SLS-F-723", "members": ["Gundel"]}
+{"family_id": "J40-0N3", "family_name": "Ortmann", "address": "Stumpfring 9", "resident_since": "2009-05-15", "car": "MSH-E-38", "members": ["Kristiane"]}
+{"family_id": "2QA-SPI", "family_name": "Trub", "address": "Benderring 8", "resident_since": "2015-04-05", "car": "NU-N-3", "members": ["Zoltan", "Christopher", "Amir", "Babett"]}
+{"family_id": "FT5-VDP", "family_name": "Gumprich", "address": "Heydrichplatz 1", "resident_since": "2016-07-02", "car": "VS-N-463", "members": ["Mahmoud", "Ruthild", "Massimo", "Angelique"]}
+{"family_id": "ELV-WIE", "family_name": "Scheibe", "address": "Lissi-Häring-Platz 863", "resident_since": "1995-02-27", "car": "SK-O-2", "members": ["Janett"]}
+{"family_id": "G9E-CX2", "family_name": "Mentzel", "address": "Girschnerstr. 1/5", "resident_since": "2007-07-26", "car": "RÜG-UX-14", "members": ["Karolina", "George", "Berit", "Vinzenz"]}
+{"family_id": "XSS-MD4", "family_name": "Rosenow", "address": "Anne-Katrin-Jungfer-Allee 497", "resident_since": "2009-03-03", "car": "KE-XV-79", "members": ["Amalie"]}
+{"family_id": "LH3-DQI", "family_name": "Steckel", "address": "Riehlweg 3/9", "resident_since": "2004-09-13", "car": "Y-ES-77", "members": ["Andreas", "Freddy"]}
+{"family_id": "NU2-7C0", "family_name": "Keudel", "address": "Hellwigstr. 462", "resident_since": "1992-10-15", "car": "S-V-2475", "members": ["Darius", "Antonie", "Rebecca", "Christine", "Alexander"]}
+{"family_id": "WU6-GO1", "family_name": "Kobelt", "address": "Stilla-Hoffmann-Weg 1", "resident_since": "2007-09-15", "car": "SU-I-395", "members": ["Nikolaj", "Abbas", "Annelene"]}
+{"family_id": "JOC-94N", "family_name": "Ebert", "address": "Günther-Klemt-Platz 62", "resident_since": "2002-11-04", "car": "WUG-A-559", "members": ["Lidia", "Karl-Hermann", "Justus", "Nuri"]}
+{"family_id": "W7G-9MB", "family_name": "Textor", "address": "Paul-Gerhard-Finke-Weg 9/8", "resident_since": "2000-07-01", "car": "N-L-913", "members": ["Ljiljana", "Selma", "Hilma"]}
+{"family_id": "DRL-GAV", "family_name": "Heinrich", "address": "Urte-Klapp-Gasse 3", "resident_since": "1995-12-07", "car": "NW-N-736", "members": ["Canan", "Reinhilde", "Zeynep"]}
+{"family_id": "ZMC-VXP", "family_name": "Gieß", "address": "Margrafplatz 608", "resident_since": "2008-12-18", "car": "WB-XG-76", "members": ["Ralf-Peter", "Gerhard", "Fred"]}
+{"family_id": "0O7-2L1", "family_name": "Bruder", "address": "Guteweg 35", "resident_since": "2016-10-18", "car": "BI-A-677", "members": ["Helmut", "Jolanthe", "Friedrich-Karl", "Andres"]}
+{"family_id": "1RP-XG9", "family_name": "Knappe", "address": "Tschentscherring 86", "resident_since": "2014-03-09", "car": "HGW-M-456", "members": ["Janina", "Ernst-Dieter", "Istvan"]}
+{"family_id": "M4F-7QU", "family_name": "Hiller", "address": "Peukertgasse 2/7", "resident_since": "1998-07-15", "car": "LEV-J-62", "members": ["Aleksandr"]}
+{"family_id": "8SY-8FU", "family_name": "Stumpf", "address": "Henckstr. 6", "resident_since": "2014-01-27", "car": "FF-B-49", "members": ["Michel", "Waltraut", "Margita"]}
+{"family_id": "F4U-MYR", "family_name": "Hentschel", "address": "Wohlgemutstraße 87", "resident_since": "2016-12-21", "car": "GER-X-49", "members": ["Steven"]}
+{"family_id": "TTI-V94", "family_name": "Faust", "address": "Kruschwitzallee 2/6", "resident_since": "2013-05-14", "car": "FF-D-62", "members": ["Leonard", "Magdalene"]}
+{"family_id": "MKP-RWS", "family_name": "Ziegert", "address": "Katerina-Hahn-Allee 0", "resident_since": "1998-04-06", "car": "AW-F-46", "members": ["Daniela", "Emma", "Marleen", "Wolfgang", "Elias"]}
+{"family_id": "D4E-3BA", "family_name": "Christoph", "address": "José-Weiß-Gasse 4/4", "resident_since": "2000-08-05", "car": "LM-QT-719", "members": ["Liliana"]}
+{"family_id": "DMO-PGM", "family_name": "Tlustek", "address": "Adolphring 370", "resident_since": "1994-01-26", "car": "JL-C-264", "members": ["Ewa"]}
+{"family_id": "RKV-DKP", "family_name": "Geisel", "address": "Salzgasse 19", "resident_since": "2007-12-13", "car": "LD-GQ-37", "members": ["Hans D.", "Jeannine", "Lilian", "Hannah", "Ellen"]}
+{"family_id": "GDE-QCR", "family_name": "Häring", "address": "Margrafring 2/6", "resident_since": "1991-07-02", "car": "AZ-HX-92", "members": ["Ludwina", "Mara", "Eleonora"]}
+{"family_id": "G43-DL7", "family_name": "Schomber", "address": "Rohtgasse 424", "resident_since": "2009-11-18", "car": "M-Y-1293", "members": ["Antonio", "Klaus Dieter", "Heinz-Otto"]}
+{"family_id": "TTR-1SE", "family_name": "Weiß", "address": "Asta-Freudenberger-Platz 91", "resident_since": "2006-04-01", "car": "ROS-TE-56", "members": ["Gabor", "Veit", "Burkard", "Miroslaw", "Betina"]}
+{"family_id": "LR7-1W9", "family_name": "Börner", "address": "Hellwigplatz 563", "resident_since": "1990-07-25", "car": "NR-T-9115", "members": ["Janette", "Gabriella", "Mario", "Lilly"]}
+{"family_id": "W4G-127", "family_name": "Kruschwitz", "address": "Schweitzerweg 3", "resident_since": "1992-03-18", "car": "KI-H-31", "members": ["Albina", "Ulla", "Tibor", "Hans-Josef", "Asta"]}
+{"family_id": "WZ6-43J", "family_name": "Schleich", "address": "Plathallee 170", "resident_since": "2009-05-06", "car": "RV-B-431", "members": ["Freddy", "Grit", "Birgitt", "Erhard", "Kläre"]}
+{"family_id": "30A-N1F", "family_name": "Trapp", "address": "Klaus-Peter-Börner-Gasse 5", "resident_since": "2013-06-30", "car": "MKK-Z-151", "members": ["Wenzel", "Donald"]}
+{"family_id": "7VH-U60", "family_name": "Tschentscher", "address": "Ruppertstr. 427", "resident_since": "1999-12-10", "car": "BRA-WE-53", "members": ["Dorota", "Hartwig", "Ingeburg"]}
+{"family_id": "MEL-3MI", "family_name": "Radisch", "address": "Hamannplatz 0", "resident_since": "2003-08-15", "car": "SP-DC-23", "members": ["Hannelore"]}
+{"family_id": "XCJ-978", "family_name": "Kühnert", "address": "Marijan-Rogner-Ring 3/2", "resident_since": "1997-07-27", "car": "WN-G-454", "members": ["Paulo", "Katerina"]}
+{"family_id": "MEK-MGI", "family_name": "Rörricht", "address": "Dörschnerring 5", "resident_since": "2010-01-22", "car": "MVL-FA-18", "members": ["Magdalene", "Othmar", "Carmen", "Rochus"]}
+{"family_id": "9TD-TRA", "family_name": "Koch II", "address": "Paffrathring 46", "resident_since": "2010-08-23", "car": "PR-JQ-945", "members": ["Claus-Dieter", "Maike", "Myriam", "Hansjoachim"]}
+{"family_id": "5VB-GJ4", "family_name": "Hänel", "address": "Scholzweg 44", "resident_since": "2015-10-30", "car": "HR-G-91", "members": ["Karoline"]}
+{"family_id": "LBA-86G", "family_name": "Dörschner", "address": "Heiner-Dörschner-Weg 2", "resident_since": "2001-02-21", "car": "K-P-279", "members": ["Klaus-Jürgen", "Halil", "Hans-Willi", "Veronique"]}
+{"family_id": "GF1-DUY", "family_name": "Beier", "address": "Trübring 0", "resident_since": "2001-03-08", "car": "GAP-K-7", "members": ["Hanna", "Gerald", "Marek", "Nelli", "Hildburg"]}
+{"family_id": "2OF-K57", "family_name": "Schuster", "address": "Änne-Peukert-Gasse 3/7", "resident_since": "1999-03-19", "car": "HBN-B-8881", "members": ["Rebekka", "Annegret"]}
+{"family_id": "62C-DF8", "family_name": "Harloff", "address": "Kreuselstr. 6", "resident_since": "2012-06-01", "car": "Z-OH-5", "members": ["Angelica"]}
+{"family_id": "MNE-UVJ", "family_name": "Kensy", "address": "Truppring 9/9", "resident_since": "2003-12-14", "car": "MK-A-39", "members": ["Gunther"]}
+{"family_id": "BX7-GHB", "family_name": "Eberth", "address": "Blümelstr. 70", "resident_since": "1999-02-19", "car": "WUG-XR-597", "members": ["Sven", "Bernward"]}
+{"family_id": "YNP-AQX", "family_name": "Trommler", "address": "Nettegasse 2", "resident_since": "2014-01-03", "car": "K-O-82", "members": ["Reimer", "Ekrem", "Annie"]}
+{"family_id": "4TW-O1H", "family_name": "Otto", "address": "Kuhlgasse 921", "resident_since": "2015-05-16", "car": "BRB-FQ-23", "members": ["Helga", "Magarete", "Arthur", "Aleksandr"]}
+{"family_id": "A6P-4EV", "family_name": "Martin", "address": "Jungferweg 560", "resident_since": "2011-01-20", "car": "DAH-G-83", "members": ["Danielle", "Nurettin", "Friedrich", "Rosina"]}
+{"family_id": "W5J-3E0", "family_name": "Mende", "address": "Vesna-Blümel-Weg 01", "resident_since": "2001-04-09", "car": "GM-K-7", "members": ["Esther", "Benedikt", "Anselm", "Ekaterina"]}
+{"family_id": "LV8-O5Y", "family_name": "Kitzmann", "address": "Hilda-Geisler-Gasse 2/6", "resident_since": "2015-04-14", "car": "ERZ-DZ-2336", "members": ["Evangelia", "Leonore"]}
+{"family_id": "1NX-3IT", "family_name": "Bohlander", "address": "Ullrichstraße 222", "resident_since": "1996-11-18", "car": "EIC-KE-435", "members": ["Rochus", "Valerij", "Andres", "Cäcilia"]}
+{"family_id": "OLO-UFJ", "family_name": "Dörschner", "address": "Bayram-Warmer-Weg 3", "resident_since": "2008-12-21", "car": "WE-GT-682", "members": ["Cora", "Janett", "Urte"]}
+{"family_id": "7UT-7UW", "family_name": "Linke", "address": "Mülichenplatz 9", "resident_since": "1994-01-01", "car": "SON-IK-8532", "members": ["Hans Josef", "Karl-Heinz", "Kazim", "Kristine"]}
+{"family_id": "M38-95J", "family_name": "Döring", "address": "Linkestr. 8/5", "resident_since": "2000-11-04", "car": "THW-WP-65", "members": ["Margaretha", "Pasquale"]}
+{"family_id": "R3U-6G7", "family_name": "Ziegert", "address": "Paul-Reichmann-Straße 6", "resident_since": "2004-08-16", "car": "BO-PT-722", "members": ["Rotraud", "Therese", "Heini", "Bernhardine", "Filippo"]}
+{"family_id": "1U9-8W3", "family_name": "Sölzer", "address": "Börnerallee 908", "resident_since": "2011-03-02", "car": "SLK-O-32", "members": ["Lisbeth", "Ute"]}
+{"family_id": "66A-HA4", "family_name": "Jüttner", "address": "Matthäiplatz 23", "resident_since": "2009-05-01", "car": "H-MH-183", "members": ["Gerta", "Dajana"]}
+{"family_id": "HJW-C51", "family_name": "Kreusel", "address": "Cosimo-Kobelt-Allee 867", "resident_since": "2013-04-11", "car": "IN-DW-113", "members": ["Marietta"]}
+{"family_id": "6Q2-LBF", "family_name": "Pruschke", "address": "Sonja-Weimer-Gasse 506", "resident_since": "1995-06-01", "car": "OPR-TN-8", "members": ["Sonja"]}
+{"family_id": "8Z1-I7W", "family_name": "Rose", "address": "Christophstr. 3/8", "resident_since": "2008-08-06", "car": "GÜ-HR-5253", "members": ["Kazim", "Holger"]}
+{"family_id": "MX4-U3E", "family_name": "Mies", "address": "Melanie-Stroh-Gasse 750", "resident_since": "2004-07-02", "car": "ST-BR-62", "members": ["Annamaria"]}
+{"family_id": "EJH-SZN", "family_name": "Butte", "address": "Klappweg 0", "resident_since": "2000-05-05", "car": "AIC-Q-5", "members": ["Rosa-Maria"]}
+{"family_id": "C89-XSJ", "family_name": "Harloff", "address": "Anica-Gnatz-Gasse 3/2", "resident_since": "1992-06-02", "car": "MSP-RR-3899", "members": ["Anselm"]}
+{"family_id": "8YH-D39", "family_name": "Fiebig", "address": "Tlustekallee 4", "resident_since": "2012-09-05", "car": "OE-FZ-829", "members": ["Witold"]}
+{"family_id": "5VU-IIM", "family_name": "Fechner", "address": "Metzweg 2/3", "resident_since": "1997-01-17", "car": "WUN-RE-488", "members": ["Fred", "Frank-Peter", "Raymond", "Valentina", "Massimo"]}
+{"family_id": "41V-LS8", "family_name": "Nette", "address": "Hertha-Dussen van-Weg 20", "resident_since": "1993-11-18", "car": "THL-U-715", "members": ["Urs", "Felicitas"]}
+{"family_id": "AC3-0KD", "family_name": "Striebitz", "address": "Heinz-Gerd-Trüb-Ring 805", "resident_since": "2003-04-27", "car": "MST-ZK-6", "members": ["Senta", "Frank-Peter", "Anne-Rose", "Hartwig", "Salvatore"]}
+{"family_id": "OA9-OX8", "family_name": "Schleich", "address": "Ehlertgasse 7", "resident_since": "2009-12-02", "car": "WHV-T-22", "members": ["Damaris", "Katarzyna", "Werner", "Luzia"]}
+{"family_id": "9R1-AEU", "family_name": "Trapp", "address": "Löwerstr. 926", "resident_since": "2001-02-25", "car": "BL-IB-934", "members": ["Fred", "Ingo", "Antonia", "Harald", "Carla"]}
+{"family_id": "O9C-SOE", "family_name": "Bonbach", "address": "Hillerweg 5/1", "resident_since": "1995-03-24", "car": "RS-K-423", "members": ["Kunibert", "Trude"]}
+{"family_id": "RAZ-IO5", "family_name": "Hiller", "address": "Heinstraße 60", "resident_since": "2005-05-13", "car": "L-X-3527", "members": ["Bernadette", "Yvette", "Jenny", "Carina", "Centa"]}
+{"family_id": "X37-ZDL", "family_name": "Kabus", "address": "Keudelallee 667", "resident_since": "2004-08-05", "car": "DU-ZW-559", "members": ["Dolores", "Holger"]}
+{"family_id": "M1R-2E2", "family_name": "Hering", "address": "Häringstr. 064", "resident_since": "2000-06-11", "car": "TS-I-241", "members": ["Ingried", "Ira", "Stephen", "Karl-Georg", "Klaas"]}
+{"family_id": "H30-G7P", "family_name": "Schönland", "address": "Fischergasse 86", "resident_since": "1995-09-04", "car": "EL-B-287", "members": ["Adelbert"]}
+{"family_id": "F90-0ZT", "family_name": "Jüttner", "address": "Döringstraße 8", "resident_since": "2005-07-02", "car": "WÜ-G-25", "members": ["Antoinette", "Monja", "Bernard", "Veronica"]}
+{"family_id": "VEN-8IK", "family_name": "Wagner", "address": "Klaus-Jürgen-Hübel-Platz 5", "resident_since": "2012-12-13", "car": "SE-FT-67", "members": ["Nuri"]}
+{"family_id": "G10-KXF", "family_name": "Niemeier", "address": "Laszlo-Reichmann-Platz 30", "resident_since": "1994-04-12", "car": "HS-TM-25", "members": ["Franz-Xaver"]}
+{"family_id": "FLS-6KK", "family_name": "Hendriks", "address": "Petros-Bärer-Straße 2/7", "resident_since": "1992-01-19", "car": "TF-UD-3934", "members": ["Rüdiger", "James", "Adolfine"]}
+{"family_id": "M8B-F80", "family_name": "Fliegner", "address": "Lidwina-Beyer-Ring 4/8", "resident_since": "2003-04-12", "car": "BOR-Y-81", "members": ["Orhan"]}
+{"family_id": "V7Z-I7Y", "family_name": "Meister", "address": "Gert-Krein-Ring 9", "resident_since": "1992-12-16", "car": "RÜD-TF-5487", "members": ["Ilka"]}
+{"family_id": "4OF-PFD", "family_name": "Rohleder", "address": "Bohnbachstraße 134", "resident_since": "2006-03-11", "car": "WND-A-492", "members": ["Ulrike"]}
+{"family_id": "8VR-VZR", "family_name": "Fliegner", "address": "Eleonore-van der Dussen-Allee 3/5", "resident_since": "2004-11-25", "car": "AE-HA-68", "members": ["Stella", "Ortrud", "Waltraud", "Heinz-Werner"]}
+{"family_id": "HEP-7P4", "family_name": "Weimer", "address": "Rohtring 45", "resident_since": "2012-02-22", "car": "LD-OL-9852", "members": ["Juri"]}
+{"family_id": "3TF-KUZ", "family_name": "Becker", "address": "Ingetraut-Juncken-Gasse 9", "resident_since": "1997-03-12", "car": "KG-EV-1", "members": ["Tomas", "Gertrud", "Antonios"]}
+{"family_id": "C1R-J4U", "family_name": "Bachmann", "address": "Geiselstr. 968", "resident_since": "2015-05-31", "car": "EU-RO-1", "members": ["Gotthold", "Kunibert", "Ekaterina", "Janette"]}
+{"family_id": "LTK-E56", "family_name": "Junitz", "address": "Bohnbachweg 9/1", "resident_since": "2004-08-24", "car": "HRO-T-727", "members": ["Salih"]}
+{"family_id": "4AM-LBV", "family_name": "Bien", "address": "Ackermannstraße 5", "resident_since": "2013-11-04", "car": "HER-RR-275", "members": ["Regina", "Hans-Henning", "Geza"]}
+{"family_id": "76L-ZTB", "family_name": "Weiß", "address": "Klemmplatz 229", "resident_since": "1994-09-26", "car": "S-E-6", "members": ["Wilfriede", "Fernando"]}
+{"family_id": "R71-J2A", "family_name": "Pruschke", "address": "Ria-Hecker-Straße 0", "resident_since": "1994-02-04", "car": "GI-QX-227", "members": ["Claire", "Holger", "Marga", "Francis"]}
+{"family_id": "0MT-946", "family_name": "Nette", "address": "Viola-Kraushaar-Gasse 4/2", "resident_since": "2000-01-07", "car": "IN-B-594", "members": ["Hans-Heinrich", "Sevim"]}
+{"family_id": "66D-MHE", "family_name": "Kranz", "address": "Netteplatz 8", "resident_since": "1995-04-16", "car": "NVP-X-772", "members": ["Meik", "Mona"]}
+{"family_id": "H8O-4OT", "family_name": "Spieß", "address": "Freudenbergerweg 21", "resident_since": "2017-04-01", "car": "HWI-RQ-618", "members": ["Fadime", "Augustin", "Ernst-August", "Zoran", "Rocco"]}
+{"family_id": "G8X-TRR", "family_name": "Jacob", "address": "Maurice-Junken-Gasse 6/7", "resident_since": "1990-11-08", "car": "FN-WB-584", "members": ["Madlen"]}
+{"family_id": "8TR-1W2", "family_name": "Birnbaum", "address": "Johannes-Pechel-Weg 472", "resident_since": "2001-05-17", "car": "HH-Z-6442", "members": ["Jessica", "Annedore", "Anneli"]}
+{"family_id": "R6E-VJD", "family_name": "Grein Groth", "address": "Roselinde-Mühle-Platz 8", "resident_since": "2017-03-29", "car": "GF-CX-913", "members": ["Ingo", "Lothar"]}
+{"family_id": "046-RIZ", "family_name": "Schmidtke", "address": "Rafael-Mende-Gasse 5/1", "resident_since": "2000-09-12", "car": "DAH-D-36", "members": ["Engin", "Dorothe", "Editha", "Folker"]}
+{"family_id": "CJB-FTN", "family_name": "Jüttner", "address": "Tony-Müller-Straße 5/8", "resident_since": "2012-04-24", "car": "DGF-FJ-94", "members": ["Adina", "Steffen"]}
+{"family_id": "N8X-CSF", "family_name": "Textor", "address": "Abraham-Geißler-Platz 1/8", "resident_since": "2014-12-02", "car": "AN-I-484", "members": ["Igor", "Dorina", "Murat", "Hellmut"]}
+{"family_id": "054-0Q7", "family_name": "Hettner", "address": "Danny-Klingelhöfer-Straße 9/4", "resident_since": "2002-05-05", "car": "PM-O-59", "members": ["Rosi", "Julian", "Isidor"]}
+{"family_id": "A0C-23F", "family_name": "Kambs", "address": "Hethurallee 558", "resident_since": "2015-03-21", "car": "EI-AH-375", "members": ["Micha", "Hildegund", "Laurenz"]}
+{"family_id": "76C-NF5", "family_name": "Hölzenbecher", "address": "Bernfried-Rosemann-Platz 7/4", "resident_since": "1996-09-05", "car": "SLK-KB-936", "members": ["Hans Jürgen"]}
+{"family_id": "EVP-X0Y", "family_name": "Weihmann", "address": "Gunpfallee 70", "resident_since": "2015-02-22", "car": "MM-BT-443", "members": ["Hartmut"]}
+{"family_id": "BUK-0H9", "family_name": "Klotz", "address": "Amalia-Ziegert-Weg 146", "resident_since": "1995-02-08", "car": "HH-R-524", "members": ["Anika", "Peter-Michael", "Sonja", "Dietmar"]}
+{"family_id": "NO8-YTN", "family_name": "Schuchhardt", "address": "Jenny-Kade-Platz 17", "resident_since": "2001-05-13", "car": "SK-JL-4", "members": ["Nurten"]}
+{"family_id": "ED2-8AA", "family_name": "Neuschäfer", "address": "Hanne-Speer-Ring 9", "resident_since": "2000-03-15", "car": "WE-PQ-4", "members": ["Ingbert", "Patricia", "Janus", "Yasmin"]}
+{"family_id": "H2H-M63", "family_name": "Stolze", "address": "Wohlgemutweg 69", "resident_since": "2017-05-10", "car": "RO-Q-363", "members": ["Diana", "Ralph", "Franz Josef", "David"]}
+{"family_id": "47I-1YW", "family_name": "Mülichen", "address": "Stolzeplatz 1/0", "resident_since": "2015-10-17", "car": "AP-A-858", "members": ["Kemal", "Gunda", "Ron", "Wieland", "Franz-Peter"]}
+{"family_id": "RWJ-11S", "family_name": "Schomber", "address": "Jopichstr. 56", "resident_since": "1994-11-15", "car": "WTM-B-6", "members": ["Mareike", "Hilmar"]}
+{"family_id": "4HT-WDF", "family_name": "Schuster", "address": "Weimerstraße 2", "resident_since": "2003-08-05", "car": "NES-YJ-26", "members": ["Ernst-Dieter", "Songül", "Evangelos"]}
+{"family_id": "DRC-6ZK", "family_name": "Kensy", "address": "Bohnbachgasse 61", "resident_since": "2000-01-17", "car": "EMD-HX-24", "members": ["Hansgeorg", "Cengiz"]}
+{"family_id": "HFN-Z51", "family_name": "Hoffmann", "address": "Ellinor-Birnbaum-Platz 78", "resident_since": "2004-12-22", "car": "HF-L-52", "members": ["Marcella", "Swantje", "Käte"]}
+{"family_id": "1VQ-2RB", "family_name": "Hermann", "address": "Junkenstraße 680", "resident_since": "1998-11-04", "car": "PIR-E-79", "members": ["Mahmoud"]}
+{"family_id": "EFK-UTF", "family_name": "Weihmann", "address": "Harm-auch Schlauchin-Weg 820", "resident_since": "1995-09-25", "car": "TR-KG-5442", "members": ["Iris", "Karoline", "Frithjof", "Nadin", "Walfried"]}
+{"family_id": "OM3-QEB", "family_name": "Steinberg", "address": "Bernd-Dieter-Wesack-Gasse 5", "resident_since": "2013-08-27", "car": "SAW-B-78", "members": ["Ioannis", "Ingetraud", "Giovanni", "Bogdan"]}
+{"family_id": "1SK-E94", "family_name": "Lachmann", "address": "Heike-Becker-Ring 5/0", "resident_since": "1991-09-24", "car": "TIR-LN-5", "members": ["Cornelia", "Irmhild", "Gotthard", "Edeltrud"]}
+{"family_id": "M9V-6DD", "family_name": "Winkler", "address": "Wagenknechtallee 87", "resident_since": "2013-07-21", "car": "PIR-B-19", "members": ["Waldtraut", "Petra", "Lambert"]}
+{"family_id": "CQZ-4ZZ", "family_name": "Rogge", "address": "Fröhlichallee 420", "resident_since": "2011-05-24", "car": "KT-H-992", "members": ["Charlotte", "Reimar", "Jacek", "Felicitas", "Jürgen"]}
+{"family_id": "JDE-4N3", "family_name": "Preiß", "address": "Adeline-Gute-Straße 5/6", "resident_since": "2007-06-13", "car": "DL-FP-543", "members": ["Sybilla"]}
+{"family_id": "4MW-9U5", "family_name": "Hermighausen", "address": "Gerti-Käster-Gasse 13", "resident_since": "1999-09-01", "car": "KÜN-RF-364", "members": ["Torsten", "Hans Jürgen", "Hinrich"]}
+{"family_id": "YWG-6QQ", "family_name": "Mende", "address": "Schlosserstraße 62", "resident_since": "1999-03-24", "car": "MN-W-8", "members": ["Mira", "Cosima", "Uta", "Vitali", "Thies"]}
+{"family_id": "T7M-C89", "family_name": "Hornich", "address": "Knappering 0", "resident_since": "1995-03-27", "car": "WST-ZT-33", "members": ["Dunja", "Konstantin"]}
+{"family_id": "AG2-K9P", "family_name": "Schmiedt", "address": "Francoise-Jähn-Allee 4", "resident_since": "2015-12-09", "car": "KUS-IE-12", "members": ["Sabine", "Elli"]}
+{"family_id": "0BB-WUD", "family_name": "Hamann", "address": "Trübweg 08", "resident_since": "2010-09-16", "car": "GTH-J-386", "members": ["Alan", "Frithjof", "Franz-Peter"]}
+{"family_id": "V3G-W1W", "family_name": "Keudel", "address": "Gnatzgasse 70", "resident_since": "1993-09-30", "car": "HER-WJ-231", "members": ["Kathrin", "Milica", "Angelique"]}
+{"family_id": "YV7-4HG", "family_name": "Heydrich", "address": "Meik-Täsche-Gasse 0/1", "resident_since": "2008-09-08", "car": "SM-RI-94", "members": ["Hanne", "Margaret", "Vlado", "Centa", "Tamara"]}
+{"family_id": "QD8-UZO", "family_name": "Hettner", "address": "Anke-Scholz-Weg 9/8", "resident_since": "2014-09-23", "car": "VER-LH-817", "members": ["Leyla", "Hanspeter", "Curt"]}
+{"family_id": "TVD-Z83", "family_name": "Barth", "address": "Hoffmannstraße 198", "resident_since": "2013-01-15", "car": "LSA-IH-9", "members": ["Carla"]}
+{"family_id": "6ER-Y8D", "family_name": "Hiller", "address": "Ferdi-Hermighausen-Weg 38", "resident_since": "1991-03-22", "car": "HX-VE-52", "members": ["Wilfried"]}
+{"family_id": "0VV-3WJ", "family_name": "Briemer", "address": "Weinholdgasse 1/6", "resident_since": "2006-09-01", "car": "LÖ-ZH-657", "members": ["Hiltrud", "Hertha", "Leokadia"]}
+{"family_id": "ROK-Q9M", "family_name": "Buchholz", "address": "Oskar-Striebitz-Weg 8", "resident_since": "1996-02-11", "car": "LM-GL-1241", "members": ["Yusuf", "Ioannis", "Wilhelm"]}
+{"family_id": "WBK-3HZ", "family_name": "Krebs", "address": "Drewesstr. 9", "resident_since": "2004-12-09", "car": "PLÖ-X-7727", "members": ["Sevim"]}
+{"family_id": "MBF-3G6", "family_name": "Bolander", "address": "Jacobi Jäckelring 8/0", "resident_since": "2012-12-13", "car": "KS-NO-59", "members": ["Dietlind", "Ljubica"]}
+{"family_id": "TVY-YUZ", "family_name": "Drub", "address": "Jobst-Paffrath-Straße 3/6", "resident_since": "2013-05-01", "car": "ABI-N-9", "members": ["Hans-Hermann", "Emmi", "Korinna", "Hans-Dietrich"]}
+{"family_id": "48W-OJV", "family_name": "Lindner", "address": "Hellmuth-Weiß-Platz 8/3", "resident_since": "2011-01-31", "car": "WUG-RO-4", "members": ["Heinz Dieter"]}
+{"family_id": "421-2Z5", "family_name": "Speer", "address": "Peter-Johann-Gasse 99", "resident_since": "1998-09-05", "car": "RE-HF-341", "members": ["Jorge"]}
+{"family_id": "TJB-QUC", "family_name": "Bohlander", "address": "Kallertstraße 1", "resident_since": "2009-05-30", "car": "GF-I-951", "members": ["Gernot", "Theresia", "Erwin"]}
+{"family_id": "QED-FCG", "family_name": "van der Dussen", "address": "Steinbergweg 3", "resident_since": "2016-03-18", "car": "HOM-F-92", "members": ["Sandra"]}
+{"family_id": "UZV-K5V", "family_name": "Müller", "address": "Kadering 502", "resident_since": "1993-04-23", "car": "WOB-BU-1256", "members": ["Änne"]}
+{"family_id": "ZQ8-B1A", "family_name": "Wilms", "address": "Siegried-Hendriks-Weg 949", "resident_since": "2016-10-16", "car": "S-G-29", "members": ["William", "Matteo", "René", "Roswitha"]}
+{"family_id": "A60-TA5", "family_name": "Heintze", "address": "Irmengard-Bärer-Gasse 1", "resident_since": "1992-01-30", "car": "LA-I-541", "members": ["Stefan", "Annelie"]}
+{"family_id": "EVJ-73F", "family_name": "Möchlichen", "address": "Sara-Drubin-Ring 5", "resident_since": "2001-04-03", "car": "EA-CK-47", "members": ["Roland", "Imelda", "Wolf-Rüdiger"]}
+{"family_id": "ZVT-DOW", "family_name": "Käster", "address": "Hettnerplatz 3", "resident_since": "1991-11-16", "car": "GL-I-551", "members": ["Harold", "Ismail", "Elif"]}
+{"family_id": "MBJ-J8J", "family_name": "Etzold", "address": "Kreuselplatz 938", "resident_since": "2016-06-19", "car": "GI-XZ-2771", "members": ["Hedda"]}
+{"family_id": "D4K-NVZ", "family_name": "Henk", "address": "Bolnbachallee 7/4", "resident_since": "2011-11-23", "car": "MZG-MD-6", "members": ["Pauline", "Carl-Heinz", "Gundula", "Steve", "Elisa"]}
+{"family_id": "B6R-NPF", "family_name": "Kade", "address": "Döhnallee 8/9", "resident_since": "2013-03-09", "car": "MN-W-7", "members": ["Gernot", "Dajana", "Lucia"]}
+{"family_id": "873-IDU", "family_name": "Rosenow", "address": "Olga-Kallert-Ring 5", "resident_since": "2006-11-19", "car": "TBB-P-32", "members": ["Anna-Marie"]}
+{"family_id": "KRY-9IC", "family_name": "Ziegert", "address": "Wagnergasse 1/5", "resident_since": "1998-10-29", "car": "MKK-VJ-986", "members": ["Heinz-Wilhelm", "Lilo", "Rochus"]}
+{"family_id": "328-T0T", "family_name": "Plath", "address": "Marcella-Ruppersberger-Straße 69", "resident_since": "2017-03-17", "car": "N-W-259", "members": ["Andy", "Paola", "Swantje", "Dolores", "Gernot"]}
+{"family_id": "CQ4-D8C", "family_name": "Dippel", "address": "Pieperring 0", "resident_since": "2015-01-02", "car": "KS-H-618", "members": ["Jan-Peter", "Juliana"]}
+{"family_id": "CET-SR9", "family_name": "Gude", "address": "Tamara-Aumann-Weg 6", "resident_since": "1997-02-03", "car": "HBN-NT-57", "members": ["Karl-Hans"]}
+{"family_id": "OBF-HKE", "family_name": "Preiß", "address": "Weitzelstr. 38", "resident_since": "2016-01-25", "car": "EBE-B-57", "members": ["Helfried", "Heribert", "Eva-Maria", "Heinz-Günther"]}
+{"family_id": "1Q3-5EK", "family_name": "Pieper", "address": "Hendriksstraße 2/9", "resident_since": "1997-06-26", "car": "LDK-P-4571", "members": ["Ottfried", "Vassilios", "Rüdiger", "Reni", "Katja"]}
+{"family_id": "4F5-KCN", "family_name": "Ruppert", "address": "Danielle-Gerlach-Allee 66", "resident_since": "1998-01-05", "car": "CHA-M-475", "members": ["Grete"]}
+{"family_id": "LAY-L9Y", "family_name": "Keudel", "address": "Helen-Beckmann-Platz 8", "resident_since": "2000-09-17", "car": "OH-C-49", "members": ["Mirco", "Rüdiger", "Dirk", "Siegried", "Ferdinand"]}
+{"family_id": "NSZ-INS", "family_name": "Franke", "address": "Jungferweg 3", "resident_since": "2009-02-06", "car": "EM-RY-41", "members": ["Rosemarie"]}
+{"family_id": "1FU-TUR", "family_name": "Mühle", "address": "Wirthplatz 2", "resident_since": "2005-10-19", "car": "NVP-P-13", "members": ["Katrin", "Stilla", "Patric"]}
+{"family_id": "M7Q-EAZ", "family_name": "Zahn", "address": "Alena-Zahn-Ring 862", "resident_since": "1997-09-30", "car": "FL-S-62", "members": ["Hedy", "Birte"]}
+{"family_id": "TO2-JJK", "family_name": "Scheuermann", "address": "Valeri-Huhn-Gasse 43", "resident_since": "2017-06-14", "car": "BRA-TH-4", "members": ["Karsten", "Walter", "Robby"]}
+{"family_id": "03R-YQ6", "family_name": "Weitzel", "address": "Hasso-Bauer-Gasse 1", "resident_since": "2003-05-31", "car": "EB-X-28", "members": ["Mareen", "Lia"]}
+{"family_id": "OHO-C9I", "family_name": "Biggen", "address": "Steygasse 102", "resident_since": "2008-03-17", "car": "AW-UI-422", "members": ["Alwina"]}
+{"family_id": "A3B-L2R", "family_name": "Rosenow", "address": "Sina-Hamann-Straße 926", "resident_since": "1992-10-29", "car": "IN-JW-26", "members": ["Adelinde", "Viviane", "Nadja", "Heinz-Günter", "Sigurd"]}
+{"family_id": "ES6-9QC", "family_name": "Adolph", "address": "Albersplatz 4", "resident_since": "2012-05-16", "car": "DU-TY-4369", "members": ["Irma"]}
+{"family_id": "4BL-532", "family_name": "Johann", "address": "Zänkerstraße 60", "resident_since": "2007-04-21", "car": "NMS-D-76", "members": ["Lena"]}
+{"family_id": "PEG-OI0", "family_name": "Eckbauer", "address": "Hillerring 4/2", "resident_since": "2005-08-31", "car": "WE-H-269", "members": ["Bruni", "Marcella", "Wally", "Erhard"]}
+{"family_id": "4ZR-8PP", "family_name": "Pergande", "address": "Valentine-Jopich-Weg 2/4", "resident_since": "2010-03-09", "car": "KF-NG-13", "members": ["Jasmina", "Ada", "Arnim", "Sybille", "Else"]}
+{"family_id": "GKP-MJP", "family_name": "Höfig", "address": "Gabriel-Schäfer-Allee 8", "resident_since": "1994-06-22", "car": "PAN-V-5988", "members": ["Hatice", "Otmar", "Kristine"]}
+{"family_id": "YAH-SYJ", "family_name": "Pechel", "address": "Ackermanngasse 097", "resident_since": "1999-03-16", "car": "MIL-Y-63", "members": ["Fadime", "Katerina", "Leonard"]}
+{"family_id": "A82-RCY", "family_name": "Hövel", "address": "Junkenring 8", "resident_since": "2015-01-08", "car": "LG-AK-79", "members": ["Veronica", "Peter", "Franz", "Valerij", "Danilo"]}
+{"family_id": "B68-NEE", "family_name": "Etzold", "address": "Ziegertgasse 787", "resident_since": "1992-01-28", "car": "NWM-TI-235", "members": ["Anica"]}
+{"family_id": "D74-OP4", "family_name": "Otto", "address": "Dörte-Hettner-Straße 127", "resident_since": "2001-04-04", "car": "KA-RJ-3", "members": ["Alwina", "Annett", "Lidija"]}
+{"family_id": "A0P-DTA", "family_name": "Rogge", "address": "Schaafallee 7/9", "resident_since": "2001-11-12", "car": "SLF-T-9697", "members": ["Alena", "Annelene", "Bärbel"]}
+{"family_id": "938-7TX", "family_name": "Biggen", "address": "Heydrichring 900", "resident_since": "1993-02-17", "car": "NW-MZ-535", "members": ["Alicia", "Gesine", "Dieter", "Waldemar", "Günter"]}
+{"family_id": "3D4-G12", "family_name": "Mitschke", "address": "Sepp-Bähr-Weg 483", "resident_since": "1997-07-10", "car": "LER-M-68", "members": ["Danica"]}
+{"family_id": "PUA-Y8R", "family_name": "Wesack", "address": "Heidelore-Finke-Allee 5/2", "resident_since": "2014-08-25", "car": "MM-HJ-55", "members": ["Peter-Michael", "Burghard", "Heribert", "Canan"]}
+{"family_id": "6A3-FIR", "family_name": "Thanel", "address": "Emmy-Gumprich-Ring 1", "resident_since": "1992-06-05", "car": "TÜ-UK-11", "members": ["Heidelinde", "Krista", "Gunnar", "Wojciech", "Luzia"]}
+{"family_id": "X5H-S27", "family_name": "Bender", "address": "Sevim-Warmer-Weg 58", "resident_since": "2005-01-06", "car": "BP-QM-566", "members": ["Johanne", "Jonas", "Norbert", "Albina", "Lisa"]}
+{"family_id": "Z22-U61", "family_name": "Wulff", "address": "Charles-Berger-Platz 05", "resident_since": "2008-11-02", "car": "RW-U-95", "members": ["Madlen", "Francoise", "Justina"]}
+{"family_id": "8K8-00Z", "family_name": "Heinrich", "address": "Langerngasse 069", "resident_since": "2013-03-04", "car": "NW-PJ-297", "members": ["Sabri", "Wigbert", "Ferenc"]}
+{"family_id": "Y4A-ZP0", "family_name": "Fiebig", "address": "Niemeiergasse 41", "resident_since": "1996-10-21", "car": "TS-A-25", "members": ["Britt", "Evelyn", "Arne"]}
+{"family_id": "BO9-A8O", "family_name": "Vogt", "address": "Judith-Fiebig-Straße 952", "resident_since": "1999-07-18", "car": "MR-Z-935", "members": ["Pius"]}
+{"family_id": "IPK-VW9", "family_name": "Gude", "address": "Vollbrechtallee 8", "resident_since": "2010-12-08", "car": "PLÖ-OJ-4", "members": ["Stefani", "Gisela", "Cläre"]}
+{"family_id": "5R5-85O", "family_name": "Schinke", "address": "Waltraut-Lachmann-Weg 7/6", "resident_since": "1993-09-19", "car": "GTH-X-3", "members": ["Wilhelm", "Wiltrud", "Anne"]}
+{"family_id": "AFE-JW9", "family_name": "Pergande", "address": "Claas-Textor-Allee 5/1", "resident_since": "2013-04-26", "car": "SLS-U-95", "members": ["Tülay", "Michael", "Erdogan"]}
+{"family_id": "W7P-3JR", "family_name": "Dietz", "address": "Ruppersbergerallee 1", "resident_since": "2016-01-23", "car": "VR-J-94", "members": ["Mara", "Margita", "Ronald", "Volkhard", "Celal"]}
+{"family_id": "FSO-APK", "family_name": "Geisler", "address": "Hoffmanngasse 0", "resident_since": "2016-01-20", "car": "HI-LK-5831", "members": ["Elias"]}
+{"family_id": "LVE-EQH", "family_name": "Kade", "address": "Eberhard-Henck-Straße 8/4", "resident_since": "1994-05-06", "car": "BAR-E-4", "members": ["Jelena", "Reinald", "Bernfried"]}
+{"family_id": "DNU-1FZ", "family_name": "Schuchhardt", "address": "Pruschkeallee 3/5", "resident_since": "1996-04-21", "car": "OH-Q-6", "members": ["Rebecca", "Hans Josef"]}
+{"family_id": "IG8-BX7", "family_name": "Neureuther", "address": "Mario-Wulff-Straße 372", "resident_since": "2007-01-02", "car": "MR-L-85", "members": ["Gertrude", "Kristin"]}
+{"family_id": "8NK-GS0", "family_name": "Geisel", "address": "Beierweg 52", "resident_since": "2012-01-01", "car": "OAL-V-81", "members": ["Siegmar"]}
+{"family_id": "ZW1-XBK", "family_name": "Schuster", "address": "Hagen-Seip-Gasse 8", "resident_since": "1998-10-27", "car": "LOS-N-6", "members": ["Lisa", "Heike", "Marica", "Theresia", "Caren"]}
+{"family_id": "4C7-85O", "family_name": "Roht", "address": "Dowergallee 7", "resident_since": "2003-01-24", "car": "BA-A-92", "members": ["Alexa", "Katharina", "Karlheinz", "Benita", "Margitta"]}
+{"family_id": "MNF-HJX", "family_name": "Schacht", "address": "Susan-Drub-Ring 6", "resident_since": "2002-03-31", "car": "KE-ZP-55", "members": ["Hanns", "Sybilla", "Ingeburg", "Bertha", "Gerhardt"]}
+{"family_id": "1IW-FIC", "family_name": "Schinke", "address": "Senta-Ullmann-Platz 0/7", "resident_since": "2011-11-25", "car": "TÖL-T-92", "members": ["Jörg-Peter"]}
+{"family_id": "6KY-HOW", "family_name": "Dehmel", "address": "Kensyplatz 0/2", "resident_since": "2013-05-08", "car": "DAU-RO-8584", "members": ["Alwin", "Philomena"]}
+{"family_id": "70Z-055", "family_name": "Ebert", "address": "Julius-Kühnert-Platz 396", "resident_since": "2013-10-01", "car": "NL-CH-951", "members": ["Elke", "Hanne-Lore", "Aurelia"]}
+{"family_id": "KDM-KQ4", "family_name": "Hölzenbecher", "address": "Junckengasse 1/4", "resident_since": "2015-10-07", "car": "SH-B-986", "members": ["Istvan", "Gunnar"]}
+{"family_id": "J5D-WFG", "family_name": "Hecker", "address": "Rafael-Wagenknecht-Platz 70", "resident_since": "2004-12-14", "car": "REG-N-59", "members": ["Loni"]}
+{"family_id": "F73-YES", "family_name": "Schäfer", "address": "Albina-Fiebig-Ring 1/8", "resident_since": "2009-12-27", "car": "DU-C-161", "members": ["Aynur", "Heide-Marie", "Silvester", "Till", "Mohammad"]}
+{"family_id": "8CZ-795", "family_name": "Jähn", "address": "Lisbeth-Oestrovsky-Ring 8/0", "resident_since": "2002-09-29", "car": "PAF-U-154", "members": ["Gerhard"]}
+{"family_id": "0LO-FBX", "family_name": "Hartmann", "address": "Helena-Schäfer-Platz 9", "resident_since": "1999-09-06", "car": "OE-G-499", "members": ["Margrit", "Cynthia", "Wenke"]}
+{"family_id": "C4V-GW7", "family_name": "Bohlander", "address": "Beckergasse 42", "resident_since": "1995-05-01", "car": "BLK-D-132", "members": ["Rolf-Dieter", "Helfried", "Juergen", "Constanze"]}
+{"family_id": "DSC-GFC", "family_name": "Wieloch", "address": "Ana-Zahn-Straße 159", "resident_since": "1998-04-27", "car": "BI-YC-52", "members": ["Wenzel", "Ingbert", "Herma", "Heino"]}
+{"family_id": "R4Q-5TF", "family_name": "Hein", "address": "Birgid-Lange-Allee 389", "resident_since": "1997-08-04", "car": "GÜ-M-3733", "members": ["Uwe", "Miroslaw", "Juan", "Fred"]}
+{"family_id": "27T-WWE", "family_name": "Adolph", "address": "Birthe-Dippel-Platz 9", "resident_since": "1995-07-13", "car": "MI-GD-9572", "members": ["Diane", "Britta"]}
+{"family_id": "2OH-WHA", "family_name": "Weimer", "address": "Döringallee 9", "resident_since": "2009-11-23", "car": "MST-O-695", "members": ["Asta", "Sergio"]}
+{"family_id": "XRM-O5H", "family_name": "Niemeier", "address": "Putzweg 2/1", "resident_since": "2017-05-09", "car": "ZW-F-6", "members": ["Anselm", "Dariusz", "Jan", "Heinz-Georg", "Nada"]}
+{"family_id": "XS4-JX7", "family_name": "Holsten", "address": "Bekir-Noack-Platz 14", "resident_since": "2003-09-17", "car": "ES-OK-965", "members": ["Geza", "Hans-Gerd", "Iwan", "Gabriela", "Serpil"]}
+{"family_id": "KCY-MVA", "family_name": "Klemm", "address": "Sophia-Rust-Weg 5/2", "resident_since": "2006-05-27", "car": "SHA-TG-92", "members": ["Katherina", "Mirjam", "Carl", "Vladimir"]}
+{"family_id": "YW4-XA2", "family_name": "Killer", "address": "Arnfried-Gute-Weg 18", "resident_since": "2004-11-17", "car": "GP-X-91", "members": ["Vanessa", "Heidelinde", "Saskia", "Blanka", "Irena"]}
+{"family_id": "QZ9-JTQ", "family_name": "Stey", "address": "Rosemannplatz 179", "resident_since": "2016-11-27", "car": "LU-W-912", "members": ["Stefan", "Thomas", "Edit", "Birger", "Lina"]}
+{"family_id": "YD0-OMB", "family_name": "Roht", "address": "Carstenplatz 05", "resident_since": "2013-03-13", "car": "ME-UK-74", "members": ["Cetin", "Elvira", "Henriette"]}
+{"family_id": "I1W-3UK", "family_name": "Weiß", "address": "Nikola-Eimer-Gasse 549", "resident_since": "2014-01-02", "car": "EB-EI-1", "members": ["Danuta", "Adelgunde", "Swetlana", "Sigmund"]}
+{"family_id": "A15-8KW", "family_name": "Roskoth", "address": "Meinolf-Radisch-Allee 40", "resident_since": "2015-04-11", "car": "SK-LP-46", "members": ["Leszek", "Helena", "Bertha", "Sandor", "Ferdinand"]}
+{"family_id": "4MK-5YK", "family_name": "Wieloch", "address": "Marieluise-Heuser-Weg 4/7", "resident_since": "2006-10-19", "car": "VEC-Z-116", "members": ["Marika"]}
+{"family_id": "XXG-BYP", "family_name": "Warmer", "address": "Ferdi-Jäkel-Platz 2/1", "resident_since": "1991-11-14", "car": "EIC-OX-514", "members": ["Walentina", "Siegmar", "Kläre", "Jaroslav", "Wendelin"]}
+{"family_id": "Z7Y-QXJ", "family_name": "Misicher", "address": "Denise-Meister-Allee 56", "resident_since": "2015-02-11", "car": "COE-BW-89", "members": ["Niko", "Ursel", "Claudius"]}
+{"family_id": "K5R-47R", "family_name": "Herrmann", "address": "Elke-Kabus-Weg 1/6", "resident_since": "2014-08-16", "car": "GR-VF-571", "members": ["Erol", "Alina", "Henning"]}
+{"family_id": "PCX-QZK", "family_name": "Hendriks", "address": "Wagnerweg 58", "resident_since": "1994-05-21", "car": "DD-M-2367", "members": ["Anna", "Susanna", "Juliana", "Vincent"]}
+{"family_id": "4JX-IG1", "family_name": "Peukert", "address": "Plathstraße 9", "resident_since": "2005-02-05", "car": "NDH-B-8678", "members": ["Katja", "Barbara", "Christl"]}
+{"family_id": "G9V-4LB", "family_name": "Lindner", "address": "Wagnerring 19", "resident_since": "2004-09-25", "car": "OAL-VK-36", "members": ["Apollonia", "Martin"]}
+{"family_id": "S43-VMW", "family_name": "Stey", "address": "Werneckestraße 1", "resident_since": "2016-04-08", "car": "G-W-59", "members": ["Ute", "Denny", "Almut", "Gerhild", "Gertraut"]}
+{"family_id": "7XN-G7A", "family_name": "Dietz", "address": "Egbert-Radisch-Straße 281", "resident_since": "1995-03-25", "car": "NMS-BN-552", "members": ["Reingard", "Ayten", "Agathe", "Bekir"]}
+{"family_id": "T9U-A51", "family_name": "Franke", "address": "Anne-Kathrin-Freudenberger-Ring 35", "resident_since": "2004-06-05", "car": "FG-KL-158", "members": ["Jenny", "Hugo"]}
+{"family_id": "WAR-CT6", "family_name": "Hofmann", "address": "Handeweg 22", "resident_since": "2014-01-25", "car": "HAL-S-221", "members": ["Margrit", "Frithjof", "Berndt", "Alexei"]}
+{"family_id": "DMG-ZD7", "family_name": "Holt", "address": "Heserstr. 14", "resident_since": "2001-10-15", "car": "LD-YO-917", "members": ["Hildegard"]}
+{"family_id": "LZ0-51E", "family_name": "Lachmann", "address": "Horniggasse 15", "resident_since": "2012-06-14", "car": "EN-T-6", "members": ["Wibke"]}
+{"family_id": "DEO-PHN", "family_name": "Hornig", "address": "Etzoldallee 8", "resident_since": "1998-09-22", "car": "BT-HF-31", "members": ["August", "Dolores", "Xaver", "Elvira"]}
+{"family_id": "LRB-ZPC", "family_name": "Trupp", "address": "Heckergasse 99", "resident_since": "2010-10-01", "car": "EIC-NB-96", "members": ["Norman"]}
+{"family_id": "6AV-9B8", "family_name": "Birnbaum", "address": "Salvatore-Herrmann-Platz 6", "resident_since": "2011-01-22", "car": "NVP-PG-374", "members": ["Christiana"]}
+{"family_id": "HA8-JM2", "family_name": "Vogt", "address": "Reimer-Kaul-Allee 2/5", "resident_since": "1994-04-09", "car": "BL-GA-82", "members": ["Rolf-Dieter"]}
+{"family_id": "UXT-A28", "family_name": "Röhricht", "address": "Nettestraße 876", "resident_since": "2005-11-18", "car": "BAR-F-5", "members": ["Volker", "Dorina"]}
+{"family_id": "BVJ-A92", "family_name": "Gotthard", "address": "Hiltraud-Noack-Weg 894", "resident_since": "2015-09-14", "car": "VEC-X-59", "members": ["Wolf-Dieter", "Ehrhard", "Gusti", "Denise", "Katarina"]}
+{"family_id": "5VH-3BV", "family_name": "Reising", "address": "Ivo-Kohl-Ring 01", "resident_since": "2004-06-27", "car": "DH-WY-99", "members": ["Aysel", "Oxana", "Maike", "Nikolaus"]}
+{"family_id": "OJ5-XMV", "family_name": "Carsten", "address": "Wendeweg 2", "resident_since": "2006-02-19", "car": "WM-X-147", "members": ["Bertold", "Lara", "Minna"]}
+{"family_id": "CP6-08S", "family_name": "Scholz", "address": "Bolanderstraße 99", "resident_since": "2011-01-07", "car": "KI-HP-645", "members": ["Marie-Luise", "Ortrud"]}
+{"family_id": "KZJ-TPL", "family_name": "Hofmann", "address": "Fred-Scheibe-Allee 7", "resident_since": "2012-03-17", "car": "FL-FE-453", "members": ["Tillmann", "Robert", "Birgit"]}
+{"family_id": "H2J-J1K", "family_name": "Heser", "address": "Budigstraße 2", "resident_since": "2008-05-04", "car": "WÜ-Y-1339", "members": ["Henny", "Serpil", "Karlheinz", "Kenan", "Nikola"]}
+{"family_id": "3OY-YXD", "family_name": "Förster", "address": "Kaulallee 16", "resident_since": "2008-06-09", "car": "AK-PQ-89", "members": ["Jost", "Sylvana", "Stella", "Romana", "Krista"]}
+{"family_id": "68U-W1U", "family_name": "Fiebig", "address": "Schwitalplatz 026", "resident_since": "2012-07-03", "car": "C-PQ-668", "members": ["Vera", "Anika"]}
+{"family_id": "V5K-TE4", "family_name": "Zimmer", "address": "Dagobert-Schweitzer-Gasse 3/5", "resident_since": "1992-05-04", "car": "KB-RK-157", "members": ["Norbert", "Toni"]}
+{"family_id": "U1J-F0Y", "family_name": "Hartung", "address": "Evangelia-Hendriks-Platz 0/9", "resident_since": "2010-10-05", "car": "S-J-74", "members": ["Gernot", "Karin", "Klemens"]}
+{"family_id": "W6A-61Z", "family_name": "Hande", "address": "Hildegund-Hermighausen-Ring 038", "resident_since": "2005-11-24", "car": "NWM-B-626", "members": ["Emil", "Hendrik"]}
+{"family_id": "C8Y-XS3", "family_name": "Kramer", "address": "Försterplatz 0/6", "resident_since": "2005-02-12", "car": "HL-WN-13", "members": ["Ludmila", "Marlene", "Ralf-Dieter", "Harro", "Lilija"]}
+{"family_id": "AVY-TB6", "family_name": "Dowerg", "address": "Heydrichplatz 1", "resident_since": "1996-10-16", "car": "NOM-WG-8254", "members": ["Evi"]}
+{"family_id": "83I-T0N", "family_name": "Kade", "address": "Hettnerstraße 3/8", "resident_since": "2001-12-25", "car": "BD-Z-2645", "members": ["Ellen", "Sigismund", "Milos"]}
+{"family_id": "0ZM-YKV", "family_name": "Ebert", "address": "Frederike-Scholl-Gasse 6/7", "resident_since": "2009-06-16", "car": "SW-EN-465", "members": ["Maritta", "Lina", "Lidija", "Ayse"]}
+{"family_id": "F1I-LFM", "family_name": "Mitschke", "address": "Mitschkeweg 6", "resident_since": "1992-09-18", "car": "KG-IF-93", "members": ["Rotraud", "Marcel"]}
+{"family_id": "UOX-S1R", "family_name": "Kabus", "address": "Andrej-Löchel-Straße 966", "resident_since": "2011-07-07", "car": "SOK-X-75", "members": ["Gülsen", "Ada", "Telse"]}
+{"family_id": "7I4-2G2", "family_name": "Metz", "address": "Junitzring 858", "resident_since": "1992-09-24", "car": "HF-BN-8", "members": ["Zdravko", "Wilfried"]}
+{"family_id": "R51-D7I", "family_name": "Drub", "address": "Steven-Fiebig-Ring 04", "resident_since": "2014-08-25", "car": "MZ-SC-1833", "members": ["Dariusz", "Rigo", "Ottokar", "Marie", "Milka"]}
+{"family_id": "VK8-MF0", "family_name": "Scheuermann", "address": "Haasestr. 231", "resident_since": "2017-03-30", "car": "SLF-G-6848", "members": ["Cäcilia", "Hubertus", "Gaetano", "Blanka"]}
+{"family_id": "WD4-NMB", "family_name": "Junken", "address": "Dorle-Finke-Allee 6/1", "resident_since": "1996-03-07", "car": "WAK-IT-6", "members": ["Jessika", "Ralf-Peter", "Dogan", "Kira"]}
+{"family_id": "N1Q-PV7", "family_name": "Berger", "address": "Manuel-Schaaf-Allee 732", "resident_since": "2005-04-18", "car": "CW-BE-877", "members": ["Amalie", "Pietro", "Victoria", "Raissa"]}
+{"family_id": "6UR-9P6", "family_name": "Schlosser", "address": "Dörschnergasse 3", "resident_since": "2015-10-27", "car": "WÜ-L-2739", "members": ["Horst-Dieter", "Frederik"]}
+{"family_id": "FRC-HUU", "family_name": "Wesack", "address": "Leon-Rogner-Gasse 810", "resident_since": "2011-07-17", "car": "SO-XK-811", "members": ["Dorina"]}
+{"family_id": "7FP-9L3", "family_name": "Junk", "address": "Boucseingasse 9/6", "resident_since": "2013-10-01", "car": "MM-XG-2", "members": ["Hanno", "Doreen", "Marlis", "Calogero"]}
+{"family_id": "J7B-H3F", "family_name": "Bruder", "address": "Budigallee 895", "resident_since": "2006-07-28", "car": "LG-W-468", "members": ["Mechthild"]}
+{"family_id": "H2P-L0R", "family_name": "Rust", "address": "Mike-Anders-Allee 6", "resident_since": "2010-06-29", "car": "GÖ-Y-61", "members": ["Valentina", "Marliese", "Gesa", "Edmund", "Marian"]}
+{"family_id": "6S8-TDB", "family_name": "Rogner", "address": "Zirmestr. 633", "resident_since": "2011-06-29", "car": "THL-PB-93", "members": ["Käthe", "Veronique", "Slawomir", "Hildegart"]}
+{"family_id": "RP0-5HN", "family_name": "Klemt", "address": "Mona-Dobes-Ring 561", "resident_since": "2016-08-22", "car": "PAF-N-97", "members": ["Gilda", "Frederik", "Emmerich", "Mirjana"]}
+{"family_id": "EQI-48Q", "family_name": "Bärer", "address": "Raymund-Säuberlich-Allee 26", "resident_since": "2010-06-17", "car": "PF-AI-137", "members": ["Annamaria", "Roderich", "Gottlob"]}
+{"family_id": "C57-OY5", "family_name": "Eberth", "address": "Boucseinallee 9", "resident_since": "2006-12-16", "car": "LER-AF-151", "members": ["Roman", "José", "Helga"]}
+{"family_id": "Z4D-KY3", "family_name": "Becker", "address": "Kunibert-Binner-Ring 1/4", "resident_since": "1992-01-02", "car": "GTH-VJ-64", "members": ["Gerwin", "Pavel", "Zenta", "Gesine"]}
+{"family_id": "XUY-NAB", "family_name": "Gerlach", "address": "van der Dussenweg 40", "resident_since": "1995-02-19", "car": "AUR-X-97", "members": ["Suse"]}
+{"family_id": "SBS-CZW", "family_name": "Zorbach", "address": "Hans-Otto-Finke-Platz 3", "resident_since": "1999-04-11", "car": "NVP-WI-779", "members": ["Dietlind", "Uschi", "Klaus-D.", "Eugen"]}
+{"family_id": "EPT-XOG", "family_name": "Schmiedecke", "address": "Hedda-Schenk-Allee 282", "resident_since": "1998-12-10", "car": "MEI-S-547", "members": ["Thorsten"]}
+{"family_id": "6PA-HW0", "family_name": "Höfig", "address": "Mälzerplatz 5/1", "resident_since": "1994-05-03", "car": "MÜR-EO-555", "members": ["Gerd", "Matthäus", "Svenja", "Attila"]}
+{"family_id": "FXV-SZ1", "family_name": "Graf", "address": "Matthäistr. 892", "resident_since": "2002-02-18", "car": "TUT-W-33", "members": ["Kriemhild", "Selma", "Roselinde"]}
+{"family_id": "P9A-70I", "family_name": "Kitzmann", "address": "Anneli-Kusch-Allee 30", "resident_since": "2001-01-25", "car": "TDO-EE-7943", "members": ["Susan", "Annekatrin", "Canan", "Inken", "Andre"]}
+{"family_id": "40K-WTI", "family_name": "Stolze", "address": "Nuri-Schmidtke-Ring 9", "resident_since": "2005-07-04", "car": "FR-N-87", "members": ["Karl-Josef", "Oxana", "Andree"]}
+{"family_id": "V3J-YFZ", "family_name": "Häring", "address": "Schmidtallee 4/0", "resident_since": "2004-02-01", "car": "H-HM-9", "members": ["Joseph", "Roselinde", "Marianna", "Bärbel"]}
+{"family_id": "KSG-G6G", "family_name": "Ruppert", "address": "Zobelstr. 2/3", "resident_since": "2012-05-30", "car": "LRO-F-564", "members": ["Thilo", "Janos", "Wojciech", "Uta"]}
+{"family_id": "HRH-WIX", "family_name": "Dietz", "address": "Pergandeweg 1", "resident_since": "2008-10-07", "car": "LOS-TT-6514", "members": ["Wenke", "Hans-Wolfgang", "Melita", "Darko", "Katharine"]}
+{"family_id": "B37-MNO", "family_name": "Hendriks", "address": "Södingstraße 533", "resident_since": "2005-10-09", "car": "Y-YJ-83", "members": ["Roger", "Axel", "Jozef"]}
+{"family_id": "WZG-IDI", "family_name": "Trub", "address": "Henriette-Kühnert-Gasse 36", "resident_since": "2012-01-02", "car": "OA-CM-78", "members": ["Henner"]}
+{"family_id": "NDM-AEH", "family_name": "Hänel", "address": "Seifertstr. 5", "resident_since": "2004-06-06", "car": "AZ-GM-4421", "members": ["Geza", "Ekkehart", "Sükrü", "Sibylle"]}
+{"family_id": "TO2-VBZ", "family_name": "Dörschner", "address": "Klaudia-Hesse-Gasse 79", "resident_since": "2015-07-08", "car": "GF-G-82", "members": ["Walli", "Karl-Wilhelm", "Mohammed"]}
+{"family_id": "Z5U-YA2", "family_name": "Lorch", "address": "Vanessa-Mühle-Allee 486", "resident_since": "1992-09-23", "car": "OD-H-2521", "members": ["Zoltan", "Sibylla", "Karl-Dieter", "Raphael", "Anika"]}
+{"family_id": "1G9-FH3", "family_name": "Jockel", "address": "Jacobi Jäckelring 1/5", "resident_since": "1991-06-24", "car": "BT-O-952", "members": ["Fanny"]}
+{"family_id": "KJN-759", "family_name": "Harloff", "address": "Ekkehart-Eberhardt-Straße 402", "resident_since": "2011-07-10", "car": "TBB-Q-3", "members": ["Betti", "Ottilie", "Lotte"]}
+{"family_id": "NSN-GFN", "family_name": "Weiß", "address": "Gerlachgasse 5/3", "resident_since": "1995-05-31", "car": "AA-NU-798", "members": ["Hans-Adolf", "Wojciech", "Goran"]}
+{"family_id": "GG6-B14", "family_name": "Kitzmann", "address": "Kösterplatz 1/4", "resident_since": "1993-01-19", "car": "OHZ-FH-29", "members": ["Irma", "Wolfhard", "Rocco", "Urte", "Felicitas"]}
+{"family_id": "Y07-K47", "family_name": "Mude", "address": "Gretchen-Barth-Allee 7/5", "resident_since": "2012-01-08", "car": "WHV-U-981", "members": ["Inna", "Manuel"]}
+{"family_id": "JO0-CK6", "family_name": "Herrmann", "address": "Heckerstraße 12", "resident_since": "2001-05-02", "car": "MG-F-492", "members": ["Christos", "Mehmet", "Faruk", "Francis", "Zofia"]}
+{"family_id": "NNM-96K", "family_name": "Hornig", "address": "Gereon-Henk-Straße 1/1", "resident_since": "2001-01-25", "car": "DBR-WA-16", "members": ["Gundula"]}
+{"family_id": "8RA-8C6", "family_name": "Textor", "address": "Beierstr. 043", "resident_since": "2016-02-19", "car": "AB-JT-79", "members": ["Heinz-Joachim"]}
+{"family_id": "V3R-ZKW", "family_name": "Hertrampf", "address": "Haeringallee 892", "resident_since": "2010-02-21", "car": "FRI-V-116", "members": ["Belinda", "Marlene", "Kristine", "Hans-Josef", "Hans-Josef"]}
+{"family_id": "6QO-7JR", "family_name": "Stiebitz", "address": "Paul-Gerhard-Koch II-Weg 36", "resident_since": "1993-09-22", "car": "HDH-SY-2353", "members": ["Gabi", "Ines", "Mato", "Franz Josef", "Gabriela"]}
+{"family_id": "AFD-L1F", "family_name": "Briemer", "address": "Mühleweg 2", "resident_since": "2017-06-15", "car": "KA-J-384", "members": ["Magdalene", "Henny"]}
+{"family_id": "GWH-7D5", "family_name": "Grein Groth", "address": "Zorbachplatz 9", "resident_since": "1994-12-26", "car": "CO-O-5", "members": ["Jasmina", "Edwin", "Ekaterina", "Hannes"]}
+{"family_id": "KYL-YVY", "family_name": "Dörschner", "address": "Vollbrechtweg 3", "resident_since": "1995-04-07", "car": "REG-SE-5415", "members": ["Svetlana", "Fedor", "Lars", "Fredy"]}
+{"family_id": "4K2-OK2", "family_name": "Eigenwillig", "address": "Gerwin-Kühnert-Weg 59", "resident_since": "2007-09-15", "car": "AS-N-77", "members": ["Alina", "Luisa", "Milica"]}
+{"family_id": "3O6-M7G", "family_name": "Becker", "address": "Amelie-Koch II-Straße 172", "resident_since": "2005-08-06", "car": "B-T-39", "members": ["Danielle", "Hildegunde"]}
+{"family_id": "D1N-JIK", "family_name": "Dussen van", "address": "Edgar-Vollbrecht-Gasse 351", "resident_since": "1999-08-28", "car": "GRZ-F-893", "members": ["Miriam", "Aldo", "Maike"]}
+{"family_id": "6LJ-TQR", "family_name": "Textor", "address": "Köstergasse 1/8", "resident_since": "1995-01-26", "car": "KU-BN-63", "members": ["Hellmuth", "Rudolf", "Kornelia", "Gertrude", "Trude"]}
+{"family_id": "QOR-BF8", "family_name": "Textor", "address": "Ahmad-Ladeck-Gasse 6/0", "resident_since": "2012-08-20", "car": "SI-S-1571", "members": ["Vesna"]}
+{"family_id": "OBD-HVJ", "family_name": "Lübs", "address": "Täschegasse 1/1", "resident_since": "2009-07-04", "car": "LL-MA-441", "members": ["Irmtrud", "Klaus-Dieter", "Violetta", "Annamaria"]}
+{"family_id": "3ZF-KBL", "family_name": "Matthäi", "address": "Kühnertplatz 37", "resident_since": "1997-01-04", "car": "AÖ-ZM-15", "members": ["Gerhild", "Hans-Peter", "Rupert", "Magret", "Eugenia"]}
+{"family_id": "CBD-IGU", "family_name": "Scheel", "address": "Greta-Süßebier-Gasse 36", "resident_since": "2004-11-18", "car": "TUT-VV-65", "members": ["Zdenka", "Thea", "Jost"]}
+{"family_id": "J05-EB6", "family_name": "Tröst", "address": "Hartungplatz 888", "resident_since": "2007-05-09", "car": "LA-DH-8938", "members": ["Malte", "Rebekka", "Gerhart", "Hans-Jürgen"]}
+{"family_id": "PCP-G5A", "family_name": "Bender", "address": "Jacobgasse 8/4", "resident_since": "2007-06-27", "car": "BZ-B-2936", "members": ["Zeynep", "Sami", "Wiebke", "Rudi", "Vassilios"]}
+{"family_id": "24F-Y71", "family_name": "Schinke", "address": "Ziegertring 1/4", "resident_since": "2010-02-03", "car": "NI-D-174", "members": ["Miodrag", "Alessandro"]}
+{"family_id": "G3G-RTA", "family_name": "Schmidtke", "address": "Miriam-Stadelmann-Straße 850", "resident_since": "2001-11-10", "car": "DLG-AY-5813", "members": ["Hans Jörg", "Burkhardt", "Almut"]}
+{"family_id": "1WN-FZK", "family_name": "Pärtzelt", "address": "Mirja-Trommler-Straße 1", "resident_since": "1998-10-19", "car": "MOS-HU-573", "members": ["Carina", "Hanspeter"]}
+{"family_id": "Y5I-6LI", "family_name": "Zirme", "address": "Herrmannring 1", "resident_since": "2016-11-05", "car": "NB-PX-887", "members": ["Erhard"]}
+{"family_id": "X54-166", "family_name": "Tlustek", "address": "Rosa-Maria-Jessel-Straße 16", "resident_since": "2012-09-02", "car": "M-O-292", "members": ["Frieder", "Nikolas", "Birger", "Amalia", "Lorenz"]}
+{"family_id": "CLA-PAM", "family_name": "Kallert", "address": "Trübplatz 5", "resident_since": "2005-06-25", "car": "PR-D-9183", "members": ["Ramon", "Gunda"]}
+{"family_id": "VM3-4ZK", "family_name": "Speer", "address": "Gerlachring 634", "resident_since": "1991-09-15", "car": "AM-I-7", "members": ["Eitel", "Salvatore", "Anne-Rose", "Greta", "Korinna"]}
+{"family_id": "58B-3PD", "family_name": "Bloch", "address": "Pedro-Misicher-Ring 7", "resident_since": "1999-08-01", "car": "BTF-BY-689", "members": ["Antonina", "Theobald", "German"]}
+{"family_id": "IHU-LSY", "family_name": "Römer", "address": "H.-Dieter-Peukert-Weg 435", "resident_since": "2010-06-24", "car": "ER-V-631", "members": ["Folker", "Herta", "Sybille"]}
+{"family_id": "JIQ-K2E", "family_name": "Hoffmann", "address": "Schmidtkering 093", "resident_since": "2009-07-23", "car": "ES-F-78", "members": ["Nelly", "Senta", "Gordana", "Alan", "Dorle"]}
+{"family_id": "BTR-RA0", "family_name": "Hermighausen", "address": "Müllerstraße 941", "resident_since": "1991-09-24", "car": "THW-PO-782", "members": ["Fatima", "Hans-Detlef", "Claus-Peter", "Wolf-Dietrich"]}
+{"family_id": "CKC-TD6", "family_name": "Austermühle", "address": "Thiesring 5/0", "resident_since": "2010-11-19", "car": "ZW-X-61", "members": ["Senol", "Matteo", "Eckhard", "Zofia", "Salih"]}
+{"family_id": "EP5-LOM", "family_name": "Kranz", "address": "Silja-Lachmann-Weg 4", "resident_since": "2014-06-13", "car": "WN-BB-5918", "members": ["Kazim", "Werner", "Eckhart"]}
+{"family_id": "E4R-T5T", "family_name": "Buchholz", "address": "Wendeweg 420", "resident_since": "1993-11-22", "car": "BGL-T-48", "members": ["Hans-Eberhard", "Abraham", "Antonie", "Bogdan", "Marleen"]}
+{"family_id": "RSF-AK3", "family_name": "Neuschäfer", "address": "Philip-Jähn-Weg 700", "resident_since": "2010-10-05", "car": "BYL-U-9", "members": ["Zdenka", "Stanislaw", "Ann-Kathrin", "Günther", "Karl-Ludwig"]}
+{"family_id": "1X4-G7A", "family_name": "Jopich", "address": "Kästerallee 3", "resident_since": "2006-07-13", "car": "FT-WA-722", "members": ["Ludger"]}
+{"family_id": "GTA-SQY", "family_name": "Trommler", "address": "Zeljko-Mangold-Straße 85", "resident_since": "2013-09-16", "car": "RD-UJ-8154", "members": ["Lorenz", "Bartholomäus", "Evangelia", "Bogdan"]}
+{"family_id": "3MQ-EVD", "family_name": "Klingelhöfer", "address": "Fanny-Heinrich-Ring 3/0", "resident_since": "2013-06-18", "car": "MS-M-54", "members": ["Carlo", "Aline", "Branko", "Inka", "Knut"]}
+{"family_id": "J9G-YU8", "family_name": "Wiek", "address": "Davidsgasse 98", "resident_since": "1998-04-29", "car": "WOB-QE-952", "members": ["Felicitas", "Birgitta", "Hans-Michael", "Sedat", "Thorben"]}
+{"family_id": "ZQM-82B", "family_name": "Trub", "address": "Hakan-Loos-Straße 973", "resident_since": "1998-08-10", "car": "KU-W-266", "members": ["Wilhelm", "Gaetano", "Julius", "Xaver", "Cemal"]}
+{"family_id": "WDZ-CMJ", "family_name": "Döring", "address": "Karzweg 2/6", "resident_since": "2015-06-12", "car": "HZ-L-6741", "members": ["Etta", "Cindy"]}
+{"family_id": "LDP-SR5", "family_name": "Roskoth", "address": "Dursun-Buchholz-Platz 2", "resident_since": "2008-10-12", "car": "WEN-QX-4595", "members": ["Benno", "Swetlana", "Ernst-Dieter"]}
+{"family_id": "FEY-SUF", "family_name": "Wulf", "address": "Striebitzring 2", "resident_since": "2010-06-09", "car": "RA-KF-6934", "members": ["Carlo", "Gerd", "Marit", "Mira"]}
+{"family_id": "K79-DY5", "family_name": "Hornich", "address": "Hübelallee 30", "resident_since": "2000-10-09", "car": "TG-KW-157", "members": ["Gülsen", "Tillmann", "Julia"]}
+{"family_id": "750-DA3", "family_name": "Jäkel", "address": "Hedi-Anders-Platz 215", "resident_since": "2016-09-17", "car": "FDS-QV-72", "members": ["Adrian", "Donata"]}
+{"family_id": "OTM-HGI", "family_name": "Striebitz", "address": "Kristine-Flantz-Allee 34", "resident_since": "2008-09-28", "car": "DL-TE-9762", "members": ["Nurten", "Eugen", "Gabriela", "Julian"]}
+{"family_id": "NJO-AEW", "family_name": "Wernecke", "address": "Wulffweg 411", "resident_since": "1998-09-23", "car": "WHV-B-96", "members": ["Lilian", "Tadeusz", "Annita", "Dora", "Fabienne"]}
+{"family_id": "V1I-E7E", "family_name": "Söding", "address": "Ottoplatz 031", "resident_since": "2002-10-11", "car": "AB-R-87", "members": ["Sylwia", "Felix", "Aleksandr"]}
+{"family_id": "RWA-KID", "family_name": "Steinberg", "address": "Gnatzplatz 543", "resident_since": "2007-04-03", "car": "OHA-P-354", "members": ["Marion"]}
+{"family_id": "WS1-OU2", "family_name": "Mohaupt", "address": "Brigitte-Reichmann-Platz 7/7", "resident_since": "1991-07-20", "car": "WHV-TS-31", "members": ["Francis", "Erich"]}
+{"family_id": "Y5E-UFD", "family_name": "Hentschel", "address": "Guenter-Rust-Allee 346", "resident_since": "2016-07-11", "car": "NE-JC-978", "members": ["Irmela"]}
+{"family_id": "HLI-JG9", "family_name": "Täsche", "address": "Oderwaldplatz 76", "resident_since": "2013-04-18", "car": "STD-HK-6546", "members": ["Detlev", "Mirella", "Cilly", "Hans-Joachim", "Cemal"]}
+{"family_id": "EVL-Z1V", "family_name": "Binner", "address": "Harri-Ehlert-Platz 20", "resident_since": "2000-03-15", "car": "CHA-I-62", "members": ["Ekaterina", "Luisa", "Hella"]}
+{"family_id": "MI8-RE3", "family_name": "Margraf", "address": "Misicherring 87", "resident_since": "2009-04-23", "car": "WEN-OB-7951", "members": ["Annelies", "Carl", "Arif", "Dietlind"]}
+{"family_id": "35V-X0Y", "family_name": "Ullrich", "address": "Sahin-Weimer-Platz 10", "resident_since": "2003-01-17", "car": "LER-JZ-1955", "members": ["Janina", "Gerald", "Tatjana", "Hülya"]}
+{"family_id": "53W-ES6", "family_name": "Mülichen", "address": "Säuberlichstr. 81", "resident_since": "2008-03-04", "car": "HR-K-93", "members": ["Claus-Peter", "Ortwin"]}
+{"family_id": "2X3-VLR", "family_name": "Buchholz", "address": "Ekaterina-Kitzmann-Platz 560", "resident_since": "2000-09-17", "car": "COC-F-49", "members": ["Romuald", "Augustin", "Karl-Hermann", "Holm"]}
+{"family_id": "MEJ-R13", "family_name": "Eberth", "address": "Gisa-Zahn-Ring 2", "resident_since": "1996-05-20", "car": "SO-M-79", "members": ["Nermin", "Helma", "Elsbeth"]}
+{"family_id": "C3I-CRB", "family_name": "Döring", "address": "Gabor-Fechner-Gasse 847", "resident_since": "2017-05-02", "car": "HDH-TT-9", "members": ["Ramazan", "Ivanka", "Wilfriede"]}
+{"family_id": "VEX-MMQ", "family_name": "Killer", "address": "Dussen vanallee 8/4", "resident_since": "1992-05-15", "car": "NF-QN-2112", "members": ["Ekkehart", "Mira", "Rene", "Angelique", "Tomasz"]}
+{"family_id": "A9S-E50", "family_name": "Ackermann", "address": "Zahnring 394", "resident_since": "1992-07-07", "car": "VK-ZT-15", "members": ["Linda", "Adolf", "Hermann-Josef"]}
+{"family_id": "2EU-XER", "family_name": "Henschel", "address": "Zita-Ziegert-Platz 3/7", "resident_since": "2002-01-10", "car": "LB-WB-83", "members": ["Anneliese", "Francesco"]}
+{"family_id": "8WE-3TM", "family_name": "Jockel", "address": "Athanasios-Gerlach-Allee 9/3", "resident_since": "1993-10-08", "car": "OA-AL-89", "members": ["Claus", "Kirsten", "Hans Dieter"]}
+{"family_id": "QUK-4QJ", "family_name": "Trubin", "address": "Erol-Mohaupt-Gasse 7", "resident_since": "1996-08-03", "car": "ME-Y-127", "members": ["Leokadia", "Nathalie"]}
+{"family_id": "28S-87Y", "family_name": "Lindau", "address": "Hillerallee 5/6", "resident_since": "2009-03-18", "car": "SW-D-15", "members": ["Theresia", "Enver", "Matteo"]}
+{"family_id": "7RS-IWZ", "family_name": "Fiebig", "address": "Cosima-Mälzer-Straße 0", "resident_since": "1995-05-07", "car": "CE-X-322", "members": ["Celal", "Alexa"]}
+{"family_id": "SOO-ADJ", "family_name": "Hamann", "address": "Hans-Jochen-Lange-Platz 352", "resident_since": "2009-04-04", "car": "SAD-TZ-61", "members": ["Diedrich", "Hans-Dietrich"]}
+{"family_id": "U2G-PSW", "family_name": "Dussen van", "address": "Amir-Hauffer-Straße 2/2", "resident_since": "2009-01-18", "car": "RÜG-HL-828", "members": ["Susanna", "Annie", "Ibrahim", "Heinz-Günther", "Anka"]}
+{"family_id": "LDX-SU7", "family_name": "Stiffel", "address": "Beerallee 911", "resident_since": "1991-11-03", "car": "EMS-L-9414", "members": ["Monique", "Horst-Günter", "Angelo", "Pawel"]}
+{"family_id": "ECA-CAF", "family_name": "Ernst", "address": "Wähnerallee 0", "resident_since": "1996-10-06", "car": "MÜR-H-8", "members": ["Sieglinde"]}
+{"family_id": "HMX-LR6", "family_name": "Seifert", "address": "Dowerggasse 40", "resident_since": "2002-03-24", "car": "OE-P-645", "members": ["Korbinian", "Zita"]}
+{"family_id": "LE7-UPJ", "family_name": "Seifert", "address": "Heinz-Jürgen-Hermann-Gasse 2/1", "resident_since": "2000-08-08", "car": "OAL-A-459", "members": ["Irina", "Leni"]}
+{"family_id": "Z0T-T3T", "family_name": "Gehringer", "address": "Jutta-Gerlach-Straße 050", "resident_since": "2001-05-23", "car": "NU-PM-2", "members": ["Katherina", "Marit", "Dorit", "Kazim"]}
+{"family_id": "7XI-ZHI", "family_name": "Weinhold", "address": "Anneliese-Lehmann-Ring 25", "resident_since": "2012-06-23", "car": "KA-VA-761", "members": ["Maria"]}
+{"family_id": "E78-1A5", "family_name": "Heidrich", "address": "Neureutherstr. 663", "resident_since": "2016-07-21", "car": "SAD-K-6912", "members": ["Rosi", "Jacek", "Matthäus", "Hulda"]}
+{"family_id": "38K-6TB", "family_name": "Huhn", "address": "Tom-Barth-Straße 1/5", "resident_since": "1999-07-26", "car": "DH-X-716", "members": ["Ramon"]}
+{"family_id": "1Z1-5L7", "family_name": "Börner", "address": "Schottinring 9/3", "resident_since": "2015-07-08", "car": "AN-JI-788", "members": ["Rabea", "Katrin", "Rudi", "Karl-Hans", "Alex"]}
+{"family_id": "FQR-R31", "family_name": "Neureuther", "address": "Rennerstr. 4", "resident_since": "2008-08-23", "car": "HH-T-324", "members": ["Klothilde", "Birgitt", "Gotthard", "Charlotte", "Ekkehart"]}
+{"family_id": "YQ8-ROH", "family_name": "Sorgatz", "address": "Isabella-Renner-Platz 401", "resident_since": "2006-09-10", "car": "MÜ-BD-756", "members": ["Paul-Gerhard", "Gina"]}
+{"family_id": "838-46Z", "family_name": "Nette", "address": "Sieringstr. 0", "resident_since": "2001-07-08", "car": "FT-KC-243", "members": ["Michel", "Goran", "Raymund"]}
+{"family_id": "LB6-CCW", "family_name": "Harloff", "address": "Schülerweg 4", "resident_since": "2014-06-19", "car": "SAD-X-4", "members": ["Raphaela"]}
+{"family_id": "NJA-BHT", "family_name": "Zorbach", "address": "Möchlichengasse 4/5", "resident_since": "1992-01-20", "car": "HR-Q-1412", "members": ["Klaus", "Paola"]}
+{"family_id": "KPW-03H", "family_name": "Müller", "address": "Tim-Carsten-Allee 9", "resident_since": "1996-08-26", "car": "KN-A-348", "members": ["Faruk", "Manuela", "Cosimo", "Marietta", "Josephine"]}
+{"family_id": "GG9-UPX", "family_name": "Hande", "address": "Charlotte-Lübs-Ring 196", "resident_since": "1998-06-25", "car": "BAD-B-9161", "members": ["Carl-Heinz"]}
+{"family_id": "XZ6-0E7", "family_name": "Wiek", "address": "Dehmelstr. 0", "resident_since": "1990-09-18", "car": "WTM-NF-794", "members": ["Olaf", "Boris", "Nurettin", "Sören"]}
+{"family_id": "ZP8-XMA", "family_name": "Hellwig", "address": "Röhrdanzring 6/1", "resident_since": "2002-09-21", "car": "FS-V-665", "members": ["Gunda", "Renata", "Brita", "Romuald", "Victoria"]}
+{"family_id": "7AH-BHR", "family_name": "Bender", "address": "Rudi-Becker-Allee 538", "resident_since": "2013-03-18", "car": "OG-EG-131", "members": ["Ortwin", "Istvan", "Helena"]}
+{"family_id": "AOI-YD2", "family_name": "Holzapfel", "address": "Beyerweg 7", "resident_since": "2015-02-02", "car": "THW-Z-13", "members": ["Raphael", "Margret", "Heinz-Walter", "Hans-Detlef", "Natali"]}
+{"family_id": "AIW-5LL", "family_name": "Freudenberger", "address": "Roland-Franke-Allee 71", "resident_since": "1999-11-12", "car": "GP-FS-77", "members": ["Aynur"]}
+{"family_id": "VMO-ER4", "family_name": "Drubin", "address": "Apollonia-Hornich-Weg 41", "resident_since": "2005-10-25", "car": "OB-HL-978", "members": ["Joana", "Oda", "Thea", "Christof", "Andy"]}
+{"family_id": "R64-ZUJ", "family_name": "Patberg", "address": "Rudolphring 74", "resident_since": "1990-08-15", "car": "FF-C-866", "members": ["Hans-Joachim", "Ivan", "Sylvio", "Annett", "Sandy"]}
+{"family_id": "CAI-980", "family_name": "Bohlander", "address": "Finkestr. 033", "resident_since": "2005-10-05", "car": "DEL-OY-82", "members": ["Christa", "Ewa"]}
+{"family_id": "RX3-572", "family_name": "Mohaupt", "address": "Kati-Dehmel-Platz 7", "resident_since": "2000-11-28", "car": "SW-RM-63", "members": ["Horst", "Ehrhard", "Anett", "Matthäus"]}
+{"family_id": "WR3-NKT", "family_name": "Stumpf", "address": "Rognerring 2/9", "resident_since": "2002-03-12", "car": "HRO-VJ-86", "members": ["Hüseyin", "Marina", "Jasmin", "Bianca"]}
+{"family_id": "9AM-LCC", "family_name": "Gorlitz", "address": "Carmen-Sontag-Straße 0/7", "resident_since": "2008-07-12", "car": "ROW-N-432", "members": ["Alfonso", "Marie-Therese", "Isabel", "Edward"]}
+{"family_id": "V8I-UZP", "family_name": "Hertrampf", "address": "Janin-Baum-Gasse 2", "resident_since": "2007-12-12", "car": "WW-WN-2", "members": ["Lieselotte", "Detlef", "Isolde"]}
+{"family_id": "076-14U", "family_name": "Stolze", "address": "Junkweg 6", "resident_since": "2010-08-06", "car": "OA-J-12", "members": ["Miodrag", "Hans D.", "Dominic", "Domenico", "Konstanze"]}
+{"family_id": "UW3-9C3", "family_name": "Albers", "address": "Mustafa-Oderwald-Ring 90", "resident_since": "1996-10-18", "car": "RT-OC-157", "members": ["Korbinian", "Cäcilia", "Bernd-Dieter", "Karl-Heinrich", "Bruno"]}
+{"family_id": "HTF-JE6", "family_name": "Schwital", "address": "Franz Josef-Schomber-Gasse 2", "resident_since": "1991-07-10", "car": "AM-VR-87", "members": ["Martina", "Rosina", "Olga", "Jessica"]}
+{"family_id": "WWS-77T", "family_name": "Heser", "address": "Junkenring 05", "resident_since": "1995-07-05", "car": "DAU-W-62", "members": ["Paolo", "Marvin", "Lene"]}
+{"family_id": "U71-05C", "family_name": "Junk", "address": "Patric-Bauer-Straße 6/7", "resident_since": "2006-11-05", "car": "NOM-VU-5", "members": ["Wilhelm", "Felizitas", "Elias", "Hannes"]}
+{"family_id": "LDW-LMR", "family_name": "Beier", "address": "Pamela-Biggen-Allee 7", "resident_since": "2001-06-17", "car": "BWL-K-815", "members": ["Edeltrud", "Ramazan", "Alexa", "Hildegart", "Mariusz"]}
+{"family_id": "CQ7-K6S", "family_name": "Kaul", "address": "Oskar-Otto-Straße 2/9", "resident_since": "1994-02-01", "car": "LIF-DV-2", "members": ["Edgar", "Wally", "Vitus", "Katalin"]}
+{"family_id": "Y2L-3EO", "family_name": "Otto", "address": "Ringring 7/8", "resident_since": "1997-06-09", "car": "RO-YT-78", "members": ["Henny", "Pawel"]}
+{"family_id": "AKO-09W", "family_name": "Zobel", "address": "Budigweg 8", "resident_since": "2014-04-03", "car": "RÜG-YG-27", "members": ["Heinz-Walter", "Anastasia"]}
+{"family_id": "QCS-8Q9", "family_name": "Bachmann", "address": "Daniel-Neuschäfer-Platz 7", "resident_since": "2010-11-06", "car": "BYL-YS-2", "members": ["Albrecht", "Calogero", "Rosel"]}
+{"family_id": "BAX-FWR", "family_name": "Dippel", "address": "Ruth-Hoffmann-Straße 4", "resident_since": "1993-06-26", "car": "LSN-N-9759", "members": ["Alexandra", "Alban"]}
+{"family_id": "VC6-NZ0", "family_name": "Birnbaum", "address": "Gehringerstr. 648", "resident_since": "1998-08-08", "car": "WOB-RZ-79", "members": ["Margarita", "Marica", "Margaret", "Marten", "Hans-Jürgen"]}
+{"family_id": "LPU-9VL", "family_name": "auch Schlauchin", "address": "Gierschnerplatz 5/0", "resident_since": "2007-09-16", "car": "SB-Q-528", "members": ["Ellinor"]}
+{"family_id": "RKH-QUJ", "family_name": "Kobelt", "address": "Trübstraße 96", "resident_since": "2002-06-05", "car": "LOS-L-92", "members": ["Hans-Gerhard", "Yvette", "Urte"]}
+{"family_id": "XON-WO4", "family_name": "Wagenknecht", "address": "Dobesallee 33", "resident_since": "1994-09-23", "car": "SN-PC-727", "members": ["Editha", "Reingard", "Nina", "Romuald"]}
+{"family_id": "GZC-CH9", "family_name": "Beckmann", "address": "Salih-Neuschäfer-Gasse 3/8", "resident_since": "2014-08-09", "car": "GS-R-5", "members": ["Carolina", "Hellmut", "Margarethe", "Justus", "Suse"]}
+{"family_id": "BAJ-ZTQ", "family_name": "Fritsch", "address": "Ottilie-Dehmel-Weg 7", "resident_since": "2017-06-26", "car": "KI-QM-188", "members": ["Joerg", "Björn", "Amelie", "Lydia"]}
+{"family_id": "NVO-XYE", "family_name": "Möchlichen", "address": "Vincent-Barkholz-Weg 144", "resident_since": "2012-04-12", "car": "WM-RI-753", "members": ["Gertraud", "Cosima", "Gerolf", "Eugenia"]}
+{"family_id": "V75-UVU", "family_name": "Hübel", "address": "Junckenallee 0/1", "resident_since": "2014-05-27", "car": "LOS-PO-8114", "members": ["Gerlinde", "Dierk"]}
+{"family_id": "1YQ-G5H", "family_name": "Segebahn", "address": "Trubplatz 9", "resident_since": "1992-02-28", "car": "SOK-M-8914", "members": ["Agatha", "Hanns", "Ulla", "Giuseppe"]}
+{"family_id": "0RY-EDK", "family_name": "Krebs", "address": "Södingweg 6", "resident_since": "1999-07-01", "car": "MA-I-87", "members": ["Gottlob", "Nora", "Sylvana"]}
+{"family_id": "1T1-4FN", "family_name": "Beier", "address": "Abraham-Rörricht-Platz 026", "resident_since": "2005-08-09", "car": "WUN-T-63", "members": ["Hanni", "Edmund", "Gusti"]}
+{"family_id": "3A1-ETT", "family_name": "Fritsch", "address": "Junckstr. 2/4", "resident_since": "2012-10-01", "car": "MOL-VD-8624", "members": ["Heinfried", "Massimo", "Dörthe", "Eckehard", "Heimo"]}
+{"family_id": "XL1-GST", "family_name": "Haering", "address": "Leopold-Ullmann-Weg 87", "resident_since": "2003-08-18", "car": "AW-Y-938", "members": ["Stefani"]}
+{"family_id": "N5H-HMP", "family_name": "Steinberg", "address": "Alexej-Henck-Ring 0/7", "resident_since": "1991-04-09", "car": "RE-XJ-39", "members": ["Magarete", "Lorenz", "Marlene"]}
+{"family_id": "XA5-69W", "family_name": "Ullmann", "address": "Harloffplatz 08", "resident_since": "2002-04-06", "car": "FD-QX-71", "members": ["Cetin"]}
+{"family_id": "JR6-7EU", "family_name": "Gnatz", "address": "Bährplatz 93", "resident_since": "2004-03-24", "car": "FÜ-BE-329", "members": ["Sönke", "Sylvie", "Max"]}
+{"family_id": "KLB-0KM", "family_name": "Sorgatz", "address": "Thanelweg 8", "resident_since": "2002-07-14", "car": "MEI-X-1438", "members": ["Gerold", "Enrico", "Jasmina"]}
+{"family_id": "EB0-I1G", "family_name": "Mühle", "address": "Bruderplatz 05", "resident_since": "2003-06-27", "car": "CB-S-38", "members": ["Tülay"]}
+{"family_id": "KX9-A26", "family_name": "Junitz", "address": "Clarissa-Trüb-Ring 7/3", "resident_since": "2001-12-15", "car": "MS-NB-8274", "members": ["Mattias", "Jolanda", "Elvira", "Carl-Heinz", "Cilli"]}
+{"family_id": "OON-WJ9", "family_name": "Siering", "address": "Gülay-Säuberlich-Gasse 0", "resident_since": "2013-11-15", "car": "H-S-495", "members": ["Dragan", "Alf", "Gertraut", "Marietta"]}
+{"family_id": "VGT-3M4", "family_name": "Gerlach", "address": "Burkhard-Loos-Weg 890", "resident_since": "2010-08-08", "car": "M-U-193", "members": ["Wilfried", "Lili", "Babette", "Ines"]}
+{"family_id": "91R-DEO", "family_name": "Schomber", "address": "Ullrichring 8/0", "resident_since": "2016-08-31", "car": "ABI-OB-294", "members": ["Elfi", "Vlado", "Edeltraud", "Willfried"]}
+{"family_id": "DY3-7IS", "family_name": "Fröhlich", "address": "Pavel-Schottin-Platz 082", "resident_since": "2007-07-27", "car": "EB-K-64", "members": ["Telse", "Carina", "Joseph", "Silvio", "Sara"]}
+{"family_id": "CDK-2PK", "family_name": "Bonbach", "address": "Dowergstraße 052", "resident_since": "2003-07-01", "car": "SIG-R-3871", "members": ["Stanislaw", "Barbara"]}
+{"family_id": "K7L-XK8", "family_name": "Stiffel", "address": "Korbinian-Seidel-Platz 5", "resident_since": "2014-01-16", "car": "LÖ-H-4", "members": ["Max", "Ahmed", "Maxim", "Kamil"]}
+{"family_id": "YFY-URO", "family_name": "Möchlichen", "address": "Natalija-Trub-Straße 5", "resident_since": "2004-05-16", "car": "AK-LC-11", "members": ["Friederike", "Willibert"]}
+{"family_id": "2C0-8N2", "family_name": "Weinhold", "address": "Geißlerallee 1/2", "resident_since": "1999-07-16", "car": "ND-I-232", "members": ["Elwira", "Matthäus", "Eckard", "Marlis"]}
+{"family_id": "PW5-SDB", "family_name": "Ruppersberger", "address": "Trubinplatz 5", "resident_since": "2011-02-22", "car": "AN-N-555", "members": ["Krista", "Cornelia", "Asta", "Larissa", "Dragica"]}
+{"family_id": "OEN-U9B", "family_name": "Karz", "address": "Sigmund-Ullrich-Weg 43", "resident_since": "2005-05-06", "car": "EA-K-1629", "members": ["Gero", "Anastasia", "Ralf", "Juliana", "Recep"]}
+{"family_id": "DVR-4VF", "family_name": "Stadelmann", "address": "Bonbachgasse 5", "resident_since": "2003-10-15", "car": "HGW-WZ-624", "members": ["Ferdinand", "Martine", "Heiderose", "Marcella"]}
+{"family_id": "W7Q-9CY", "family_name": "Grein Groth", "address": "Heckerplatz 48", "resident_since": "2008-08-08", "car": "VK-K-32", "members": ["Alois", "Heike", "Benita"]}
+{"family_id": "81W-AP7", "family_name": "Hering", "address": "Trubstr. 2", "resident_since": "2012-11-02", "car": "HOM-SJ-597", "members": ["Brita", "Hans-Adolf", "Guntram", "Reginald"]}
+{"family_id": "J81-L7G", "family_name": "Süßebier", "address": "Sofie-Franke-Straße 891", "resident_since": "2008-06-26", "car": "VIE-D-955", "members": ["Gretl", "Hans-Eberhard"]}
+{"family_id": "7OF-Y9B", "family_name": "Conradi", "address": "Zobelallee 7", "resident_since": "2002-04-01", "car": "OSL-BW-924", "members": ["Heinz-Werner", "Pero", "Jasmina", "Hermine"]}
+{"family_id": "80S-0VC", "family_name": "Wulff", "address": "Till-Baum-Allee 4/1", "resident_since": "2002-01-22", "car": "HOL-Q-84", "members": ["Sarah", "Imre", "Burkard", "Marijan", "Mary"]}
+{"family_id": "7J1-4YZ", "family_name": "Fritsch", "address": "Neuschäferstraße 3", "resident_since": "1999-08-12", "car": "BIT-BA-78", "members": ["Hildegunde", "Hubert"]}
+{"family_id": "5YJ-E06", "family_name": "Hänel", "address": "Pohlstraße 926", "resident_since": "2011-10-30", "car": "HB-XY-7244", "members": ["Hildegard"]}
+{"family_id": "QCR-PRC", "family_name": "Nette", "address": "Bärerplatz 86", "resident_since": "2001-10-21", "car": "RÜD-YQ-4", "members": ["Bernard", "Othmar", "Marian"]}
+{"family_id": "PB8-RAH", "family_name": "Stey", "address": "Haufferstraße 0", "resident_since": "1992-08-11", "car": "BZ-J-5472", "members": ["Magdalene", "Meinhard", "Lisa", "Annegret", "Reinhart"]}
+{"family_id": "TDE-JH0", "family_name": "Harloff", "address": "Hövelstraße 75", "resident_since": "1997-05-18", "car": "LAU-KU-242", "members": ["Vlado", "Beatrice"]}
+{"family_id": "6WZ-0UN", "family_name": "Stumpf", "address": "Trubstraße 0", "resident_since": "2017-07-01", "car": "GTH-Z-6", "members": ["Heidrun", "Marc", "Erkan"]}
+{"family_id": "5VF-NFD", "family_name": "Benthin", "address": "Arif-Hänel-Gasse 8/1", "resident_since": "2009-09-04", "car": "HR-P-42", "members": ["Jens-Peter", "Cäcilia"]}
+{"family_id": "G28-053", "family_name": "Lange", "address": "Jopichstr. 5/5", "resident_since": "2011-06-12", "car": "LDK-RP-86", "members": ["Giorgio", "Alice", "Stanislav"]}
+{"family_id": "242-56F", "family_name": "Jessel", "address": "Reisingplatz 1", "resident_since": "1997-12-17", "car": "AC-E-881", "members": ["Christin"]}
+{"family_id": "DHA-LX5", "family_name": "Rogge", "address": "Lübsplatz 76", "resident_since": "1995-10-27", "car": "BC-VO-9", "members": ["Albrecht", "Annekatrin", "Gabi", "Jobst", "Alex"]}
+{"family_id": "VJI-9UU", "family_name": "Karge", "address": "Dajana-Rörricht-Weg 3", "resident_since": "2011-08-28", "car": "HG-NS-13", "members": ["Uli", "Hugo", "Eckhard", "Simon", "Paul-Heinz"]}
+{"family_id": "Q5N-1GH", "family_name": "Rosenow", "address": "Caren-Johann-Weg 3/0", "resident_since": "2008-09-02", "car": "GP-K-557", "members": ["Ivonne", "Sabri", "Pascale", "Alfred"]}
+{"family_id": "4D5-DPZ", "family_name": "Bruder", "address": "Thaddäus-Lange-Gasse 69", "resident_since": "1990-11-07", "car": "HVL-A-891", "members": ["Etta", "Kordula"]}
+{"family_id": "GTB-MMF", "family_name": "Kroker", "address": "auch Schlauchinallee 76", "resident_since": "1996-07-13", "car": "WL-SC-855", "members": ["Vitali", "Katerina"]}
+{"family_id": "Y02-JNX", "family_name": "Drewes", "address": "Hans-Detlef-Trommler-Platz 5", "resident_since": "1997-05-08", "car": "WAF-V-2673", "members": ["Zita", "Andrej", "Meinhard", "Elsa", "Hellmut"]}
+{"family_id": "VTH-PDJ", "family_name": "Bonbach", "address": "Annelise-Seifert-Ring 4", "resident_since": "1997-07-27", "car": "MG-VR-5", "members": ["Erdmute", "Fredo"]}
+{"family_id": "J14-BR4", "family_name": "Zobel", "address": "Kramerallee 4/9", "resident_since": "2004-05-02", "car": "NF-H-1344", "members": ["Renata", "Alexander"]}
+{"family_id": "XX5-MTK", "family_name": "Pruschke", "address": "Cindy-Langern-Allee 4", "resident_since": "1997-10-09", "car": "P-P-88", "members": ["Margarete", "Jakob", "Tanja"]}
+{"family_id": "54G-2OY", "family_name": "Textor", "address": "Alfred-Ullrich-Gasse 31", "resident_since": "1993-03-20", "car": "HDH-ZP-5", "members": ["Giuseppina", "Daniel"]}
+{"family_id": "0BZ-5OM", "family_name": "Dobes", "address": "Editha-Geisler-Ring 98", "resident_since": "2017-01-11", "car": "MVL-U-16", "members": ["Justina", "Pascale", "Gunther"]}
+{"family_id": "L31-MF6", "family_name": "Adler", "address": "Tibor-Tlustek-Straße 3", "resident_since": "2004-02-17", "car": "MA-F-27", "members": ["Vitali"]}
+{"family_id": "VX7-5ZM", "family_name": "Wende", "address": "Hans-Christian-Schwital-Gasse 868", "resident_since": "1998-08-22", "car": "SB-QO-122", "members": ["Roy"]}
+{"family_id": "4YW-JXX", "family_name": "Hecker", "address": "Bruderring 80", "resident_since": "2012-06-20", "car": "NMS-RL-52", "members": ["Darius", "Milan", "Murat", "Elisabeth", "Friedrich-Wilhelm"]}
+{"family_id": "U6F-3W7", "family_name": "Gutknecht", "address": "Ullrichgasse 18", "resident_since": "2000-11-14", "car": "WF-Q-32", "members": ["Ester", "Marijan"]}
+{"family_id": "F5W-BTZ", "family_name": "Thanel", "address": "Margaretha-Ritter-Platz 3", "resident_since": "2010-03-08", "car": "HWI-HV-63", "members": ["Albertine", "Marc", "Rosi", "Alicia", "Emilie"]}
+{"family_id": "VPK-H9K", "family_name": "Hellwig", "address": "Weihmannallee 7", "resident_since": "1991-12-01", "car": "KEH-A-99", "members": ["Gilda"]}
+{"family_id": "LVA-GRV", "family_name": "Gutknecht", "address": "Nadeshda-Dörr-Gasse 0", "resident_since": "2017-03-23", "car": "IZ-NY-652", "members": ["Jana", "Sebastian", "Nikolai", "Stefanie"]}
+{"family_id": "6IB-5M7", "family_name": "Fiebig", "address": "Süßebierstraße 957", "resident_since": "2015-01-26", "car": "AN-LV-689", "members": ["Otmar", "Hüseyin", "Kunigunda"]}
+{"family_id": "ZJM-AAN", "family_name": "Schomber", "address": "Franz-Xaver-Barth-Weg 57", "resident_since": "2010-07-08", "car": "SPN-KF-8545", "members": ["Thorsten"]}
+{"family_id": "QEW-3IU", "family_name": "Finke", "address": "Carlos-Ernst-Ring 5", "resident_since": "2012-12-14", "car": "DEL-U-45", "members": ["Hanne-Lore", "Dirk", "Metin"]}
+{"family_id": "S3Z-TDL", "family_name": "Reuter", "address": "Justus-Löchel-Ring 59", "resident_since": "2010-10-13", "car": "VK-DL-57", "members": ["Traude"]}
+{"family_id": "ARA-11X", "family_name": "Jacobi Jäckel", "address": "Anastasia-Kuhl-Straße 881", "resident_since": "1990-12-01", "car": "MEI-RW-5", "members": ["Danny", "Diedrich"]}
+{"family_id": "7PQ-442", "family_name": "Krein", "address": "Annamaria-Süßebier-Gasse 26", "resident_since": "2009-07-22", "car": "DON-L-549", "members": ["Marie-Luise", "Eleni", "Kathrin", "Abbas", "Friedhelm"]}
+{"family_id": "NGP-JML", "family_name": "Käster", "address": "Hövelplatz 582", "resident_since": "1995-06-06", "car": "KO-SG-852", "members": ["Hans-Henning", "Rosalia", "Traude", "Michaela"]}
+{"family_id": "33X-AXA", "family_name": "Heydrich", "address": "Kranzstr. 1/1", "resident_since": "2001-11-08", "car": "HO-CO-999", "members": ["Roselinde", "Dimitrios", "Ingmar", "Gottlob"]}
+{"family_id": "4C6-VW9", "family_name": "Hauffer", "address": "Iwan-Schmidt-Allee 540", "resident_since": "1991-10-26", "car": "WES-PY-211", "members": ["Asta", "Felix", "Gunnar", "Ahmed", "Rosemarie"]}
+{"family_id": "HVH-SBC", "family_name": "Jacob", "address": "Heidi-Weinhold-Allee 383", "resident_since": "1998-12-23", "car": "G-O-397", "members": ["Friedrich-Wilhelm", "Severin", "Emmy"]}
+{"family_id": "ZEG-5J2", "family_name": "Cichorius", "address": "Annemie-Beer-Ring 9/0", "resident_since": "2004-12-18", "car": "AW-T-573", "members": ["Hansgeorg", "Paola", "Giovanni", "Änne", "Balthasar"]}
+{"family_id": "LV6-OAE", "family_name": "Eigenwillig", "address": "Friedrich-Barth-Weg 7/8", "resident_since": "2008-05-01", "car": "PM-S-71", "members": ["Canan", "Notburga", "Vinko"]}
+{"family_id": "HIJ-CR4", "family_name": "Söding", "address": "Jens-Kallert-Platz 0", "resident_since": "1996-10-18", "car": "GZ-I-4591", "members": ["Dogan"]}
+{"family_id": "LV4-982", "family_name": "Fritsch", "address": "Centa-Reising-Weg 18", "resident_since": "1996-01-07", "car": "LD-S-39", "members": ["Paolo", "Lothar", "Luis", "Uwe"]}
+{"family_id": "L28-CIO", "family_name": "Seidel", "address": "Trappring 14", "resident_since": "2009-12-12", "car": "MÜ-G-464", "members": ["Ljudmila"]}
+{"family_id": "YOP-0EH", "family_name": "Löchel", "address": "Södingallee 449", "resident_since": "1999-05-02", "car": "RPL-EJ-464", "members": ["Markus"]}
+{"family_id": "OVE-8AH", "family_name": "Nerger", "address": "Schusterallee 734", "resident_since": "2004-02-14", "car": "RZ-ZU-168", "members": ["Silvester"]}
+{"family_id": "MB9-EC7", "family_name": "Beyer", "address": "Zahnstraße 06", "resident_since": "1994-11-27", "car": "RPL-DE-9572", "members": ["Swantje", "Murat", "Kai-Uwe"]}
+{"family_id": "UXD-E6B", "family_name": "Eberhardt", "address": "Samuel-Radisch-Weg 23", "resident_since": "2011-12-02", "car": "MS-CA-44", "members": ["Mirjam"]}
+{"family_id": "FL7-DDC", "family_name": "Tintzmann", "address": "Yasmin-Losekann-Platz 9/6", "resident_since": "2000-11-09", "car": "WT-Y-89", "members": ["Elma", "Horst-Dieter", "Gusti", "Maxim", "Vlado"]}
+{"family_id": "Y1S-L95", "family_name": "Süßebier", "address": "Hänelstraße 985", "resident_since": "2004-12-30", "car": "EU-KF-383", "members": ["Luka", "Bruno"]}
+{"family_id": "WDY-5CJ", "family_name": "Schüler", "address": "Gisela-Rosenow-Allee 6", "resident_since": "2012-09-18", "car": "LI-GA-92", "members": ["Carl", "Ellen", "Tassilo"]}
+{"family_id": "2YC-FGJ", "family_name": "Albers", "address": "Langernstr. 05", "resident_since": "1993-10-05", "car": "WOB-DY-997", "members": ["Almuth", "Adina", "Gaetano", "Pamela", "Volker"]}
+{"family_id": "41Q-80K", "family_name": "Bruder", "address": "Geislerallee 068", "resident_since": "2006-10-03", "car": "ESW-WD-927", "members": ["Heini", "Carmela", "Meinolf"]}
+{"family_id": "JOQ-SXJ", "family_name": "Otto", "address": "Langernweg 7", "resident_since": "2001-07-22", "car": "NM-UR-24", "members": ["Marian", "Karl-Georg", "Svenja"]}
+{"family_id": "CJY-POX", "family_name": "Misicher", "address": "Sabri-Renner-Allee 30", "resident_since": "2013-04-09", "car": "OH-UK-118", "members": ["Thomas", "Marion"]}
+{"family_id": "RFN-UXJ", "family_name": "Säuberlich", "address": "Kobeltstr. 337", "resident_since": "1991-05-21", "car": "CB-UE-13", "members": ["Constantin"]}
+{"family_id": "1QZ-GQ6", "family_name": "Bolzmann", "address": "Mälzerweg 2/7", "resident_since": "2004-08-11", "car": "TÜ-QC-22", "members": ["Wenzel", "Regine", "Nadia"]}
+{"family_id": "I1D-XNA", "family_name": "Hövel", "address": "Frieda-Hofmann-Allee 586", "resident_since": "2000-02-23", "car": "WUN-YQ-715", "members": ["Marica"]}
+{"family_id": "9CG-A7E", "family_name": "Aumann", "address": "Loosstraße 258", "resident_since": "2000-08-08", "car": "GE-CZ-374", "members": ["Hildburg", "Ekrem"]}
+{"family_id": "ZXU-58V", "family_name": "Gumprich", "address": "Walter-Reising-Gasse 0", "resident_since": "2003-08-05", "car": "OE-C-868", "members": ["Jessica"]}
+{"family_id": "MTA-T4G", "family_name": "Stiffel", "address": "Bernd-Hendriks-Ring 3", "resident_since": "1990-11-02", "car": "ME-TS-1281", "members": ["Cora", "Kemal"]}
+{"family_id": "7YT-NK1", "family_name": "Jäkel", "address": "Jürgen-Rudolph-Gasse 7/8", "resident_since": "2006-04-03", "car": "MKK-CL-93", "members": ["Vlado", "Jo", "Anneliese"]}
+{"family_id": "ZB8-LRU", "family_name": "Beer", "address": "Hans-Gerd-Hornich-Allee 8/5", "resident_since": "2006-10-16", "car": "Y-WU-48", "members": ["Jeannette", "Witold", "Heiner", "Burkhard", "Aysel"]}
+{"family_id": "QGN-7G0", "family_name": "Hein", "address": "Preißstraße 1/6", "resident_since": "2007-03-03", "car": "RO-N-61", "members": ["Hannelore", "Leszek"]}
+{"family_id": "W69-5IJ", "family_name": "Kuhl", "address": "Henkstr. 32", "resident_since": "2010-09-04", "car": "WIL-A-2679", "members": ["Orhan", "Hansjoachim", "Emma", "Bernd"]}
+{"family_id": "3NZ-LZG", "family_name": "Wagner", "address": "Guido-Fritsch-Ring 91", "resident_since": "1998-06-15", "car": "PF-T-3", "members": ["Kriemhild", "Anette", "Friedhold"]}
+{"family_id": "GGO-VV8", "family_name": "Hoffmann", "address": "Reimar-Anders-Weg 33", "resident_since": "2000-02-18", "car": "BWL-H-12", "members": ["Margaret", "Heinz-Gerd", "Leila", "Rolf-Dieter"]}
+{"family_id": "49A-32N", "family_name": "Höfig", "address": "Riehlweg 76", "resident_since": "2008-11-24", "car": "SK-YB-268", "members": ["Anita", "Rosalie", "Leopold", "Frank-Peter"]}
+{"family_id": "DXR-13E", "family_name": "Gutknecht", "address": "Karl-Ludwig-Tschentscher-Straße 9", "resident_since": "2017-01-30", "car": "HAM-W-8762", "members": ["Heinz-Wilhelm", "Mercedes", "Rabea", "Ronny", "Ernst"]}
+{"family_id": "VIF-6C9", "family_name": "Margraf", "address": "Delia-Naser-Gasse 3/6", "resident_since": "1995-04-20", "car": "CW-SF-63", "members": ["Marika", "Ilse", "Leonhard", "Mathias"]}
+{"family_id": "3IW-0AX", "family_name": "Spieß", "address": "Dörschnerweg 753", "resident_since": "1992-08-13", "car": "MTK-O-27", "members": ["Fabian", "Arne", "Andres", "Karl-Werner", "Heinz-Willi"]}
+{"family_id": "7BQ-6FU", "family_name": "Junk", "address": "Drubstr. 13", "resident_since": "1994-08-22", "car": "HF-S-31", "members": ["Gerd", "Albertine", "Elfie", "Leo", "Curt"]}
+{"family_id": "4XE-XY2", "family_name": "Kusch", "address": "Nada-Ring-Gasse 9/5", "resident_since": "2016-04-06", "car": "LOS-OI-716", "members": ["Karl-Heinrich", "Kathi", "Adele", "Angelica", "Nurettin"]}
+{"family_id": "O9Y-TTU", "family_name": "Mülichen", "address": "Cornelia-Christoph-Straße 9", "resident_since": "1993-01-24", "car": "ES-E-14", "members": ["Gotthold", "Herrmann", "Olav", "Maximilian", "Esther"]}
+{"family_id": "A26-DAT", "family_name": "Flantz", "address": "Mülichenring 765", "resident_since": "1996-08-05", "car": "UN-KX-61", "members": ["Hanna", "Hans-Theo"]}
+{"family_id": "PGU-QBL", "family_name": "Löchel", "address": "Krokerring 7/5", "resident_since": "1994-04-15", "car": "IGB-O-746", "members": ["Insa"]}
+{"family_id": "MS1-E9V", "family_name": "Eigenwillig", "address": "Frankestraße 58", "resident_since": "2012-04-18", "car": "V-D-29", "members": ["Astrid", "Emin", "Ingmar"]}
+{"family_id": "24I-AE5", "family_name": "Rosemann", "address": "Liliane-Wohlgemut-Gasse 2", "resident_since": "2005-10-01", "car": "HR-F-73", "members": ["Rena", "Mara", "Zehra", "Claus", "Heinrich"]}
+{"family_id": "5SE-DI4", "family_name": "Hermighausen", "address": "Weinhageallee 1/9", "resident_since": "2008-06-19", "car": "DLG-S-3456", "members": ["Cemal", "Jana", "Denis"]}
+{"family_id": "0YN-QZW", "family_name": "Textor", "address": "Kitzmannstraße 8", "resident_since": "1992-07-19", "car": "WÜ-JN-76", "members": ["Marie-Theres", "Bayram", "Konstantinos", "Alla"]}
+{"family_id": "HXC-7SM", "family_name": "Junck", "address": "Steckelring 23", "resident_since": "2013-07-16", "car": "ESW-VO-277", "members": ["Helmtrud", "Caren", "Lisette", "Harald"]}
+{"family_id": "154-Z5A", "family_name": "Fritsch", "address": "Bärbel-Flantz-Platz 1/3", "resident_since": "1995-09-26", "car": "SAW-H-67", "members": ["Dörte", "Calogero", "Simon", "Nikolas", "Gönül"]}
+{"family_id": "SDT-H8D", "family_name": "Kensy", "address": "Gudula-Mosemann-Gasse 3/2", "resident_since": "2009-12-04", "car": "WF-O-94", "members": ["Annelie"]}
+{"family_id": "K0T-LII", "family_name": "Albers", "address": "Philippe-Weitzel-Allee 06", "resident_since": "2003-02-26", "car": "DE-D-18", "members": ["Irmtraud", "Konstantin"]}
+{"family_id": "DKH-QHZ", "family_name": "Trubin", "address": "Junckenweg 1/6", "resident_since": "1991-09-28", "car": "KB-V-64", "members": ["Enver", "Bernd", "Pasquale", "Markus", "Raissa"]}
+{"family_id": "7QQ-GE1", "family_name": "Heser", "address": "Ullrich-Dehmel-Allee 002", "resident_since": "2008-04-26", "car": "TBB-EV-82", "members": ["Hartmuth", "Sükrü", "Ulrich", "Christiana", "Reni"]}
+{"family_id": "SGR-2QG", "family_name": "Krause", "address": "Kargestr. 632", "resident_since": "2015-02-26", "car": "KN-F-71", "members": ["Hasan", "Patricia", "Hans-J.", "Michaela", "Jose"]}
+{"family_id": "Q3B-SJ0", "family_name": "Wieloch", "address": "Marvin-Wähner-Allee 4", "resident_since": "2002-02-26", "car": "K-K-569", "members": ["Siegmund", "Senta", "Walli", "Friedl", "Guido"]}
+{"family_id": "04S-45L", "family_name": "Kroker", "address": "Mühleweg 7/2", "resident_since": "2007-08-12", "car": "SAD-J-174", "members": ["Salvatore", "Wilfried"]}
+{"family_id": "IJY-67C", "family_name": "Hering", "address": "Geiselgasse 6", "resident_since": "2003-04-28", "car": "WUG-BQ-649", "members": ["Matthias", "Reinhardt"]}
+{"family_id": "PVP-4KZ", "family_name": "Atzler", "address": "Ruthild-Wende-Ring 029", "resident_since": "2014-05-20", "car": "WAF-P-167", "members": ["Walter", "Carola", "Ernestine", "Ortrud"]}
+{"family_id": "VXP-D9E", "family_name": "Rose", "address": "Reinhardtgasse 0/9", "resident_since": "2002-12-20", "car": "BOR-D-22", "members": ["Martine", "Heinz-Georg", "Jennifer", "Rudi", "Robin"]}
+{"family_id": "Y7F-69J", "family_name": "Loos", "address": "Hiltraud-Conradi-Weg 301", "resident_since": "2014-02-05", "car": "ST-V-683", "members": ["Giuseppina", "Anke", "Bruno", "Dörte", "Dominic"]}
+{"family_id": "S33-I2B", "family_name": "Schüler", "address": "Eckard-Salz-Ring 052", "resident_since": "1992-10-15", "car": "WOB-G-37", "members": ["Adelbert", "Jasmin", "Zenon"]}
+{"family_id": "V9R-K6T", "family_name": "Matthäi", "address": "Marten-Wulf-Gasse 53", "resident_since": "1996-01-10", "car": "NVP-Q-6964", "members": ["Armin", "Ingo", "Immo"]}
+{"family_id": "98X-T80", "family_name": "Schulz", "address": "Goran-Wirth-Ring 654", "resident_since": "1992-10-03", "car": "WTM-E-4671", "members": ["Kreszentia"]}
+{"family_id": "PFD-F5L", "family_name": "Mangold", "address": "Hilda-Neuschäfer-Ring 952", "resident_since": "2004-08-06", "car": "SOK-VS-534", "members": ["Anette", "Melissa", "Dana", "Rosel"]}
+{"family_id": "BJK-I12", "family_name": "Riehl", "address": "Hedi-Margraf-Gasse 5/0", "resident_since": "1996-10-25", "car": "EI-DO-52", "members": ["Amelie", "Jens", "Beatrix"]}
+{"family_id": "KVK-BDQ", "family_name": "Dörr", "address": "Birgit-Klemt-Weg 9/7", "resident_since": "2013-07-20", "car": "MK-B-7", "members": ["Isolde"]}
+{"family_id": "1FV-7SZ", "family_name": "Ladeck", "address": "Magdalene-Birnbaum-Gasse 82", "resident_since": "1998-11-21", "car": "H-G-22", "members": ["Marc", "Heinz-Josef", "George", "Carina", "Gaetano"]}
+{"family_id": "15T-4QG", "family_name": "Baum", "address": "Grein Grothallee 799", "resident_since": "2015-12-03", "car": "KR-MZ-52", "members": ["Muharrem", "Dietrich", "Apostolos"]}
+{"family_id": "T1X-U85", "family_name": "Kallert", "address": "Friedericke-Jacob-Allee 313", "resident_since": "1999-07-18", "car": "NM-C-81", "members": ["Calogero", "Halina", "Hans-Walter", "Celal", "Wenke"]}
+{"family_id": "VY3-SXW", "family_name": "Sontag", "address": "Fröhlichweg 0", "resident_since": "2008-08-22", "car": "FRG-RA-776", "members": ["Hildburg", "Arndt"]}
+{"family_id": "S0V-BQR", "family_name": "Löchel", "address": "Victor-Zimmer-Weg 3/6", "resident_since": "2012-10-16", "car": "SAW-Y-449", "members": ["Anatolij", "Eckehard", "Steve", "Kerstin", "Fedor"]}
+{"family_id": "6RI-VG3", "family_name": "Mälzer", "address": "Kazim-Weihmann-Platz 7/6", "resident_since": "2010-08-28", "car": "HN-T-98", "members": ["Ernest", "Natalia", "Iwan", "Siegbert"]}
+{"family_id": "3NQ-71Q", "family_name": "Barkholz", "address": "Kata-Mosemann-Weg 7/8", "resident_since": "1994-08-20", "car": "AZ-YL-26", "members": ["Mirella", "Dajana", "Christel", "Peter"]}
+{"family_id": "QMQ-825", "family_name": "Ritter", "address": "Bachmannstraße 573", "resident_since": "1994-12-25", "car": "TÜ-YR-2557", "members": ["Ramazan"]}
+{"family_id": "GJH-DGJ", "family_name": "Gumprich", "address": "Schleichstraße 5", "resident_since": "2016-07-08", "car": "NE-U-69", "members": ["Käthe", "Falk", "Zeynep", "Krzysztof"]}
+{"family_id": "DDR-QIG", "family_name": "Langern", "address": "Krokerstraße 072", "resident_since": "1999-12-04", "car": "BS-VO-17", "members": ["Juliana", "Erica", "Matthias", "Birgit", "Leni"]}
+{"family_id": "W72-P28", "family_name": "Hecker", "address": "Abdullah-Kuhl-Straße 74", "resident_since": "2001-07-20", "car": "SC-KR-234", "members": ["Julian", "Heinz-Willi", "Sepp", "Zita", "Ruthild"]}
+{"family_id": "JE9-9W7", "family_name": "Klingelhöfer", "address": "Roskothring 7", "resident_since": "1991-05-06", "car": "SB-H-6", "members": ["Egbert"]}
+{"family_id": "YTK-KRZ", "family_name": "Jungfer", "address": "Reuterallee 640", "resident_since": "2007-02-25", "car": "AUR-QQ-56", "members": ["Boris", "Samuel", "Heino", "Friedo"]}
+{"family_id": "5AZ-UDR", "family_name": "Weitzel", "address": "Brit-Wulf-Gasse 04", "resident_since": "1999-08-01", "car": "IN-NT-115", "members": ["Dina", "Elise", "Bertram", "Swen", "Felizitas"]}
+{"family_id": "0GU-WVI", "family_name": "Ortmann", "address": "Urs-Seidel-Platz 922", "resident_since": "1993-03-16", "car": "DBR-J-771", "members": ["Faruk", "Dimitrios"]}
+{"family_id": "YZ3-CIU", "family_name": "Jacobi Jäckel", "address": "Zeynep-Stey-Weg 02", "resident_since": "2002-01-02", "car": "PCH-U-396", "members": ["Helmar", "Pascale", "Helmuth", "Gerhard"]}
+{"family_id": "BH8-E4Y", "family_name": "Faust", "address": "Angelica-Adolph-Ring 4/0", "resident_since": "2009-01-05", "car": "NR-LN-2929", "members": ["Alida", "Frederik"]}
+{"family_id": "30N-2WP", "family_name": "Weiß", "address": "Mariele-Jacob-Straße 772", "resident_since": "1996-08-10", "car": "TDO-O-72", "members": ["Elmar"]}
+{"family_id": "6AK-5L8", "family_name": "Eberth", "address": "Konrad-Reuter-Allee 7/4", "resident_since": "1997-08-23", "car": "GG-N-97", "members": ["Kathy", "Philippe"]}
+{"family_id": "NVQ-P7T", "family_name": "Holt", "address": "Schinkestr. 03", "resident_since": "1994-01-30", "car": "PAF-C-7", "members": ["Marianna", "Luzie"]}
+{"family_id": "GCD-YWC", "family_name": "Mitschke", "address": "Heinz Dieter-Geisler-Straße 2/1", "resident_since": "1995-12-07", "car": "MN-I-289", "members": ["Hermann Josef", "Fadime", "Kristian"]}
+{"family_id": "TMX-DET", "family_name": "Stahr", "address": "Lübsweg 7/1", "resident_since": "2005-04-08", "car": "KF-D-95", "members": ["Alfredo", "Arif", "Rose-Marie"]}

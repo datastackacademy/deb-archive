@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+
+import sys
+
+
+def run(args=sys.argv):
+    print("deb catch-up script")
+
+
+if __name__ == '__main__':
+    run()
