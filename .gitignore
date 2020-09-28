@@ -312,3 +312,7 @@ pip-selfcheck.json
 # local files
 /internal-code/flights-api/flights.db
 /creds/deb-sa.json
+
+# Jupyter Notebook checkpoints and files
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
