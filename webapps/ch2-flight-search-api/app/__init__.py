@@ -3,6 +3,7 @@ from datetime import datetime
 from logging import Logger, DEBUG
 
 from flask import Flask, request, current_app
+from flask_cors import CORS
 # from flask_httpauth import HTTPTokenAuth
 
 api_version = "v1.0"
@@ -10,6 +11,7 @@ api_version = "v1.0"
 # setup app
 app = Flask(__name__)
 app.config.from_pyfile('config.py')
+CORS(app)
 
 # setup logger
 logger: Logger = app.logger
