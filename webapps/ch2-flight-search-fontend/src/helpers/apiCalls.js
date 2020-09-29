@@ -37,7 +37,7 @@ export const airlineDictionary = (airlineArray) => {
 export const fetchFlights = async (baseURL, src, dest, start, end) => {
     let [sy,sm,sd] = start.split("-")
     let [ey,em,ed] = end.split("-")
-    let path = `${baseURL}query/flights?src=${src}&dest=${dest}&start=DATE(${sy},${sm},${sd})&end=DATE(${ey},${em},${ed})`
+    let path = `${baseURL}query/flights?src=${src}&dest=${dest}&start=${sy}-${sm}-${sd}&end=${ey}-${em}-${ed}`
     console.log(path)
     let result = await fetch(path)
     return result
