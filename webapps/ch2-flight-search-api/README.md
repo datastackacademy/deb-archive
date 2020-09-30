@@ -11,7 +11,7 @@ this `deb-airliner-internal/webapps/flights-api/requirements.txt`:
 
 ```bash
 # create a new virtualenv (or use the exsiting one from your project)
-cd deb-airliner-interl/webapps/flights-api
+cd deb/webapps/ch2-flight-search-api
 virtualenv -p python3 --no-site-packages venv
 source vnev/bin/activate
 # update your pip and setuptools
@@ -31,20 +31,13 @@ libraries (used in flask apps) to gain access to GCP resources such as Firestore
 
 To setup GCP Service account to be used by python clients:
 
-1. Obtain the service account __KEY FILE__ `deb-airliner-a9b584c1a09c.json` and save it onto `deb-airliner/webapps/credentials/`
-1. If you don't have the key file, you can email [Parham](mailto:parham@turalabs.com) or download it from Google Storage (below)
+1. Obtain the service account __KEY FILE__ from your Google Cloud Console and save it onto `deb-airliner/webapps/credentials/`
+1. If you don't have the key file, you can follow the instructions on [Getting Started(All Users)](https://www.turalabs.com/docs/getting-started/user-setup#google-cloud-access)
 1. Run the following commands:
 
 ```bash
-# download gcp key file
-cd deb-airliner-internal/webapps/flights-api
-mkdir creds
-cd creds
-gsutil cp gs://deb-airline-data/creds/deb-airliner-a9b584c1a09c.json .
-chmod 400 deb-airliner-a9b584c1a09c.json
-
 # make sure key file is accessible to client apps
-export GOOGLE_APPLICATION_CREDENTIALS="$(pwd)/deb-airliner-a9b584c1a09c.json"
+export GOOGLE_APPLICATION_CREDENTIALS="[PATH TO KEY FILE]"
 ```
 
 You must make sure __GOOGLE_APPLICATION_CREDENTIALS__ environment variable correctly points to your credential file. This is the most 
