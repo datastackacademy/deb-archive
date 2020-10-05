@@ -9,8 +9,8 @@ import pandas as pd
 from google.cloud import bigquery
 
 # local imports
-from debdg.utils.logging import logger
-from debdg.utils.config import config, pd_context_options
+from deb.utils.logging import logger
+from deb.utils.config import config, pd_context_options
 
 
 class AircraftPreProcessesor(object):
