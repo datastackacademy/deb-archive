@@ -13,14 +13,11 @@ from deb.utils.logging import logger
 from deb.utils.config import config, pd_context_options
 
 
-# set default file paths
-ENGINE_FILE = config['defaults']['ch1']['ep5']['engine_file'].get()
-
-
 class EngineFileProcessor(object):
 
     @staticmethod
     def parse_engine_type(v):
+        # decode engine type based on the mapping rules below
         mapper = {
             '0': 'None',
             '1': 'Reciprocating',
@@ -36,19 +33,17 @@ class EngineFileProcessor(object):
             '11': 'Rotary',
         }
         try:
-            return mapper[str(v).strip()]
+            return mapper[str(v).strip()]   # mapped value
         except (KeyError, ValueError):
-            return 'Unknown'
+            return 'Unknown'                # default value
     
-    def __init__(self, source_file=ENGINE_FILE):
+    def __init__(self, source_file):
         super(EngineFileProcessor, self).__init__()
         self.source_file = source_file
         self.extract()
         self.transform()
 
     def extract(self):
-        """Read source CSV file into pandas dataframe"""
-
         # column names to keep from the source file (other columns are not parsed)
         keep_columns = [
             'CODE', 'MFR', 'MODEL', 'TYPE', 'HORSEPOWER', 'THRUST',
@@ -72,6 +67,7 @@ class EngineFileProcessor(object):
         self.df = df
 
     def rename_columns(self):
+        # rename columns based on the list below and convert all column names to lower case 
         mapper = {
             # source file column name: new column name
             'CODE': 'ENG CODE',
@@ -96,6 +92,7 @@ class EngineFileProcessor(object):
         df.set_index(keys='eng_code', inplace=True)
 
     def get(self, eng_code, default=None):
+        # lookup by engine code
         try:
             df = self.df
             return df.loc[eng_code].iloc[0]
@@ -103,6 +100,7 @@ class EngineFileProcessor(object):
             return default
 
     def print(self, sample_size=100):
+        # print the dataframe to console
         with pd.option_context(*pd_context_options):    # force pandas to print all columns/rows
             if sample_size < 0:
                 print(self.df)
@@ -473,9 +471,9 @@ class EngineFileProcessor(object):
 #         )
 
 
-def test():
+def test(args):
     logger.info("testing engine file...")
-    engine = EngineFileProcessor(source_file=ENGINE_FILE)
+    engine = EngineFileProcessor(source_file=args.engine_file)
     return engine
 
 
@@ -483,15 +481,18 @@ def register_cmdline_args(parser:argparse.ArgumentParser):
     
     parser.add_argument('command', choices=('etl', 'test', 'help'), default='etl', help='what to do')
     parser.add_argument('-p', '--print', action='store_true', help='print to console')
-    parser.add_argument('-n', '--row-count', type=int, default=100, help="number of sample rows to print")
-    parser.add_argument('--engine-file', help='aircraft engine file')
-    parser.add_argument('--aircraft-file', help='aircraft type file')
-    parser.add_argument('--master-file', help='aircraft master file')
-    parser.set_defaults(func=run)
-
+    parser.add_argument('-n', '--row-count', type=int, default=100, 
+                        help="number of sample rows to print")
+    parser.add_argument('--engine-file', help='aircraft engine file',
+                        default=config['defaults']['ch1']['ep5']['engine_file'].get())
+    parser.add_argument('--aircraft-file', help='aircraft type file',
+                        default=None)
+    parser.add_argument('--master-file', help='aircraft master file',
+                        default=None)
+    
 
 def run():
-    global ENGINE_FILE
+    
     logger.info("DATA ENGINEERING BOOTCAMP - CHAPTER 1 EPISODE 5")
     logger.info("FAA Aircraft Dataset ETL Process")
     # set command line args
@@ -499,12 +500,10 @@ def run():
     register_cmdline_args(parser)
     # process command line input
     args = parser.parse_args()
-    if args.engine_file is not None:
-        ENGINE_FILE = args.engine_file
-    # execute command
+        # execute command
     target = None
     if args.command == 'test':
-        target = test()
+        target = test(args)
     elif args.command == 'help':
         parser.print_help()
     # print df
