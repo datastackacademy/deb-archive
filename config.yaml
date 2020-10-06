@@ -5,6 +5,9 @@ logging:
   output: stdout
 
 defaults:
+  ch1:
+    ep5:
+      engine_file: /home/par/work/data/aircraft-N-number/ENGINE.txt
   ch2:
     # chapter 2 episode 3 defaults args
     ep3:

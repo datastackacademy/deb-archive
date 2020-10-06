@@ -14,7 +14,7 @@ from deb.utils.config import config, pd_context_options
 
 
 # set default file paths
-ENGINE_FILE = config['ch1']['ep5']['ENGINE_FILE']
+ENGINE_FILE = config['defaults']['ch1']['ep5']['engine_file'].get()
 
 
 class EngineFileProcessor(object):
@@ -93,8 +93,7 @@ class EngineFileProcessor(object):
         # rename columns
         self.rename_columns()
         # set index
-        df.set_index(keys='eng_code', inplace=True, drop=False)
-        logger.info(f"transform done")
+        df.set_index(keys='eng_code', inplace=True)
 
     def get(self, eng_code, default=None):
         try:
@@ -104,8 +103,11 @@ class EngineFileProcessor(object):
             return default
 
     def print(self, sample_size=100):
-        with pd.contect_option(*pd_context_options):    # force pandas to print all columns/rows
-            print(self.df.sample(n=sample_size))
+        with pd.option_context(*pd_context_options):    # force pandas to print all columns/rows
+            if sample_size < 0:
+                print(self.df)
+            else:
+                print(self.df.sample(n=sample_size))
 
 
 # class AircraftRef(object):
@@ -471,35 +473,17 @@ class EngineFileProcessor(object):
 #         )
 
 
-# def test():
-#     # log title
-#     logger.info('-' * 35)
-#     logger.info("Running FAA Arcraft tests")
-#     logger.info('-' * 35)
-
-#     ref = AircraftRef()
-#     engine = AircraftEngineRef()
-#     master = AircraftMaster()
-#     master.lookup_aircraft_ref(ref)
-#     master.lookup_engine_ref(engine)
-#     target = master
-#     # master.to_gbq()
-#     master.to_parquet()
-#     master.create_gbq_table()
-#     # let create table take effect
-#     sleep(2.0)
-#     # load parquet file
-#     master.load_parquet_file_bigquery()
-#     with pd.option_context(*pd_context_options):
-#         print(target.df.sample(n=30)[['n_number', 'mfr_name', 'eng_mfr_name', 'aircraft_type', 'eng_type', 'thrust']])
-#         print(list(target.df.columns))
+def test():
+    logger.info("testing engine file...")
+    engine = EngineFileProcessor(source_file=ENGINE_FILE)
+    return engine
 
 
 def register_cmdline_args(parser:argparse.ArgumentParser):
     
-    parser.add_argument('command', choices=('etl', 'help'), default='etl', help='what to do')
+    parser.add_argument('command', choices=('etl', 'test', 'help'), default='etl', help='what to do')
     parser.add_argument('-p', '--print', action='store_true', help='print to console')
-    parser.add_argument('--no-count', action='store_true', help="don't print record count")
+    parser.add_argument('-n', '--row-count', type=int, default=100, help="number of sample rows to print")
     parser.add_argument('--engine-file', help='aircraft engine file')
     parser.add_argument('--aircraft-file', help='aircraft type file')
     parser.add_argument('--master-file', help='aircraft master file')
@@ -507,6 +491,7 @@ def register_cmdline_args(parser:argparse.ArgumentParser):
 
 
 def run():
+    global ENGINE_FILE
     logger.info("DATA ENGINEERING BOOTCAMP - CHAPTER 1 EPISODE 5")
     logger.info("FAA Aircraft Dataset ETL Process")
     # set command line args
@@ -516,15 +501,15 @@ def run():
     args = parser.parse_args()
     if args.engine_file is not None:
         ENGINE_FILE = args.engine_file
-    
+    # execute command
+    target = None
     if args.command == 'test':
-        test()
-
-    if args.print and df is not None:
-        with pd.option_context(*pd_context_options):
-            print(df)
-            if not args.no_count:
-                print(f"row count: {len(df.index)}")
+        target = test()
+    elif args.command == 'help':
+        parser.print_help()
+    # print df
+    if args.print and target is not None:
+        target.print(sample_size=args.row_count)
 
 
 if __name__ == "__main__":
