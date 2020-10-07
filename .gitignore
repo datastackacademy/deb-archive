@@ -310,12 +310,18 @@ pip-selfcheck.json
 #[Ss]cripts
 
 # local files
-/internal-code/flights-api/flights.db
-/creds/deb-sa.json
+flights.db
+
+# credential files
+/creds/*.json
 
 # Jupyter Notebook checkpoints and files
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
+# data output folder
+/data/output/*
+
 # ch1ep5 source files
 /data/input/ch1/ep5/*.txt
+/data/input/ch1/ep5/*.pdf
