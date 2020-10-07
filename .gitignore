@@ -316,3 +316,6 @@ pip-selfcheck.json
 # Jupyter Notebook checkpoints and files
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+
+# ch1ep5 source files
+/data/input/ch1/ep5/*.txt

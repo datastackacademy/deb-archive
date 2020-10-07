@@ -108,102 +108,102 @@ class EngineFileProcessor(object):
                 print(self.df.sample(n=sample_size))
 
 
-# class AircraftRef(object):
+class AircraftTypeFileProcessor(object):
 
-#     @staticmethod
-#     def parse_aircraft_type(v):
-#         mapper = {
-#             '1': 'Glider',
-#             '2': 'Balloon',
-#             '3': 'Blimp/Dirigible',
-#             '4': 'Fixed wing single engine',
-#             '5': 'Fixed wing multi engine',
-#             '6': 'Rotorcraft',
-#             '7': 'Weight-shift-control',
-#             '8': 'Powered Parachute',
-#             '9': 'Gyroplane',
-#             'H': 'Hybrid Lift',
-#             'O': 'Other',
-#         }
-#         try:
-#             return mapper[str(v).strip()]
-#         except (KeyError, ValueError):
-#             return 'Other'
+    @staticmethod
+    def parse_aircraft_type(v):
+        # decode aircraft type field based on mapping rules below
+        mapper = {
+            '1': 'Glider',
+            '2': 'Balloon',
+            '3': 'Blimp/Dirigible',
+            '4': 'Fixed wing single engine',
+            '5': 'Fixed wing multi engine',
+            '6': 'Rotorcraft',
+            '7': 'Weight-shift-control',
+            '8': 'Powered Parachute',
+            '9': 'Gyroplane',
+            'H': 'Hybrid Lift',
+            'O': 'Other',
+        }
+        try:
+            return mapper[str(v).strip()]
+        except (KeyError, ValueError):
+            return 'Other'
 
-#     @staticmethod
-#     def parse_aircraft_category(v):
-#         mapper = {
-#             '1': 'Land',
-#             '2': 'Sea',
-#             '3': 'Amphibian',
-#         }
-#         try:
-#             return mapper[str(v).strip()]
-#         except (KeyError, ValueError):
-#             return 'Other'
+    def __init__(self, source_file):
+        super(AircraftTypeFileProcessor, self).__init__()
+        self.source_file = source_file
+        self.extract()
+        self.transform()
 
-#     def __init__(self):
-#         super(AircraftRef, self).__init__()
-#         self.load()
-#         self.transform()
+    def extract(self):
+        logger.info(f"loading aircraft type file: {self.source_file}")
+        # column names to keep from the source file (other columns are not parsed)
+        keep_columns = [
+            'CODE', 'MFR', 'MODEL', 'TYPE-ACFT', 'NO-ENG', 'NO-SEATS', 'AC-WEIGHT', 'SPEED',
+        ]
+        # specific field parsers
+        converters = {
+            'CODE': (lambda v: str(v).strip()),
+            'TYPE-ACFT': self.parse_aircraft_type,
+            'NO-ENG': (lambda v: int(v) if str(v).strip().isdigit() else -1),
+            'NO-SEATS': (lambda v: int(v) if str(v).strip().isdigit() else -1),
+            'AC-WEIGHT': (lambda v: int(v) if str(v).strip().isdigit() else -1),
+            'SPEED': (lambda v: int(v) if str(v).strip().isdigit() else -1),
+        }
+        # read csv, get column names from header row. parse only needed columns using converters
+        df = pd.read_csv(self.source_file,
+                         header=0,
+                         usecols=keep_columns,
+                         converters=converters,
+                         low_memory=False)
+        self.df = df
 
-#     def load(self, filepath:str=config['input']['files']['faa_aircraft_ref']):
-#         logger.info(f"loading aircraft ref file: {filepath}")
-#         converters = {
-#             'CODE': (lambda v: str(v).strip()),
-#             'TYPE-ACFT': self.parse_aircraft_type,
-#             'NO-ENG': (lambda v: int(v) if str(v).strip().isdigit() else -1),
-#             'NO-SEATS': (lambda v: int(v) if str(v).strip().isdigit() else -1),
-#             'AC-WEIGHT': (lambda v: int(v) if str(v).strip().isdigit() else -1),
-#             'SPEED': (lambda v: int(v) if str(v).strip().isdigit() else -1),
-#         }
-#         keep_columns = [
-#             'CODE', 'MFR', 'MODEL', 'TYPE-ACFT', 'NO-ENG', 'NO-SEATS', 'AC-WEIGHT', 'SPEED',
-#         ]
-#         df = pd.read_csv(filepath,
-#                          header=0,
-#                          usecols=keep_columns,
-#                          converters=converters,
-#                          low_memory=False)
-#         self.df = df
-#         logger.info(f"load done")      
+    def rename_columns(self):
+        # rename columns based on the list below and convert all column names to lower case 
+        columns = {
+            'CODE': 'MFR CODE',
+            'MFR': 'MFR NAME',
+            'TYPE-ACFT': 'AIRCRAFT TYPE',
+            'NO-ENG': 'NUM ENGINES',
+            'NO-SEATS': 'NUM SEATS',
+            'AC-WEIGHT': 'WEIGHT CLASS',
+        }
+        logger.debug(f"renaming aircraft type columns")
+        df = self.df
+        # rename columns based on mapping rules above
+        df.rename(columns=columns, inplace=True, errors='ignore')
+        # lowercase columns names and replace special characters
+        mapper = {col: str(col).strip().lower().replace(' ', '_').replace('-', '_') for col in list(df.columns)}
+        df.rename(columns=mapper, inplace=True)
 
-#     def rename_columns(self, columns:dict=None, lowercase=True):
-#         columns = {
-#             'CODE': 'MFR CODE',
-#             'MFR': 'MFR NAME',
-#             'TYPE-ACFT': 'AIRCRAFT TYPE',
-#             'NO-ENG': 'NUM ENGINES',
-#             'NO-SEATS': 'NUM SEATS',
-#             'AC-WEIGHT': 'WEIGHT CLASS',
-#         } if columns is None else columns
-#         logger.debug(f"renaming ref aircraft columns")
-#         df = self.df
-#         # rename columns based on mapping rules above
-#         df.rename(columns=columns, inplace=True, errors='ignore')
-#         # lowercase columns names and replace special characters
-#         if lowercase:
-#             logger.debug("converting column names to lowercase")
-#             mapper = {col: str(col).strip().lower().replace(' ', '_').replace('-', '_') for col in list(df.columns)}
-#             df.rename(columns=mapper, inplace=True)
+    def transform(self):
+        logger.info(f"applying aircraft type transforms")
+        df = self.df
+        # rename columns
+        self.rename_columns()
+        # set index
+        df.set_index(keys='mfr_code', inplace=True, drop=False)
+        # add a short name column
+        df['mfr_short_name'] = df['mfr_name'].map(lambda v: str(v).split()[0])
+        logger.info(f"transform done")
 
-#     def transform(self):
-#         logger.info(f"applying ref aircraft transforms")
-#         df = self.df
-#         # rename columns
-#         self.rename_columns()
-#         # set index
-#         df.set_index(keys='mfr_code', inplace=True, drop=False)
-#         # add a short name column
-#         df['mfr_short_name'] = df['mfr_name'].map(lambda v: str(v).split()[0])
-#         logger.info(f"transform done")
+    def get(self, mfr_code, default=None):
+        # lookup aircraft by mfr_code (manufacturer code)
+        try:
+            df = self.df
+            return df.loc[mfr_code].iloc[0]
+        except (AttributeError, KeyError, ValueError):
+            return default
 
-#     def get(self, mfr_code, default=None):
-#         try:
-#             df = self.df
-#             return df.loc[mfr_code].iloc[0]
-#         except (AttributeError, KeyError, ValueError):
-#             return default
+    def print(self, sample_size=100):
+        # print the dataframe to console
+        with pd.option_context(*pd_context_options):    # force pandas to print all columns/rows
+            if sample_size < 0:
+                print(self.df)
+            else:
+                print(self.df.sample(n=sample_size))
 
 # class AircraftMaster(object):
     
@@ -473,8 +473,9 @@ class EngineFileProcessor(object):
 
 def test(args):
     logger.info("testing engine file...")
-    engine = EngineFileProcessor(source_file=args.engine_file)
-    return engine
+    # engine = EngineFileProcessor(source_file=args.engine_file)
+    aircraft = AircraftTypeFileProcessor(source_file=args.aircraft_file)
+    return aircraft
 
 
 def register_cmdline_args(parser:argparse.ArgumentParser):
@@ -486,13 +487,15 @@ def register_cmdline_args(parser:argparse.ArgumentParser):
     parser.add_argument('--engine-file', help='aircraft engine file',
                         default=config['defaults']['ch1']['ep5']['engine_file'].get())
     parser.add_argument('--aircraft-file', help='aircraft type file',
-                        default=None)
+                        default=config['defaults']['ch1']['ep5']['aircraft_file'].get())
     parser.add_argument('--master-file', help='aircraft master file',
                         default=None)
     
 
 def run():
-    
+    x = config['defaults.ch1.ep5.engine_file'].get()
+    print(x)
+    exit()
     logger.info("DATA ENGINEERING BOOTCAMP - CHAPTER 1 EPISODE 5")
     logger.info("FAA Aircraft Dataset ETL Process")
     # set command line args
