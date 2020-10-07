@@ -2,7 +2,6 @@
 # system imports
 import argparse
 from datetime import datetime, date
-from time import sleep
 
 # package imports
 import pandas as pd
@@ -481,7 +480,7 @@ def run():
     register_cmdline_args(parser)
     # process command line input
     args = parser.parse_args()
-        # execute command
+    # execute command
     target = None
     if args.command == 'test-engine':
         # test processing engine file
