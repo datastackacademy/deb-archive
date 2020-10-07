@@ -189,7 +189,7 @@ class AircraftMasterFileProcessor(object):
 
 def register_cmdline_args(parser:argparse.ArgumentParser):
     # add command line args
-    parser.add_argument('command', choices=('test-engine', 'test-aircraft', 'test-master', 'help'), help='what to do')
+    parser.add_argument('command', choices=('etl', 'test-engine', 'test-aircraft', 'test-master', 'help'), help='what to do')
     parser.add_argument('-p', '--print', action='store_true', help='print to console')
     parser.add_argument('-n', '--row-count', type=int, default=100, 
                         help="number of sample rows to print")
@@ -199,6 +199,10 @@ def register_cmdline_args(parser:argparse.ArgumentParser):
                         default=config['defaults']['ch1']['ep5']['aircraft_file'].get())
     parser.add_argument('--master-file', help='aircraft master file',
                         default=config['defaults']['ch1']['ep5']['master_file'].get())
+    parser.add_argument('-o', '--output-file', help='output parquet file (for bigquery load)',
+                        default=config['defaults']['ch1']['ep5']['output_file'].get())
+    parser.add_argument('-t', '--output-table', help='bigquery aircraft output table',
+                        default=config['defaults']['ch1']['ep5']['output_table'].get())
 
 
 def run():
@@ -224,6 +228,16 @@ def run():
         master = AircraftMasterFileProcessor(source_file=args.master_file)
         master.lookup_aircraft_type(aircraft)
         master.lookup_engine_type(engine)
+        target = master
+    elif args.command == 'etl':
+        # extract, transform, and load (etl) all 3 files
+        engine = EngineTypeFileProcessor(source_file=args.engine_file)
+        aircraft = AircraftTypeFileProcessor(source_file=args.aircraft_file)
+        master = AircraftMasterFileProcessor(source_file=args.master_file)
+        master.lookup_aircraft_type(aircraft)
+        master.lookup_engine_type(engine)
+        # uncomment this line after adding bigquery load method
+        # master.load(output_table=args.output_table, output_file=args.output_file)
         target = master
     elif args.command == 'help':
         parser.print_help()
