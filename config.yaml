@@ -10,7 +10,7 @@ defaults:
       engine_file: ./data/input/ch1/ep5/ENGINE.txt
       aircraft_file: ./data/input/ch1/ep5/ACFTREF.txt
       master_file: ./data/input/ch1/ep5/MASTER.txt
-      output_file: ./data/output/   aircraft.parquet
+      output_file: ./data/output/aircraft.parquet
       output_table: deb-airliner.deb.aircraft
   ch2:
     # chapter 2 episode 3 defaults args

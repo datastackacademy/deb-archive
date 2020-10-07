@@ -455,20 +455,9 @@ class AircraftMasterFileProcessor(object):
                 print(self.df.sample(n=sample_size))
 
 
-def test(args):
-    logger.info("testing engine file...")
-    engine = EngineTypeFileProcessor(source_file=args.engine_file)
-    aircraft = AircraftTypeFileProcessor(source_file=args.aircraft_file)
-    master = AircraftMasterFileProcessor(source_file=args.master_file)
-    master.lookup_aircraft_type(aircraft)
-    master.lookup_engine_type(engine)
-    master.load(output_table=args.output_table, output_file=args.output_file)
-    return master
-
-
 def register_cmdline_args(parser:argparse.ArgumentParser):
-    
-    parser.add_argument('command', choices=('etl', 'test', 'help'), default='etl', help='what to do')
+    # add command line args
+    parser.add_argument('command', choices=('etl', 'test-engine', 'test-aircraft', 'test-master', 'help'), help='what to do')
     parser.add_argument('-p', '--print', action='store_true', help='print to console')
     parser.add_argument('-n', '--row-count', type=int, default=100, 
                         help="number of sample rows to print")
@@ -494,8 +483,24 @@ def run():
     args = parser.parse_args()
         # execute command
     target = None
-    if args.command == 'test':
-        target = test(args)
+    if args.command == 'test-engine':
+        # test processing engine file
+        target = EngineTypeFileProcessor(source_file=args.engine_file)
+    elif args.command == 'test-aircraft':
+        # test processing aircraft file
+        target = AircraftTypeFileProcessor(source_file=args.aircraft_file)
+    elif args.command == 'test-master':
+        # test processing master file
+        target = AircraftMasterFileProcessor(source_file=args.master_file)
+    elif args.command == 'etl':
+        # extract, transform, and load (etl) all 3 files
+        engine = EngineTypeFileProcessor(source_file=args.engine_file)
+        aircraft = AircraftTypeFileProcessor(source_file=args.aircraft_file)
+        master = AircraftMasterFileProcessor(source_file=args.master_file)
+        master.lookup_aircraft_type(aircraft)
+        master.lookup_engine_type(engine)
+        master.load(output_table=args.output_table, output_file=args.output_file)
+        target = master
     elif args.command == 'help':
         parser.print_help()
     # print df
