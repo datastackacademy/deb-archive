@@ -446,12 +446,13 @@ class AircraftMasterFileProcessor(object):
         logger.info(f"loaded {table.num_rows} rows to {table_name}")
 
     def print(self, sample_size=100):
+        df = self.df[['mfr_year', 'status', 'issue_date', 'mfr_name', 'model', 'aircraft_type', 'eng_type']]
         # print the dataframe to console
         with pd.option_context(*pd_context_options):    # force pandas to print all columns/rows
             if sample_size < 0:
-                print(self.df)
+                print(df)
             else:
-                print(self.df.sample(n=sample_size))
+                print(df.sample(n=sample_size))
 
 
 def register_cmdline_args(parser:argparse.ArgumentParser):
@@ -490,7 +491,12 @@ def run():
         target = AircraftTypeFileProcessor(source_file=args.aircraft_file)
     elif args.command == 'test-master':
         # test processing master file
-        target = AircraftMasterFileProcessor(source_file=args.master_file)
+        engine = EngineTypeFileProcessor(source_file=args.engine_file)
+        aircraft = AircraftTypeFileProcessor(source_file=args.aircraft_file)
+        master = AircraftMasterFileProcessor(source_file=args.master_file)
+        master.lookup_aircraft_type(aircraft)
+        master.lookup_engine_type(engine)
+        target = master
     elif args.command == 'etl':
         # extract, transform, and load (etl) all 3 files
         engine = EngineTypeFileProcessor(source_file=args.engine_file)
