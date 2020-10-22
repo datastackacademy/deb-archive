@@ -29,3 +29,5 @@ import os
 # by default confuse will load config.yaml from the home directory now
 os.environ['DEBDIR'] = os.getcwd()
 config = confuse.Configuration("deb", __name__)
+
+pd_context_options = ('display.max_rows', None, 'display.max_columns', None, 'display.max_colwidth', 500, 'display.width', 500)
