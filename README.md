@@ -12,6 +12,7 @@ This repo contains the code for the [TuraLabs Data Engineering Bootcamp(DEB)](ht
 - [Setting up your Dev Environment](#setting-up-your-dev-environment)
 - [Need Help?](#need-help)
 - [Suggestions](#suggestions)
+- [Patch Notes](#patch-notes)
 
 
 ## Course Pre-requisites
@@ -28,3 +29,56 @@ We're here to help! If you have any questions, please connect with us on our [Di
 ## Suggestions
 
 If you have any suggestions for the course or website, please feel free to open a [GitHub Issue](https://github.com/turalabs/deb/issues) within this repo. We also welcome suggestions in the [suggestion channel on our Discord Server](https://discord.gg/bHDX6tb).
+
+## Patch Notes
+
+### 20201021 Ch1 Update + Small Fixes
+
+_General_
+- Switching Slack to Discord 
+- Fixed broken links to GCP Console and external documents
+
+_Ch1_
+New Ch1Ep5 lesson for advanced pandas use to replace the aircraft dataset to the latest FAA records
+
+
+### 20200930 Ch2 Update + Small Fixes
+
+**Website**
+_General_
+- fix broken links
+
+_Ch1_
+- add introductory episode on Pandas and Jupyter Notebook for beginners https://dev-dot-turalabs-site.uc.r.appspot.com/docs/ch1/c1e5
+- add note to clarify continuous use of the same GCS bucket throughout chapter
+
+_Ch 2_
+- add note in Episode 5 pointing towards Slack channel if you have any questions running a React App 
+
+_Blog_
+- add Pandas and Jupyter Notebook episode as a standalone blog post
+
+**DEB Repo**
+_Ch 2_
+- updated API and webapp for end of chapter to fix CORS issue
+- updated flights API request based on new query syntax
+- updated webapp READMEs to refer to Getting Started docs to acquire service account key
+
+### 20200923 Small Fixes
+_General_
+- fix typos
+- fix broken links
+- WSL User Setup
+- point to windows WSL2 initial setup
+- WSL vs WSL2: https://docs.microsoft.com/en-us/windows/wsl/compare-versions
+- Mention install ubuntu 20.04 from MS Store
+- fix using python3.7
+- add instructions to install python3.7 from deadsnake repos
+- adding pip to PATH: home/{username}/.local/bin to my PATH in Ubuntu in order to get access to pip
+- fix installing and setting up pip3 and virtualenv
+- fix creating a new virtualenv
+- remove --no-site-packages from virtualenv instructions
+- add instructions for deactivate
+
+_Chapter 1_
+-change paths in code examples to reflect location of data in provided repo
