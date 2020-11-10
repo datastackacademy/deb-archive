@@ -34,25 +34,25 @@ const MainForm  = ({preload:{airports, minDate, maxDate}, src, setSrc, dest, set
         <form onSubmit={handleSubmit} action="/results">
             <Autocomplete 
                 id="src-input"
+                disableClearable
                 getOptionLabel={(option) => option.label}
                 options = {airports}
                 renderInput={(params) => <TextField {...params} label="Departure Airport" variant="outlined" required={true} />}
-                
              />
              <br></br>
              <Autocomplete 
                 id="dest-input"
+                disableClearable
                 getOptionLabel={(option) => option.label}
                 options = {airports}
                 renderInput={(params) => <TextField {...params} label="Destination Airport" variant="outlined" required={true} />}
-                
              />
              <br></br>
              {hasDateSelectionError && <Alert severity="error">End date selection cannot be before start date selection</Alert>}
              <MuiPickersUtilsProvider utils={MomentUtils}>
                 <KeyboardDatePicker
                   autoOk
-                  error={hasDateSelectionError}
+                  error={hasDateSelectionError || inputStartDate > maxDate || inputStartDate < minDate}
                   value={inputStartDate}
                   id="start-date"
                   variant="inline"
@@ -70,7 +70,7 @@ const MainForm  = ({preload:{airports, minDate, maxDate}, src, setSrc, dest, set
                 />
                 <KeyboardDatePicker
                   autoOk
-                  error={hasDateSelectionError}
+                  error={hasDateSelectionError||inputEndDate > maxDate|| inputEndDate < minDate}
                   value={inputEndDate}
                   id="end-date"
                   variant="inline"
@@ -88,7 +88,7 @@ const MainForm  = ({preload:{airports, minDate, maxDate}, src, setSrc, dest, set
                 />  
                </MuiPickersUtilsProvider>
              <br></br>
-             <Button disabled={hasDateSelectionError} type="submit" className="submit-btn" variant="outlined" onSubmit={handleSubmit}>Submit</Button>
+             <Button disabled={hasDateSelectionError} type="submit" className="submit-btn" variant="outlined" color="primary" onSubmit={handleSubmit}>Submit</Button>
         </form>
         </Fragment>
     );
