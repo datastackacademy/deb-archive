@@ -1,7 +1,7 @@
-import React, {Fragment, useState} from 'react';
+import React, {Fragment, useState, useEffect} from 'react';
 import ls from "local-storage"
 import {Button, TextField} from "@material-ui/core";
-import {Autocomplete} from '@material-ui/lab';
+import {Alert, Autocomplete} from '@material-ui/lab';
 import { KeyboardDatePicker, MuiPickersUtilsProvider } from '@material-ui/pickers';
 import MomentUtils from '@date-io/moment';
 import {formatDate} from '../helpers/checker';
@@ -12,6 +12,7 @@ const MainForm  = ({preload:{airports, minDate, maxDate}, src, setSrc, dest, set
   
   const [inputStartDate, setInputStartDate] = useState("2018-01-01");
   const [inputEndDate, setInputEndDate] = useState("2018-01-01");
+  const [hasDateSelectionError, setHasDateSelectionError] = useState(false);
 
    const handleSubmit = (e) => {
       setSrc(document.getElementById("src-input").value.substring(0,3));
@@ -23,6 +24,10 @@ const MainForm  = ({preload:{airports, minDate, maxDate}, src, setSrc, dest, set
       setEndDate(inputEndDate);
       ls.set("endDate", inputEndDate);
    }
+
+   useEffect(() => {
+    Date.parse(inputEndDate) < Date.parse(inputStartDate)? setHasDateSelectionError(true): setHasDateSelectionError(false)
+   }, [inputStartDate, inputEndDate])
 
    return (
       <Fragment>
@@ -43,10 +48,11 @@ const MainForm  = ({preload:{airports, minDate, maxDate}, src, setSrc, dest, set
                 
              />
              <br></br>
+             {hasDateSelectionError && <Alert severity="error">End date selection cannot be before start date selection</Alert>}
              <MuiPickersUtilsProvider utils={MomentUtils}>
                 <KeyboardDatePicker
-                  disableToolbar
                   autoOk
+                  error={hasDateSelectionError}
                   value={inputStartDate}
                   id="start-date"
                   variant="inline"
@@ -57,12 +63,14 @@ const MainForm  = ({preload:{airports, minDate, maxDate}, src, setSrc, dest, set
                   margin="normal"
                   required={true}
                   minDate={minDate}
+                  minDateMessage={`There is no flight data before ${minDate}`}
                   maxDate={maxDate}
+                  maxDateMessage={`There is no flight data after ${maxDate}`}
                   onChange={e => setInputStartDate(formatDate(e, "YYYY-MM-DD"))}
                 />
                 <KeyboardDatePicker
-                  disableToolbar
                   autoOk
+                  error={hasDateSelectionError}
                   value={inputEndDate}
                   id="end-date"
                   variant="inline"
@@ -73,12 +81,14 @@ const MainForm  = ({preload:{airports, minDate, maxDate}, src, setSrc, dest, set
                   margin="normal"
                   required={true}
                   minDate={minDate}
+                  minDateMessage={`There is no flight data before ${minDate}`}
                   maxDate={maxDate}
+                  maxDateMessage={`There is no flight data after ${maxDate}`}
                   onChange={e => setInputEndDate(formatDate(e, "YYYY-MM-DD"))}
                 />  
                </MuiPickersUtilsProvider>
              <br></br>
-             <Button type="submit" className="submit-btn" variant="outlined" onSubmit={handleSubmit}>Submit</Button>
+             <Button disabled={hasDateSelectionError} type="submit" className="submit-btn" variant="outlined" onSubmit={handleSubmit}>Submit</Button>
         </form>
         </Fragment>
     );
