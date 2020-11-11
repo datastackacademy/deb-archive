@@ -17,5 +17,8 @@ jt -t onedork -T -tf sourcesans -nf sourcesans -tfs 12
 # install pandas
 pip install pandas pyarrow pandas-gbq
 
+# install pyspark
+pip install pyspark
+
 # to start jupyter server:
 # jupyter notebook
