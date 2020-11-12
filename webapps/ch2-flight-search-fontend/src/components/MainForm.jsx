@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, {Fragment, useState, useEffect} from 'react';
 import {Redirect} from "react-router-dom";
 import ls from "local-storage"
 import {Button, TextField} from "@material-ui/core";
@@ -8,6 +8,7 @@ import {formatDate} from '../helpers/checker';
 
 // Need to add helper function to filter airports if the other input is filled in
 const MainForm  = ({preload:{airports, minDate, maxDate}, src, setSrc, dest, setDest, startDate, setStartDate, endDate, setEndDate}) => {
+
    const handleSubmit = (e) => {
       setSrc(document.getElementById("src-input").value.substring(0,3));
       ls.set("src", document.getElementById("src-input").value.substring(0,3));
@@ -19,6 +20,12 @@ const MainForm  = ({preload:{airports, minDate, maxDate}, src, setSrc, dest, set
       ls.set("endDate", document.getElementById("end-date").value);
       // return <Redirect to="/results" />
    }
+
+  const filterDestOptions = (options, { inputValue }) => {
+    const srcSelection = document.getElementById("src-input").value;
+    const filteredAirports = options.filter(e => (e.label !== srcSelection && e.label.toLowerCase().includes(inputValue.toLowerCase())));
+    return filteredAirports;
+  }
 
    return (
       <Fragment>
@@ -35,6 +42,7 @@ const MainForm  = ({preload:{airports, minDate, maxDate}, src, setSrc, dest, set
                 id="dest-input"
                 getOptionLabel={(option) => option.label}
                 options = {airports}
+                filterOptions={filterDestOptions}
                 renderInput={(params) => <TextField {...params} label="Destination Airport" variant="outlined" />}
                 required
              />
