@@ -1,17 +1,19 @@
 import React from 'react';
 import MainForm from '../components/MainForm';
-import {formatDate} from '../helpers/checker'
+import { formatDate } from '../helpers/checker'
+import ls from "local-storage";
 
 
 
 const Search = (props) => {
-    return (
-        <div className="page-container">
-            {console.log(props.noFlights)}
-            {props.src&&props.dest&&props.startDate&&props.endDate&&!props.noFlights&&<em className="previous-search" onClick={() => window.location.href='/results'}>Previous Search: {props.src} to {props.dest} from {formatDate(props.startDate, "MM/DD/YYYY")} to {formatDate(props.endDate, "MM/DD/YYYY")}</em>}
-            <br></br>
-            <MainForm {...props}/>
-        </div>)
+  const previousValidQuery = ls.get("previousQuery");
+
+  return (
+    <div className="page-container">
+      {previousValidQuery.src && previousValidQuery.dest && previousValidQuery.start && previousValidQuery.end && <em className="previous-search" onClick={() => window.location.href = '/results'}>Previous Search: {previousValidQuery.src} to {previousValidQuery.dest} from {formatDate(previousValidQuery.start, "MM/DD/YYYY")} to {formatDate(previousValidQuery.end, "MM/DD/YYYY")}</em>}
+      <br></br>
+      <MainForm {...props} />
+    </div>)
 }
 
 export default Search;

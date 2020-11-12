@@ -1,6 +1,6 @@
 import React, {Fragment, useState, useEffect} from 'react';
 import {Redirect} from "react-router-dom";
-import ls from "local-storage"
+import ls from "local-storage";
 import {Button, TextField} from "@material-ui/core";
 import {Autocomplete} from '@material-ui/lab';
 import {formatDate} from '../helpers/checker';
