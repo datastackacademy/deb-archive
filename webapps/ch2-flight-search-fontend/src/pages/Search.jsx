@@ -6,7 +6,7 @@ import ls from "local-storage";
 
 
 const Search = (props) => {
-  const previousValidQuery = ls.get("previousQuery");
+  const previousValidQuery = ls.get("previousQuery")? ls.get("previousQuery") : "";
 
   return (
     <div className="page-container">

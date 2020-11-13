@@ -25,14 +25,17 @@ const MainForm  = ({preload:{airports, minDate, maxDate}, src, setSrc, dest, set
       ls.set("endDate", inputEndDate);
    }
 
-  const filterDestOptions = (options, { inputValue }) => {
-    const srcSelection = document.getElementById("src-input").value;
-    const filteredAirports = options.filter(e => (e.label !== srcSelection && e.label.toLowerCase().includes(inputValue.toLowerCase())));
-    return filteredAirports;
-  }
+  
    useEffect(() => {
     Date.parse(inputEndDate) < Date.parse(inputStartDate)? setHasDateSelectionError(true): setHasDateSelectionError(false)
    }, [inputStartDate, inputEndDate])
+
+
+   const filterDestOptions = (options, { inputValue }) => {
+      const srcSelection = document.getElementById("src-input").value;
+      const filteredAirports = options.filter(e => (e.label !== srcSelection && e.label.toLowerCase().includes(inputValue.toLowerCase())));
+      return filteredAirports;
+   }
 
    return (
       <Fragment>
