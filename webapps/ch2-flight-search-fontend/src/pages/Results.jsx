@@ -2,14 +2,14 @@ import React,{Fragment, useEffect, useState} from 'react';
 import ls from "local-storage";
 import {Button, Modal} from "@material-ui/core";
 
-import AirlineRank from "../components/AirlineRank"
+import AirlineRank from "../components/AirlineRank";
 import AirlineContainer from '../components/AirlineContainer';
 import FlightModal from '../components/FlightModal';
 import Map from '../components/Map';
 
 import { fetchAirportInfo, fetchFlights, filterQueryDate, fetchAirlines, airlineDictionary } from '../helpers/apiCalls';
 import {pickLabel, validInputs, compareAirports, compareQueries, empty, formatDate} from '../helpers/checker';
-import {groupByAirline, findAllAirlines, filterFlights,rankCount} from '../helpers/filterRank'
+import {groupByAirline, findAllAirlines, filterFlights,rankCount} from '../helpers/filterRank';
 
 
 const Results = ({noFlights, setNoFlights, preload, src, dest, endDate, startDate}) => {
@@ -38,8 +38,11 @@ const Results = ({noFlights, setNoFlights, preload, src, dest, endDate, startDat
         return (
             <div className="no-flights">
                 <em>
-                    Looks like there aren't any flights from {src} to {dest} from {formatDate(startDate, "MM/DD/YYYY")} to {formatDate(endDate, "MM/DD/YYYY")}. Want to <a href="/">try a different search</a>?
+                    Looks like there aren't any flights from {src} to {dest} from {formatDate(startDate, "MM/DD/YYYY")} to {formatDate(endDate, "MM/DD/YYYY")}. Want to try a different search?
                 </em>
+                <br/>
+                <br/>
+                <Button variant="outlined" color="primary" href="/">Back to Search</Button>
             </div>
         )
     }
@@ -56,7 +59,7 @@ const Results = ({noFlights, setNoFlights, preload, src, dest, endDate, startDat
             <div>
                 <p>It seems like you have not made a valid search. Please go back to the main page and refine your search.
                 </p> 
-                <Button variant="outlined" href="/">Search Page</Button>
+                <Button variant="outlined" href="/">Back to Search</Button>
             </div>
         );
     }
