@@ -1,5 +1,5 @@
 import React, {Fragment, useState, useEffect} from 'react';
-import ls from "local-storage"
+import ls from "local-storage";
 import {Button, TextField} from "@material-ui/core";
 import {Alert, Autocomplete} from '@material-ui/lab';
 import { KeyboardDatePicker, MuiPickersUtilsProvider } from '@material-ui/pickers';
@@ -25,9 +25,22 @@ const MainForm  = ({preload:{airports, minDate, maxDate}, src, setSrc, dest, set
       ls.set("endDate", inputEndDate);
    }
 
+  
    useEffect(() => {
     Date.parse(inputEndDate) < Date.parse(inputStartDate)? setHasDateSelectionError(true): setHasDateSelectionError(false)
    }, [inputStartDate, inputEndDate])
+
+   const filterSrcOptions = (options, { inputValue }) => {
+      const destSelection = document.getElementById("dest-input").value;
+      const filteredAirports = options.filter(e => (e.label !== destSelection && e.label.toLowerCase().includes(inputValue.toLowerCase())));
+      return filteredAirports;
+   }
+
+   const filterDestOptions = (options, { inputValue }) => {
+      const srcSelection = document.getElementById("src-input").value;
+      const filteredAirports = options.filter(e => (e.label !== srcSelection && e.label.toLowerCase().includes(inputValue.toLowerCase())));
+      return filteredAirports;
+   }
 
    return (
       <Fragment>
@@ -36,7 +49,8 @@ const MainForm  = ({preload:{airports, minDate, maxDate}, src, setSrc, dest, set
                 id="src-input"
                 disableClearable
                 getOptionLabel={(option) => option.label}
-                options = {airports}
+                options={airports}
+                filterOptions={filterSrcOptions}
                 renderInput={(params) => <TextField {...params} label="Departure Airport" variant="outlined" required={true} />}
              />
              <br></br>
@@ -44,7 +58,8 @@ const MainForm  = ({preload:{airports, minDate, maxDate}, src, setSrc, dest, set
                 id="dest-input"
                 disableClearable
                 getOptionLabel={(option) => option.label}
-                options = {airports}
+                options={airports}
+                filterOptions={filterDestOptions}
                 renderInput={(params) => <TextField {...params} label="Destination Airport" variant="outlined" required={true} />}
              />
              <br></br>
