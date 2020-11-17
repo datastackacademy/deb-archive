@@ -1,15 +1,19 @@
-import {fetchAirlines} from './apiCalls';
-
-//works
 const distinct = (value, index, self) => {
     return self.indexOf(value) === index
 }
 
-//works
 const findAllAirlines = (flights) => {
     const allAirlines = flights.map(flight => flight.airline);
     const uniqueAirlines = allAirlines.filter(distinct);
     return uniqueAirlines;
+}
+
+const calcFlightsPerDayCount = (flights) => {
+    return flights.reduce((accumulator, flight) => {
+        const key = flight["flight_date"]; 
+        accumulator[key]? accumulator[key]++: accumulator[key] = 1;
+        return accumulator;
+    }, {});
 }
 
 const groupByAirline = (flights) => {
@@ -23,12 +27,14 @@ const groupByAirline = (flights) => {
         const depart_delay_avg = (airline_flights.reduce((accumulator, flight) => {return (accumulator + flight.departure_delay)}, initialValD) / count);
         let initialValA = 0;
         const arrival_delay_avg = (airline_flights.reduce((accumulator, flight) => {return (accumulator=accumulator + flight.arrival_delay)}, initialValA) / count);
+        const flights_per_day_count = calcFlightsPerDayCount(airline_flights);
         let dict = {};
         dict["airline"] = airline;
         dict["count"] = count;
         dict["flights"] = airline_flights;
         dict["depart_delay_avg"] = depart_delay_avg;
         dict["arrival_delay_avg"] = arrival_delay_avg;
+        dict["flights_per_day_count"] = flights_per_day_count;
         output.push(dict);
     }
     return output;
@@ -72,5 +78,5 @@ const filterFlights = (flights, filter) => {
     return output;
 }
 
-export {findAllAirlines,groupByAirline, rankCount, filterFlights};
+export {findAllAirlines, groupByAirline, rankCount, filterFlights};
 

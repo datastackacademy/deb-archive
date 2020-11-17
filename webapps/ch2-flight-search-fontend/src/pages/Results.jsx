@@ -59,7 +59,7 @@ const Results = ({noFlights, setNoFlights, preload, src, dest, endDate, startDat
             <div>
                 <p>It seems like you have not made a valid search. Please go back to the main page and refine your search.
                 </p> 
-                <Button variant="outlined" href="/">Back to Search</Button>
+                <Button variant="outlined" color="primary" href="/">Back to Search</Button>
             </div>
         );
     }
