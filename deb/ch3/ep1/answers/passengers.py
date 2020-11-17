@@ -5,8 +5,8 @@ from pyspark.sql.functions import initcap, col, sha2, concat_ws
 
 # Build session and read the csv into a pypsark dataframe
 sparkql = SparkSession.builder.master('local').getOrCreate()
-people_path = config['ch3']['ep1']['passenger_input']
-save_path = config['ch3']['ep1']['passenger_output']
+people_path = config['defaults']['ch3']['ep1']['passenger_input'].get(str)
+save_path = config['defaults']['ch3']['ep1']['passenger_output'].get(str)
 passengers_df = sparkql.read.csv(people_path, header=True)
 
 # Load the passenger data and make sure the names have initial capitalization
