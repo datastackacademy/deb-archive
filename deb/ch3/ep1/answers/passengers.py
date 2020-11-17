@@ -23,7 +23,7 @@ passengers_df = passengers_df.withColumn('full_name',
 
 # Create a sha2 uid based on the email
 passengers_df = passengers_df.withColumn('uid',
-                                         sha2(concat_ws("|", col('email'),
+                                         sha2(concat_ws("|", col('email')),
                                               256))
 
 # Save dataframe as a parquet file
