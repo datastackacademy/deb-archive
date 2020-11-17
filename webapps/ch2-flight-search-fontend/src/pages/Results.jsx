@@ -6,6 +6,7 @@ import AirlineRank from "../components/AirlineRank";
 import AirlineContainer from '../components/AirlineContainer';
 import FlightModal from '../components/FlightModal';
 import Map from '../components/Map';
+import FlightsPerDayGraph from '../components/FlightsPerDayGraph';
 
 import { fetchAirportInfo, fetchFlights, filterQueryDate, fetchAirlines, airlineDictionary } from '../helpers/apiCalls';
 import {pickLabel, validInputs, compareAirports, compareQueries, empty, formatDate} from '../helpers/checker';
@@ -32,6 +33,7 @@ const Results = ({noFlights, setNoFlights, preload, src, dest, endDate, startDat
     //airline names
     const [airlines, setAirlines] = useState(null);
     const [clickedAirline, setClickedAirline] = useState(null);
+    const [groupedFlights, setgroupedFlights] = useState([]);
 
 
     const NoFlights = () => {
@@ -107,13 +109,13 @@ const Results = ({noFlights, setNoFlights, preload, src, dest, endDate, startDat
             .then(res => res.json())
             .then(res => {
                 const f = res.flights;
-                console.log(f)
 
                 if(f.length > 0){
                     setFlights(f);
                     
                     const ff = filterFlights(f,filter)
                     setFilteredFlights(ff);
+                    setgroupedFlights(ff);
 
                     setPreviousQuery(currentQuery);
                     ls.set("previousQuery", currentQuery);
@@ -178,6 +180,7 @@ const Results = ({noFlights, setNoFlights, preload, src, dest, endDate, startDat
                                                 })
                                                 }
                                             </div>
+                                            <FlightsPerDayGraph groupedFlights={groupedFlights} airlines={airlines} startDate={startDate} endDate={endDate} />
                                         </Fragment>
                                     ) :
                                     <Loading />}
