@@ -9,7 +9,7 @@ from pyspark.sql.functions import initcap, col, sha2, concat_ws
 
 # Create full_name column
 
-# Create a sha2 uid based on all the columns of the dataframe
+# Create a sha2 uid based on the user email
 
 # Save dataframe as a parquet file
 
