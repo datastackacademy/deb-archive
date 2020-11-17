@@ -165,10 +165,10 @@ const Results = ({noFlights, setNoFlights, preload, src, dest, endDate, startDat
                                         <Fragment>
                                             <Title />
                                             <Map airportInfo={airportInfo} />
-                                            <AirlineRank setClickedAirline={setClickedAirline} airlines={airlines} flights={flights} filter={filter} setFilter={setFilter} filteredFlights={filteredFlights} setFilteredFlights={setFilteredFlights} setClickedAirline={setClickedAirline}/>
+                                            <AirlineRank airlines={airlines} flights={flights} filter={filter} setFilter={setFilter} filteredFlights={filteredFlights} setFilteredFlights={setFilteredFlights} setClickedAirline={setClickedAirline}/>
                                             <div className="airline-containers">
                                                 <h1>Flights by Airline</h1>
-                                                <p><emphasis>Airlines sorted by {filter&&pickLabel(filter).toLowerCase()}</emphasis></p>
+                                                <p><em>Airlines sorted by {filter&&pickLabel(filter).toLowerCase()}</em></p>
                                                 {filteredFlights.map((airlineGroup, i) => {
                                                     const sectionName = airlines[airlineGroup.airline].replace(" ","-");
                                                     if(sectionName === clickedAirline){
@@ -180,7 +180,10 @@ const Results = ({noFlights, setNoFlights, preload, src, dest, endDate, startDat
                                                 })
                                                 }
                                             </div>
-                                            <FlightsPerDayGraph groupedFlights={groupedFlights} airlines={airlines} startDate={startDate} endDate={endDate} />
+                                            {startDate !== endDate&&<div>
+                                                <h1>Flight Counts for Each Airline Per Day</h1>
+                                                <FlightsPerDayGraph groupedFlights={groupedFlights} airlines={airlines} startDate={startDate} endDate={endDate} />
+                                            </div>}
                                         </Fragment>
                                     ) :
                                     <Loading />}

@@ -1,27 +1,24 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import Chart from 'chart.js';
-import moment from 'moment';
+import { datesArray, graphData } from '../helpers/flightsPerDay';
 
 const FlightsPerDayGraph = ({ groupedFlights, airlines, startDate, endDate }) => {
-
-  const datesArray = (start, end) => {
-    let dateArr = [];
-    for(let currentDate = moment(start); currentDate.format('YYYY-MM-DD') <= end;) {
-      dateArr.push(currentDate.format('MM/DD/YYYY'));
-      currentDate = currentDate.add(1, 'd');
-    }
-    return dateArr;
-  }
+  const graphDates = datesArray(startDate, endDate);
+  const gData = graphData(groupedFlights, airlines, graphDates);
 
   useEffect(() => {
     let ctx = document.getElementById("flights-per-day").getContext("2d");
 
+    // eslint-disable-next-line 
     let flightsPerDayGraph = new Chart(ctx, {
       type: "line",
       data: {
-        labels: datesArray(startDate, endDate),
-        datasets: []
-      } 
+        labels: graphDates,
+        datasets: gData
+      },
+      options: {
+        maintainAspectRatio: false
+      }
     });
   });
 
