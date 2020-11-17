@@ -38,6 +38,6 @@ defaults:
       airports_table: 'deb.airports'
   ch3:
     ep1:
-      passenger_input: ./data/input/ch3/ep1/passenger_1k.csv
-      passenger_output: ./data/input/ch3/ep1/passenger.parquet
+      passenger_input: ./data/input/ch3/ep1/passengers_1k.csv 
+      passenger_output: ./data/input/ch3/ep1/passengers_1k.parquet
   
