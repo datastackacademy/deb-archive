@@ -32,6 +32,21 @@ If you have any suggestions for the course or website, please feel free to open 
 
 ## Patch Notes
 
+### 20201117 New Blog Post + Small Fixes
+
+_General_
+
+- Fixed broken link this GitHub [issue](https://github.com/turalabs/deb/issues/7)
+- Fixed typos
+
+_Website_
+- Add Curriculum Overview page (/deb-info)
+- Add Registration page (/register)
+- Add About Us page (/about)
+
+_Blog_
+- Add “What is Data Engineering? How is it different from Data Science?” Blog post
+
 ### 20201021 Ch1 Update + Small Fixes
 
 _General_
