@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect} from 'react';
 import Chart from 'chart.js';
 import { datesArray, graphData } from '../helpers/flightsPerDay';
 
@@ -9,7 +9,7 @@ const FlightsPerDayGraph = ({ groupedFlights, airlines, startDate, endDate }) =>
   useEffect(() => {
     let ctx = document.getElementById("flights-per-day").getContext("2d");
 
-    // eslint-disable-next-line 
+    // eslint-disable-next-line
     let flightsPerDayGraph = new Chart(ctx, {
       type: "line",
       data: {
@@ -17,10 +17,18 @@ const FlightsPerDayGraph = ({ groupedFlights, airlines, startDate, endDate }) =>
         datasets: gData
       },
       options: {
-        maintainAspectRatio: false
+        maintainAspectRatio: false,
+        scales: {
+          yAxes: [{
+            ticks: {
+              beginAtZero: true
+            }
+          }]
+        }
       }
     });
-  });
+  // eslint-disable-next-line
+  }, []);
 
   return (
     <div>
