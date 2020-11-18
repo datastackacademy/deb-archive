@@ -11,14 +11,15 @@ const datesArray = (start, end) => {
   return dateArr;
 }
 
-// Check if an airline doesn't have a count for a date in the date array and if not, add that date and set it to zero
-const setZeroIfNoFlight = (counts, dates) => {
-  dates.forEach(e => {
-    if(!counts[e]) {
-      counts[e] = 0;
-    }
+// Check if an airline doesn't have a count for a date in the date array and if not add a zero for that day
+const addZeroIfNoFlight = (counts, dates) => {
+  let returnCounts = [];
+  dates.forEach(date => {
+    let formattedDate = moment(date).format("YYYY-MM-DD")
+    !counts[formattedDate]? returnCounts.push(0): returnCounts.push(counts[formattedDate]);
   })
-  return Object.values(counts);
+  console.log(counts);
+  return returnCounts;
 }
 
 
@@ -28,7 +29,7 @@ const graphData = (groupedFlights, airlines, graphDates) => {
   return groupedFlights.map((airlineFlights, i) => {
     let returnObj = {};
     returnObj.label = airlines[airlineFlights.airline];
-    returnObj.data = setZeroIfNoFlight(airlineFlights.flights_per_day_count, graphDates);
+    returnObj.data = addZeroIfNoFlight(airlineFlights.flights_per_day_count, graphDates);
     returnObj.fill = false;
     returnObj.borderColor = [colors[i]];
     returnObj.pointBackgroundColor = colors[i];
