@@ -18,7 +18,7 @@ def gbq_load(table_name, parquet_dir):
     job_config = bigquery.LoadJobConfig(
         source_format=bigquery.SourceFormat.PARQUET,
     )
-    
+
     data_file = glob(parquet_dir+'/part*.parquet')[0]
     logger.info(f"loading data from {data_file}")
     with open(data_file, "rb") as source_file:
@@ -27,7 +27,7 @@ def gbq_load(table_name, parquet_dir):
     table = client.get_table(table_name)  # get loaded table info
     logger.info(f"loaded {table.num_rows} rows to {table_name}")
 
-    
+
 # ===============================================================
 # ‹‹=‹‹=‹‹=‹‹=‹‹=‹‹=‹‹=‹‹= RUN FUNCTIONS =››=››=››=››=››=››=››=››
 # ===============================================================
@@ -70,6 +70,6 @@ def run():
     # Upload the file as an external table in BigQuery
     gbq_load(bq_table, save_path)
 
-    
+
 if __name__ == '__main__':
     run()
