@@ -100,7 +100,7 @@ h1 img{
   padding: 5%;
   overflow-y: scroll;
 }
-.modal button{
+.modal button.close{
   margin-left: 70vw;
 }
 

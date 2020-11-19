@@ -1,6 +1,6 @@
 //what is airline delay?
 import React, {Fragment, useEffect, useState} from 'react';
-import {Button, ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails} from '@material-ui/core';
+import {Button, ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails, Tabs, Tab, AppBar} from '@material-ui/core';
 import {formatDate} from '../helpers/checker'
 import Chart from "chart.js";
 import {colorArray} from '../helpers/checker';
@@ -8,11 +8,11 @@ import {colorArray} from '../helpers/checker';
 const FlightModal = ({airlines, allFlights, filter, filteredFlights, setDisplayModal, flight:{day_of_week, flight_date, airline, tailnumber, flight_number, src, src_city, src_state, dest, dest_city, dest_state, departure_time, actual_departure_time, departure_delay, taxi_out, wheels_off, wheels_on, taxi_in, arrival_time, actual_arrival_time, arrival_delay, cancelled, cancellation_code, flight_time, actual_flight_time, air_time, flights, distance, airline_delay, weather_delay, nas_delay, security_delay, late_aircraft_delay, flightDate_airline_flightNumber}}) => {
     const [graphDepart, setGraphDepart] = useState(null);
     const [graphArrival, setGraphArrival] = useState(null);
+    const [graphValue, setGraphValue] = useState(0);
 
     const findingCurrentAirlineGroup = (currentAirline, airlineGroups) => {
         for(let i=0; i < airlineGroups.length; i++){
             if(airlineGroups[i].airline == currentAirline){
-                console.log(airlineGroups[i])
                 return airlineGroups[i];
             }
         }
@@ -241,20 +241,33 @@ const FlightModal = ({airlines, allFlights, filter, filteredFlights, setDisplayM
         </Fragment>
     );
 
+    const handleGraphTabChange = (event, newValue) => {
+        setGraphValue(newValue);
+    };
+
     return (
         <div className="modal">
             <Button color="primary" aria-label="close button" className="close" onClick={()=>setDisplayModal(false)}>X</Button>
                 <h1>{`Flight Number ${flight_number}, ${airlines[airline]}`}</h1>
                 <h2>{`${formatDate(flight_date, "dddd, LL")}`}</h2>
-                <h2>{`${src} (${src_city},${src_state}) to ${dest} (${dest_city},${dest_state})`}</h2>
+                {/* <h2>{`${src} (${src_city},${src_state}) to ${dest} (${dest_city},${dest_state})`}</h2> */}
+                <h2>{`${src} (${src_city}, ${src_state}) to ${dest} (${dest_city})`}</h2>
                 <h3>{`Tail Number: ${tailnumber}`}</h3>
+
+                <Tabs value={graphValue}  onChange={handleGraphTabChange} variant="standard" aria-label="Arrival and Departure comparison graphs">
+                    <Tab label="Arrival" />
+                    <Tab label="Departure" />
+                </Tabs>
+
                 <div className="canvas-container">
+                    
                     <canvas id="flight-depart" height="50px" width="50px"></canvas>
                     <canvas id="flight-arrival" height="50px" width="50px"></canvas>
                 </div>
                 <div className="modal-stats">
                 {cancelled ? canceled_stats : flight_stats}
                 </div>
+                
         </div>
     );
 }
