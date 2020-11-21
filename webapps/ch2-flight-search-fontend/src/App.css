@@ -106,16 +106,17 @@ h1 img{
 
 .modal-stats{
   text-align: left;
+  margin-bottom: 10%;
 }
 
-.canvas-container{
+/* .canvas-container{
   margin-bottom: -50%
-}
-.modal canvas{
-  /* position: relative !important; */
+} */
+/* .modal canvas{
+  /* position: relative !important; 
   width: 50% !important;
   height: 100% !important;
-}
+} */
 
 .modal table{
   font-size: medium;
