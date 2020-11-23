@@ -36,4 +36,9 @@ defaults:
       flights_table: 'deb.flights'
       routes_table: 'deb.routes'
       airports_table: 'deb.airports'
-
+  ch3:
+    ep1:
+      passenger_input: ./data/input/ch3/ep1/passengers_1k.csv 
+      passenger_output: ./data/input/ch3/ep1/passengers_1k.parquet
+      passenger_table: 'deb.passengers_1k'
+  
