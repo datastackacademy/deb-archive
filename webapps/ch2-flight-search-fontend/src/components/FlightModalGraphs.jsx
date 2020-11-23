@@ -110,7 +110,7 @@ const FlightModalGraphs = ({flight, currentAirlineGroup, allFlights, airlines}) 
 
   return (
     <React.Fragment>
-      <Tabs value={value} onChange={handleChange} aria-label="simple tabs example" indicatorColor="primary">
+      <Tabs value={value} onChange={handleChange} aria-label="flight-modal-graph-tabs" indicatorColor="primary">
         <Tab label="Departure Delay" className="flightModalTab" {...a11yProps(0)} />
         <Tab label="Arrival Delay" className="flightModalTab" {...a11yProps(1)} />
       </Tabs>

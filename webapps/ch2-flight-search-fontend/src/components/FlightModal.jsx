@@ -23,8 +23,9 @@ const FlightModal = ({ airlines, allFlights, filter, filteredFlights, setDisplay
       <h2>{`${flight.src} (${flight.src_city}, ${flight.src_state}) to ${flight.dest} (${flight.dest_city})`}</h2>
       <h3>{`Tail Number: ${flight.tailnumber}`}</h3>
       <FlightModalGraphs flight={flight} currentAirlineGroup={currentAirlineGroup} allFlights={allFlights} airlines={airlines} />
+      <h2>Flight Data</h2>
       <div className="modal-stats">
-        {flight.cancelled ? <CanceledStats cancellationCode={flight.cancellation_code} /> : <FlightStats flight={flight} />}
+        {flight.cancelled ? <CanceledStats cancelCode={flight.cancellation_code} /> : <FlightStats flight={flight} />}
       </div>
     </div>
   );
