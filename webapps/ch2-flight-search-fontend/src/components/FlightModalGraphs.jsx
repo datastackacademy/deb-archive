@@ -1,15 +1,10 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
+import { Tabs, Tab, Paper } from '@material-ui/core';
 import Chart from 'chart.js';
-import {colorArray} from '../helpers/checker';
+import { colorArray } from '../helpers/checker';
 
-const TabPanel = (props) => {
-  const { children, value, index, ...other } = props;
-
+const TabPanel = ({ children, value, index, ...other }) => {
   return (
     <div
       role="tabpanel"
@@ -19,9 +14,9 @@ const TabPanel = (props) => {
       {...other}
     >
       {value === index && (
-        <Box m={3}>
-          <Typography>{children}</Typography>
-        </Box>
+        <Paper variant="outlined">
+          {children}
+        </Paper>
       )}
     </div>
   );
@@ -42,13 +37,13 @@ const a11yProps = (index) => {
 
 
 const FlightModalGraphs = ({flight, currentAirlineGroup, allFlights, airlines}) => {
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (value === 0) {
       const ctx = document.getElementById("departure-graph");
 
@@ -115,9 +110,9 @@ const FlightModalGraphs = ({flight, currentAirlineGroup, allFlights, airlines}) 
 
   return (
     <React.Fragment>
-      <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
-        <Tab label="Departure Delay" {...a11yProps(0)} />
-        <Tab label="Arrival Delay" {...a11yProps(1)} />
+      <Tabs value={value} onChange={handleChange} aria-label="simple tabs example" indicatorColor="primary">
+        <Tab label="Departure Delay" className="flightModalTab" {...a11yProps(0)} />
+        <Tab label="Arrival Delay" className="flightModalTab" {...a11yProps(1)} />
       </Tabs>
       <TabPanel value={value} index={0}>
         <canvas id="departure-graph" width="400" height="400"></canvas>
