@@ -1,4 +1,5 @@
 import json
+import datetime
 from flask import Blueprint, request, current_app
 from google.cloud import bigquery
 
@@ -43,6 +44,21 @@ def airlines():
     
 
     return json.dumps(output), 200, get_headers()
+
+
+@bp.route('/aircraft')
+def aircraft():
+    # get aircraft info
+    tailnum = request.args.get("tailnum", default=None, type=str)
+    # get bigquery request params
+    factory = get_factory()
+    output = factory.getAircraft(tailnum)
+
+    def datetime_handler(x):
+        if isinstance(x, datetime.date):
+            return f"{x.year}-{x.month}-{x.day}"
+
+    return json.dumps(output, default=datetime_handler), 200, get_headers()
 
 @bp.route('/flights')
 def flights():

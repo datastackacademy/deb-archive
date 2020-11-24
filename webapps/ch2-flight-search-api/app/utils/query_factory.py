@@ -9,22 +9,25 @@ from google.cloud import bigquery
 _project_ = "deb-airliner"
 _dataset_ = "airline_data"
 _flights_ = "flights"
+_aircrafts_ = "aircrafts"
 _airports_ = "airports"
 _airlines_ = "airlines"
 
 
 class QueryFactory:
 
-    def __init__(self, project: str = None, dataset: str = None, flights: str = None, airports: str = None, airlines: str = None):
+    def __init__(self, project: str = None, dataset: str = None, flights: str = None, aircrafts: str = None, airports: str = None, airlines: str = None):
         super(QueryFactory, self).__init__()
         # create google bigquery client
         self.client = bigquery.Client()
         self.project = project if project is not None else _project_
         self.dataset = dataset if dataset is not None else _dataset_
         self.flights = flights if flights is not None else _flights_
+        self.aircrafts = aircrafts if aircrafts is not None else _aircrafts_
         self.airports = airports if airports is not None else _airports_
         self.airlines = airlines if airlines is not None else _airlines_
         self.flights_ref = f"{self.project}.{self.dataset}.{self.flights}"
+        self.aircrafts_ref = f"{self.project}.{self.dataset}.{self.aircrafts}"
         self.airports_ref = f"{self.project}.{self.dataset}.{self.airports}"
         self.airlines_ref = f"{self.project}.{self.dataset}.{self.airlines}"
 
@@ -38,6 +41,24 @@ class QueryFactory:
         r = query_job.result()
         output = [dict(row) for row in r]
         return json.dumps(output)
+
+    def getAircraft(self, tailnum):
+        """query a single aircraft by its tailnumber"""
+        client = self.client
+        table = self.aircrafts_ref
+
+        QUERY = f"SELECT * FROM `{table}` WHERE n_number = @tailnum"
+        job_config = bigquery.QueryJobConfig(
+            query_parameters=[
+                bigquery.ScalarQueryParameter('tailnum', 'STRING', tailnum),
+            ]
+        )
+        query_job = client.query(QUERY, job_config=job_config)
+        r = query_job.result()
+        all_results = [dict(row) for row in r]
+        output = all_results[0]
+        print (output)
+        return output
 
     def getAirport(self, iata):
         """query a single airport by its IATA code"""
