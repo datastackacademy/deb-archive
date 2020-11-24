@@ -48,4 +48,10 @@ export const filterQueryDate = (date) => {
     return `${date[0]}-${date[1]}-${date[2]}`;
 }
 
+export const fetchAirplaneInfo = async(baseURL, tailnum) => {
+    let path = `${baseURL}query/aircraft?tailnum=${tailnum}`
+    let result = await fetch(path);
+    return result;
+}
+
 //need to add functions for calculating airline rankings, calculating airline stats, and displaying all flights by airline(filter)

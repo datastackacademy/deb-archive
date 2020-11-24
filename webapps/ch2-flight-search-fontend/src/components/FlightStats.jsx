@@ -1,7 +1,7 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { Tabs, Tab, Paper, Box } from '@material-ui/core';
-import {ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails} from '@material-ui/core';
+import { Tabs, Tab, Paper} from '@material-ui/core';
+import { fetchAirplaneInfo } from '../helpers/apiCalls';
 
 
 const cancellationCode = (code) => {
@@ -61,10 +61,32 @@ const a11yProps = (index) => {
 
 const FlightStats = ({flight:{day_of_week, flight_date, airline, tailnumber, flight_number, src, src_city, src_state, dest, dest_city, dest_state, departure_time, actual_departure_time, departure_delay, taxi_out, wheels_off, wheels_on, taxi_in, arrival_time, actual_arrival_time, arrival_delay, cancelled, cancellation_code, flight_time, actual_flight_time, air_time, flights, distance, airline_delay, weather_delay, nas_delay, security_delay, late_aircraft_delay, flightDate_airline_flightNumber}}) => {
   const [value, setValue] = useState(0);
+  const [airplaneData, setAirplaneData] = useState();
   
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
+
+  const Loading = () => {
+    return (
+        <div className="loading">
+            <h1>Loading<span className="animate-flicker">...</span></h1>
+        </div>
+    )
+  };
+
+  useEffect(() => {
+    const tailnum = tailnumber[0] === 'N'? tailnumber.slice(1): tailnumber;
+    fetchAirplaneInfo('http://localhost:5000/', tailnum)
+      .then(res => res.json())
+      .then(res => {
+          setAirplaneData(res);
+          console.log(res);
+      });
+      
+  }, []);
+
+
   
   return (
     <Fragment>
