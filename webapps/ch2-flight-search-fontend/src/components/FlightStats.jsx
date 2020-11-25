@@ -53,8 +53,8 @@ TabPanel.propTypes = {
 
 const a11yProps = (index) => {
   return {
-    id: `flight-stats-${index}`,
-    'aria-controls': `flightstats-${index}`,
+    id: `flight-stats-tabs-${index}`,
+    'aria-controls': `flight-stats-panel${index}`,
   };
 }
 
@@ -83,10 +83,8 @@ const FlightStats = ({ flight: { day_of_week, flight_date, airline, tailnumber, 
         setAirplaneData(res);
         console.log(res);
       });
-
+  // eslint-disable-next-line 
   }, []);
-
-
 
   return (
     <Fragment>
@@ -97,6 +95,7 @@ const FlightStats = ({ flight: { day_of_week, flight_date, airline, tailnumber, 
             <Tab label="Departure Stats" className="flightModalTab" {...a11yProps(1)} />
             <Tab label="Arrival Stats" className="flightModalTab" {...a11yProps(2)} />
             <Tab label="Delay Stats" className="flightModalTab" {...a11yProps(3)} />
+            <Tab label="Aircraft Stats" className="flightModalTab" {...a11yProps(4)} />
           </Tabs>
           <TabPanel value={value} index={0}>
             <table>
@@ -195,6 +194,31 @@ const FlightStats = ({ flight: { day_of_week, flight_date, airline, tailnumber, 
                   <td>{late_aircraft_delay}</td>
                 </tr>
               </tbody>
+            </table>
+          </TabPanel>
+          <TabPanel value={value} index={4}>
+            <table>
+              <thead>
+                <tr>
+                  <th>Manufacturer</th>
+                  <th>Manufacture Date</th>
+                  <th>Model</th>
+                  <th>Aircraft Type</th>
+                  <th>Number of Engines</th>
+                  <th>Number of Seats</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>{airplaneData.mfr_name}</td>
+                  <td>{airplaneData.mfr_year}</td>
+                  <td>{airplaneData.model}</td>
+                  <td>{airplaneData.aircraft_type}</td>
+                  <td>{airplaneData.num_engines}</td>
+                  <td>{airplaneData.num_seats}</td>
+                </tr>
+              </tbody>
+
             </table>
           </TabPanel>
         </Fragment>
