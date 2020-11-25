@@ -3,7 +3,6 @@ import React, {useEffect, useState} from 'react';
 // Material-UI
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
-import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 
 //Chart.js
@@ -61,6 +60,7 @@ const AirlineRank = ({airlines, flights, filter, setFilter, filteredFlights, set
       }
     });
     setGraph(myChart);
+  // eslint-disable-next-line
   }, [filter]);
 
   return (

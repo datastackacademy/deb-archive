@@ -12,6 +12,7 @@ const FlightModal = ({ airlines, allFlights, filter, filteredFlights, setDisplay
       }
     }
   }
+  // eslint-disable-next-line
   const [currentAirlineGroup, setCurrentAirlineGroup] = useState(findingCurrentAirlineGroup(flight.airline, filteredFlights));
 
   return (

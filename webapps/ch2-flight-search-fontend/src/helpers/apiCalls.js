@@ -15,7 +15,6 @@ export const fetchAirportInfo = async (baseURL, src, dest) => {
 }
 
 export const fetchAirlines = async(baseURL, airlineArray) => {
-    let airlineString = "";
     let result = "";
     if(airlineArray.length >0 ){
         const airlineString = airlineArray.reduce((accumulator, currentValue) => {return accumulator+","+currentValue})
