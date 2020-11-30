@@ -111,11 +111,6 @@ class QueryFactory:
         all_results = [dict(row) for row in r]
         return all_results
 
-    def getAirlines(self, iata_list: str):
-        """query and return a list of comma separated airline codes"""
-        # todo: finish writing the entire method
-        pass
-
 
 # model level factory
 _query_factory_ : QueryFactory = None
