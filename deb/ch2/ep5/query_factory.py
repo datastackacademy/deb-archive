@@ -29,54 +29,20 @@ class QueryFactory:
         self.airlines_ref = f"{self.project}.{self.dataset}.{self.airlines}"
 
     def getAllAirports(self, **kwargs):
-        """returns dictionary of flights with iata, city, and state information"""
         client = self.client
-        table = self.airports_ref 
+        table = self.airports_ref
 
-        QUERY = f"SELECT DISTINCT(iata),city,state FROM `{table}`"
+        QUERY = f"[YOUR ALL AIRPORTS QUERY GOES HERE]"
         query_job = client.query(QUERY)
         r = query_job.result()
         output = [dict(row) for row in r]
         return json.dumps(output)
 
-    def getAirport(self, iata):
-        """query a single airport by its IATA code"""
-        client = self.client
-        table = self.airports_ref
-
-        QUERY = f"SELECT * FROM `{table}` WHERE iata = @airport"
-        job_config = bigquery.QueryJobConfig(
-            query_parameters=[
-                bigquery.ScalarQueryParameter('airport', 'STRING', iata),
-            ]
-        )
-        query_job = client.query(QUERY, job_config=job_config)
-        r = query_job.result()
-        all_results = [dict(row) for row in r]
-        output = all_results[0]
-        return output
-    
-    def getAirlines(self, iata_list: str):
-        """query and return a list of comma separated airline codes"""
-        client = self.client
-        table = self.airlines_ref
-        
-        QUERY = f"SELECT * FROM `{table}` WHERE iata IN UNNEST(@airlines)"
-        job_config = bigquery.QueryJobConfig(
-            query_parameters=[
-                bigquery.ArrayQueryParameter('airlines', 'STRING', [x.strip() for x in iata_list.split(',')])
-            ]
-        )
-        query_job = client.query(QUERY, job_config=job_config)
-        r = query_job.result()
-        all_results = [dict(row) for row in r]
-        return all_results
-
     def getMinDate(self):
         client = self.client
         table = self.flights_ref
 
-        QUERY = f"SELECT MIN(flight_date) FROM `{table}`"
+        QUERY = f"[YOUR MIN DATE QUERY GOES HERE]`"
         query_job = client.query(QUERY)
         r = query_job.result()
         all_results = [row for row in r]
@@ -87,35 +53,68 @@ class QueryFactory:
         client = self.client
         table = self.flights_ref
 
-        QUERY = f"SELECT MAX(flight_date) FROM `{table}`"
+        QUERY = f"[YOUR MAX DATE QUERY GOES HERE]"
         query_job = client.query(QUERY)
         r = query_job.result()
         all_results = [row for row in r]
         output = all_results[0].values()[0]
         return output
 
-    def getFlights(self, src, dest, start, end):
+    def getAirport(self, iata):
+        """query a single airport by its IATA code"""
         client = self.client
-        table = self.flights_ref
+        table = self.airports_ref
 
-        QUERY = f"""SELECT * 
-                    FROM `{table}` 
-                    WHERE flight_date BETWEEN @start_date AND @end_date 
-                    AND src = @src 
-                    AND dest = @dest 
-                    ORDER BY flight_date"""
+        QUERY = f"[YOUR PARAMETERIZED AIRPORT QUERY GOES HERE]"
         job_config = bigquery.QueryJobConfig(
             query_parameters=[
-                bigquery.ScalarQueryParameter('start_date', 'DATE', datetime.strptime(start, "%Y-%m-%d").date()),
-                bigquery.ScalarQueryParameter('end_date', 'DATE', datetime.strptime(end, "%Y-%m-%d").date()),
-                bigquery.ScalarQueryParameter('src', 'STRING', src),
-                bigquery.ScalarQueryParameter('dest', 'STRING', dest),
+                bigquery.ScalarQueryParameter('airport', 'STRING', iata),
             ]
         )
         query_job = client.query(QUERY, job_config=job_config)
         r = query_job.result()
-        output = [dict(row) for row in r]
+        all_results = [dict(row) for row in r]
+        output = all_results[0]
         return output
+
+    def getAircraft(self, tailnum):
+        """query a single aircraft by its tailnumber"""
+        client = self.client
+        table = self.aircrafts_ref
+
+        QUERY = f"[YOUR PARAMETERIZED AIRCRAFT QUERY GOES HERE]"
+        job_config = bigquery.QueryJobConfig(
+            query_parameters=[
+                bigquery.ScalarQueryParameter('tailnum', 'STRING', tailnum),
+            ]
+        )
+        query_job = client.query(QUERY, job_config=job_config)
+        r = query_job.result()
+        all_results = [dict(row) for row in r]
+        output = all_results[0]
+        print (output)
+        return output
+
+    def getAirlines(self, iata_list: str):
+        """query and return a list of comma separated airline codes"""
+        client = self.client
+        table = self.airlines_ref
+
+        QUERY = f"[YOUR PARAMETERIZED QUERY USING SQL IN CLAUSE]"
+        job_config = bigquery.QueryJobConfig(
+            query_parameters=[
+                # bigquery.ArrayQueryParameter(...),
+            ]
+        )
+        query_job = client.query(QUERY, job_config=job_config)
+        r = query_job.result()
+        all_results = [dict(row) for row in r]
+        return all_results
+
+    def getAirlines(self, iata_list: str):
+        """query and return a list of comma separated airline codes"""
+        # todo: finish writing the entire method
+        pass
 
 
 # model level factory
@@ -136,19 +135,12 @@ def get_factory() -> QueryFactory:
 
 def test():
     factory = get_factory()
-    airports = factory.getAllAirports()
-    PDX = factory.getAirport("PDX")
-    min_date = factory.getMinDate()
-    max_date = factory.getMaxDate()
-    flights = factory.getFlights("PDX","SJC","2018-01-01", "2018-01-01")
-    airlines = factory.getAirlines("WN,AS,NK")
-
-    print(f"we have {len(airports)} airports")
-    print(f"PDX: {PDX}")
-    print(f"min flight_date: {min_date}")
-    print(f"max flight_date: {max_date}")
-    print(f"PDX-SJC flights: {len(flights)}")
-    print(f"airlines: {airlines}")
+    # airports = factory.getAllAirports()
+    # PDX = factory.getAirport("PDX")
+    # min_date = factory.getMinDate()
+    # max_date = factory.getMaxDate()
+    # flights = factory.getFlights("PDX","SJC","2018-01-01", "2018-01-01")
+    # getAirlines = factory.getAirlines("WN,AS,NK")
 
 
 if __name__ == '__main__':
