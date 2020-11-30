@@ -1,6 +1,5 @@
 import React,{ useState, useEffect} from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import {trackPormise} from 'react-promise-tracker';
 import ls from 'local-storage';
 import moment from 'moment';
 import './App.css';

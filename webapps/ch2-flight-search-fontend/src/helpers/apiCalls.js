@@ -15,7 +15,6 @@ export const fetchAirportInfo = async (baseURL, src, dest) => {
 }
 
 export const fetchAirlines = async(baseURL, airlineArray) => {
-    let airlineString = "";
     let result = "";
     if(airlineArray.length >0 ){
         const airlineString = airlineArray.reduce((accumulator, currentValue) => {return accumulator+","+currentValue})
@@ -46,6 +45,12 @@ export const fetchFlights = async (baseURL, src, dest, start, end) => {
 export const filterQueryDate = (date) => {
     date = date.substring(5,15).split(",");
     return `${date[0]}-${date[1]}-${date[2]}`;
+}
+
+export const fetchAirplaneInfo = async(baseURL, tailnum) => {
+    let path = `${baseURL}query/aircraft?tailnum=${tailnum}`
+    let result = await fetch(path);
+    return result;
 }
 
 //need to add functions for calculating airline rankings, calculating airline stats, and displaying all flights by airline(filter)

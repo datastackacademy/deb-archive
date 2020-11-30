@@ -1,6 +1,5 @@
 import React from 'react';
-import { fetchFlights } from '../helpers/apiCalls';
-import FlightRow from './FlightRow'
+import FlightRow from './FlightRow';
 import {ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails} from "@material-ui/core";
 
 const AirlineContainer = ({rank, sectionName, expanded, airlines, airlineGroup,clickedAirline, setClickedAirline, setCurrentFlight, setDisplayModal}) => {

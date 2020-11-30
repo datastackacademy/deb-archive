@@ -8,9 +8,9 @@ import FlightModal from '../components/FlightModal';
 import Map from '../components/Map';
 import FlightsPerDayGraph from '../components/FlightsPerDayGraph';
 
-import { fetchAirportInfo, fetchFlights, filterQueryDate, fetchAirlines, airlineDictionary } from '../helpers/apiCalls';
-import {pickLabel, validInputs, compareAirports, compareQueries, empty, formatDate} from '../helpers/checker';
-import {groupByAirline, findAllAirlines, filterFlights,rankCount} from '../helpers/filterRank';
+import { fetchAirportInfo, fetchFlights, fetchAirlines, airlineDictionary } from '../helpers/apiCalls';
+import {pickLabel, validInputs,  formatDate} from '../helpers/checker';
+import { findAllAirlines, filterFlights } from '../helpers/filterRank';
 
 
 const Results = ({noFlights, setNoFlights, preload, src, dest, endDate, startDate}) => {
@@ -19,6 +19,7 @@ const Results = ({noFlights, setNoFlights, preload, src, dest, endDate, startDat
     //flights returned from query
     const [flights, setFlights] = useState(ls.get("flights"));
     //previously fetched query
+    // eslint-disable-next-line
     const [previousQuery, setPreviousQuery] = useState(ls.get("previousQuery"));
     //current filter setting
     const [filter, setFilter] = useState("count");
@@ -145,7 +146,7 @@ const Results = ({noFlights, setNoFlights, preload, src, dest, endDate, startDat
         }else{
             setErrorMessage(true);
         }
-
+    // eslint-disable-next-line
     }, [])
 
     return (

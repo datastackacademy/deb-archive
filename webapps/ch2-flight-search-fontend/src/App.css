@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.logo{
+.logo {
   display: block;
   text-align: left;
   margin-left: 10px;
@@ -11,13 +11,15 @@
   padding: 20px 0 0 20px;
 }
 
-.no-flights{
+.no-flights {
   margin-top: 10%;
 }
-.page-container input{
+
+.page-container input {
   padding: 10px;
 }
-.pin{
+
+.pin {
   border-radius: 10px;
   width: 75px;
   height: 50px;
@@ -32,66 +34,64 @@
   cursor: inherit;
 }
 
-.pin-src{
+.pin-src {
   background-color: #CFE3F2;
 }
 
-.pin-dest{
+.pin-dest {
   background-color: #173B56;
   color:white;
 }
 
-.pin-content{
+.pin-content {
   display:inline-block;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
-.key{
+.key {
   position: absolute;
   transform: translate(50%,-125%);
 }
 
-.key-content{
+.key-content {
   padding: 10px;
 }
 
-h1 img{
+h1 img {
   width: 2%;
   height: 2%;
 }
-
-
 
 .page-container {
   padding: 0 10% 5% 10%;
 }
 
-.submit-btn{
+.submit-btn {
   display: block;
 }
 
-.airline-containers summary{
+.airline-containers summary {
   text-align: left;
 }
 
-.airline-container{
+.airline-container {
   font-size: x-large;
 }
 
-.airline-container table{
+.airline-container table {
   font-size: medium;
   text-align: left; 
   border-spacing: 20px;
 }
 
-.previous-search{
+.previous-search {
   display: block;
   cursor: pointer;
 }
 
-.modal{
+.modal {
   background-color: white;
   text-align: center;
   width: 75%;
@@ -100,38 +100,32 @@ h1 img{
   padding: 5%;
   overflow-y: scroll;
 }
-.modal button{
+
+.modal button.close {
   margin-left: 70vw;
 }
 
-.modal-stats{
+.modal-stats {
   text-align: left;
+  margin-bottom: 10%;
 }
 
-.canvas-container{
-  margin-bottom: -50%
-}
-.modal canvas{
-  /* position: relative !important; */
-  width: 50% !important;
-  height: 100% !important;
-}
-
-.modal table{
+.modal table {
   font-size: medium;
   text-align: left; 
   border-spacing: 20px;
 }
 
-#flight-arrival{
-  transform: translate(100%, -100%)
+.MuiButtonBase-root.flightModalTab {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
-#filter-label{
+#filter-label {
   margin-top: 2%;
 }
 
-.loading{
+.loading {
   color: #173B56;
 }
 
@@ -140,21 +134,25 @@ h1 img{
   50%  { opacity:0; }
   100% { opacity:0.5; }
 }
-@-o-keyframes flickerAnimation{
+
+@-o-keyframes flickerAnimation {
   0%   { opacity:1; }
   50%  { opacity:0; }
   100% { opacity:0.5; }
 }
-@-moz-keyframes flickerAnimation{
+
+@-moz-keyframes flickerAnimation {
   0%   { opacity:1; }
   50%  { opacity:0; }
   100% { opacity:0.5; }
 }
-@-webkit-keyframes flickerAnimation{
+
+@-webkit-keyframes flickerAnimation {
   0%   { opacity:1; }
   50%  { opacity:0; }
   100% { opacity:0.5; }
 }
+
 .animate-flicker {
    -webkit-animation: flickerAnimation 1s infinite;
    -moz-animation: flickerAnimation 1s infinite;
