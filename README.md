@@ -32,6 +32,24 @@ If you have any suggestions for the course or website, please feel free to open 
 
 ## Patch Notes
 
+### 20201204 Patch Notes:
+
+_Chapter 1_
+- Fixed typos in chapter 1 overview (thank you Senad)
+
+_Chapter 2_
+- Added GCS source file download instructions to chapter 2 episode 2 (thank you Jason)
+- Fixed API registration link in chapter 2 episode 4
+- Updated Portman API documentation links in chapter 2 episode 4
+- Enhanced chapter 2 episode 5 webapp
+
+_Chapter 3_
+- Chapter 3 Intro to Spark episode release
+
+_Blog_
+- Added Spark Explained blog post
+
+
 ### 20201117 New Blog Post + Small Fixes
 
 _General_
