@@ -45,6 +45,7 @@ _Chapter 2_
 
 _Chapter 3_
 - Chapter 3 Intro to Spark episode release
+- Added Episode 1: Spark Load and Transform Passengers
 
 _Blog_
 - Added Spark Explained blog post
