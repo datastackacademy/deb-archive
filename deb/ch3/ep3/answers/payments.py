@@ -3,11 +3,11 @@ from pyspark.sql.functions import concat_ws, col, sha2
 
 
 # Make Dataproc SparkSession
-sparkql = SparkSession.builder.master('yarn').getOrCreate()
+sparkql = SparkSession.builder.master('local').getOrCreate()
 
 # Load in both csv
-bucket = "default_test_bucket"
-bucket_path = 'gs://{}/'.format(bucket)
+bucket = "/home/david/git_rodeo/turalabs/deb/data/input/ch3/ep1/"
+bucket_path = '{}'.format(bucket)
 addr_path = bucket_path + 'passengers_addrs_1k.csv'
 addr_df = sparkql.read.csv(addr_path, header=True)
 
@@ -22,7 +22,8 @@ addr_df = addr_df.withColumn('addr_uid',
                                             col("state_code"),
                                             col("from_date"),
                                             col("to_date")
-                                            )
+                                            ),
+                             256
                                   ))
 
 card_df = card_df.withColumn('card_uid',
@@ -31,9 +32,19 @@ card_df = card_df.withColumn('card_uid',
                                             col("card_number"),
                                             col("expiration_date"),
                                             col("security_code")
-                                            )
+                                            ),
+                             256
                                   ))
 
 # Load in passenger data and join passenger uid on email
+passenger_path = bucket_path + 'passengers_1k.parquet'
+passenger_df = sparkql.read.parquet(passenger_path).withColumnRenamed('uid', 'passenger_uid')
 
+addr_df = addr_df.join(passenger_df.select('email', 'passenger_uid'),
+    on='email',
+    how='left')
+
+card_df = card_df.join(passenger_df.select('email', 'passenger_uid'),
+    on='email',
+    how='left')
 # Save to BQ
