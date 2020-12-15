@@ -6,8 +6,10 @@ from pyspark.sql.functions import concat_ws, col, sha2
 sparkql = SparkSession.builder.master('local').getOrCreate()
 
 # Load in both csv
-bucket = "/home/david/git_rodeo/turalabs/deb/data/input/ch3/ep1/"
-bucket_path = '{}'.format(bucket)
+bucket = 'default_test_bucket'
+sparkql.conf.set('temporaryGcsBucket', bucket) #this gives our job a temporary bucket to use when writint
+
+bucket_path = 'gs://{}/'.format(bucket)
 addr_path = bucket_path + 'passengers_addrs_1k.csv'
 addr_df = sparkql.read.csv(addr_path, header=True)
 
@@ -37,8 +39,12 @@ card_df = card_df.withColumn('card_uid',
                                   ))
 
 # Load in passenger data and join passenger uid on email
-passenger_path = bucket_path + 'passengers_1k.parquet'
-passenger_df = sparkql.read.parquet(passenger_path).withColumnRenamed('uid', 'passenger_uid')
+bq_dataset = 'sandbox_data'
+passenger_table_name = 'passengers'
+passenger_df = sparkql.read.format('bigquery') \
+.option('table', '{}.{}'.format(bq_dataset, passenger_table_name)) \
+.load() \
+.withColumnRenamed('uid', 'passenger_uid')
 
 addr_df = addr_df.join(passenger_df.select('email', 'passenger_uid'),
     on='email',
@@ -47,4 +53,13 @@ addr_df = addr_df.join(passenger_df.select('email', 'passenger_uid'),
 card_df = card_df.join(passenger_df.select('email', 'passenger_uid'),
     on='email',
     how='left')
+print(card_df.show(3))
+
 # Save to BQ
+addr_df.write.format('bigquery') \
+  .option('table', '{}.{}'.format(bq_dataset, 'addresses')) \
+  .save()
+
+card_df.write.format('bigquery') \
+  .option('table', '{}.{}'.format(bq_dataset, 'cards')) \
+  .save()
