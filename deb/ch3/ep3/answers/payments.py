@@ -7,7 +7,7 @@ sparkql = SparkSession.builder.master('local').getOrCreate()
 
 # Load in both csv
 bucket = 'YOUR BUCKET NAME'
-sparkql.conf.set('temporaryGcsBucket', bucket) #this gives our job a temporary bucket to use when writint
+sparkql.conf.set('temporaryGcsBucket', bucket)
 
 bucket_path = 'gs://{}/'.format(bucket)
 addr_path = bucket_path + 'passengers_addrs_1k.csv'
@@ -25,7 +25,7 @@ addr_df = addr_df.withColumn('addr_uid',
                                             col("from_date"),
                                             col("to_date")
                                             ),
-                             256
+                                  256
                                   ))
 
 card_df = card_df.withColumn('card_uid',
@@ -35,24 +35,24 @@ card_df = card_df.withColumn('card_uid',
                                             col("expiration_date"),
                                             col("security_code")
                                             ),
-                             256
+                                  256
                                   ))
 
 # Load in passenger data and join passenger uid on email
 bq_dataset = 'YOUR DATASET NAME'
 passenger_table_name = 'passengers'
 passenger_df = sparkql.read.format('bigquery') \
-.option('table', '{}.{}'.format(bq_dataset, passenger_table_name)) \
-.load() \
-.withColumnRenamed('uid', 'passenger_uid')
+    .option('table', '{}.{}'.format(bq_dataset, passenger_table_name)) \
+    .load() \
+    .withColumnRenamed('uid', 'passenger_uid')
 
 addr_df = addr_df.join(passenger_df.select('email', 'passenger_uid'),
-    on='email',
-    how='left')
+                       on='email',
+                       how='left')
 
 card_df = card_df.join(passenger_df.select('email', 'passenger_uid'),
-    on='email',
-    how='left')
+                       on='email',
+                       how='left')
 print(card_df.show(3))
 
 # Save to BQ
