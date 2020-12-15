@@ -57,7 +57,7 @@ print(card_df.show(3))
 
 # Save to BQ
 addr_df.write.format('bigquery') \
-  .option('table', '{}.{}'.format(bq_dataset, 'addresses')) \
+  .option('table', '{}.{}'.format(bq_dataset, 'addrs')) \
   .save()
 
 card_df.write.format('bigquery') \
