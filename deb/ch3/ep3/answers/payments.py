@@ -53,7 +53,6 @@ addr_df = addr_df.join(passenger_df.select('email', 'passenger_uid'),
 card_df = card_df.join(passenger_df.select('email', 'passenger_uid'),
                        on='email',
                        how='left')
-print(card_df.show(3))
 
 # Save to BQ
 addr_df.write.format('bigquery') \
