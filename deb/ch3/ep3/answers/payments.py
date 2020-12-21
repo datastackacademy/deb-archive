@@ -3,7 +3,7 @@ from pyspark.sql.functions import concat_ws, col, sha2
 
 
 # Make Dataproc SparkSession
-sparkql = SparkSession.builder.master('local').getOrCreate()
+sparkql = SparkSession.builder.master('yarn').getOrCreate()
 
 # Load in both csv
 bucket = 'YOUR BUCKET NAME'
