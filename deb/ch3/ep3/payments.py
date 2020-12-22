@@ -29,10 +29,7 @@ card_df = card_df.withColumn('card_uid',)
 # Load in passenger data and join passenger uid on email
 bq_dataset = 'YOUR DATASET NAME'
 passenger_table_name = 'passengers'
-passenger_df = sparkql.read.format('bigquery') \
-    .option('table', '{}.{}'.format(bq_dataset, passenger_table_name)) \
-    .load() \
-    .withColumnRenamed('uid', 'passenger_uid')
+passenger_df = # todo: read the passengers table from BigQuery
 
 # todo: Use a join to add the "passenger_uid" column to addr_df and card_df
 
