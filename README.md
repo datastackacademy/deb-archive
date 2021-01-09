@@ -32,6 +32,39 @@ If you have any suggestions for the course or website, please feel free to open 
 
 ## Patch Notes
 
+### 20210108 2 New Chapter 3 Episodes Added + Small Fixes
+
+_Chapter 1_
+
+- fixed broken links
+- fixed typos
+- reworded for clarity
+
+_Chapter 3_
+
+- Add [Chapter 3 Episode 2: Getting Started with Data Proc](http://turalabs.com/docs/ch3/c3e2)
+- Add [Chapter 3 Episode 3: Expand and Lookup Passenger Data](http://turalabs.com/docs/ch3/c3e3)
+
+
+### 20201204 New Chapter 3 Episode + Small Fixes
+
+_Chapter 1_
+
+-Fixed typos in chapter 1 overview (thank you Senad)
+
+_Chapter 2_
+-Added GCS source file download instructions to chapter 2 episode 2 (thank you Jason)
+-Fixed API registration link in chapter 2 episode 4
+-Updated Portman API documentation links in chapter 2 episode 4
+-Enhanced chapter 2 episode 5 webapp
+
+_Chapter 3_
+- [Chapter 3: Intro to Spark episode](http://turalabs.com/docs/ch3/c3-intro) release
+- Added [Episode 1: Spark Load and Transform Passengers](http://turalabs.com/docs/ch3/c3e1)
+
+_Blog_
+-Added [Spark Explained](http://turalabs.com/blog/spark-explained) blog post
+
 ### 20201117 New Blog Post + Small Fixes
 
 _General_
