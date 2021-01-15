@@ -17,22 +17,22 @@ cards_bq = config['defaults']['ch3']['ep4']['bq_cards'].get(str)
 
 sparkql.conf.set('temporaryGcsBucket', bucket)
 
-cards_path = 'gs://{}/{}'.format(bucket,cards_filepath)
+cards_path = 'gs://{}/{}'.format(bucket, cards_filepath)
 logger.info(f"Loading address info from {cards_path}")
 
 cards_df = sparkql.read.csv(cards_path, header=True)
 
 # Create uid for each
 cards_df = cards_df.withColumn('cards_uid',
-                             sha2(concat_ws("",
-                                            col("street_address"),
-                                            col("city"),
-                                            col("state_code"),
-                                            col("from_date"),
-                                            col("to_date")
-                                            ),
-                                  256
-                                  ))
+                               sha2(concat_ws("",
+                                              col("street_address"),
+                                              col("city"),
+                                              col("state_code"),
+                                              col("from_date"),
+                                              col("to_date")
+                                              ),
+                                    256
+                                    ))
 
 # Load in passenger data and join passenger uid on email
 logger.info(f"Loading passger data from {passenger_bq}")
@@ -42,8 +42,8 @@ passenger_df = sparkql.read.format('bigquery') \
     .withColumnRenamed('uid', 'passenger_uid')
 
 cards_df = cards_df.join(passenger_df.select('email', 'passenger_uid'),
-                       on='email',
-                       how='left')
+                         on='email',
+                         how='left')
 
 # Save to BQ
 logger.info(f"writing card data to {cards_bq}")

@@ -9,20 +9,24 @@ sparkql = SparkSession.builder.master('yarn').getOrCreate()
 
 # Load variables from config
 bucket = config['defaults']['ch3']['ep4']['input_bucket'].get(str)
-passenger_filename = config['defaults']['ch3']['ep4']['input_passengers'].get(str)
+passenger_filename = config['defaults']['ch3']['ep4']['input_passengers'].get(
+    str)
 passenger_output = config['defaults']['ch3']['ep4']['bq_passengers'].get(str)
 logger.info(f"Loading passenger info from {bucket}.{passenger_filename}")
 
 # Load passenger data
-sparkql.conf.set('temporaryGcsBucket', bucket) #this gives our job a temporary bucket to use when writint
+sparkql.conf.set('temporaryGcsBucket', bucket)
 
 people_path = 'gs://{}/{}'.format(bucket, passenger_filename)
 passengers_df = sparkql.read.csv(people_path, header=True)
 
 # Use withColumn and initcap to standardize the names
-passengers_df = passengers_df.withColumn('first_name', initcap(col('first_name')))\
-                             .withColumn('middle_name', initcap(col('middle_name')))\
-                             .withColumn('last_name', initcap(col('last_name')))
+passengers_df = passengers_df.withColumn('first_name',
+                                         initcap(col('first_name')))\
+                             .withColumn('middle_name',
+                                         initcap(col('middle_name')))\
+                             .withColumn('last_name',
+                                         initcap(col('last_name')))
 
 # Create full_name column
 passengers_df = passengers_df.withColumn('full_name',
