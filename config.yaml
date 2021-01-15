@@ -41,4 +41,13 @@ defaults:
       passenger_input: ./data/input/ch3/ep1/passengers_1k.csv 
       passenger_output: ./data/input/ch3/ep1/passengers_1k.parquet
       passenger_table: 'deb.passengers_1k'
+    ep4:
+      input_bucket: 'default_test_bucket'
+      input_passengers: 'passengers_1k.csv'
+      bq_passengers: 'deb-sandbox.sandbox_data.passengers_1k'
+      input_addrs: 'passengers_addrs_1k.csv'
+      bq_addrs: 'deb-sandbox.sandbox_data.addrs_1k'
+      input_cards: 'passengers_cards_1k.csv'
+      bq_cards: 'deb-sandbox.sandbox_data.cards_1k'
+      
   
