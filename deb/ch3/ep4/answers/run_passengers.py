@@ -16,5 +16,13 @@ addrs_bq = config['defaults']['ch3']['ep4']['bq_addrs'].get(str)
 
 loader = PassengerUtils()
 loader.load_passengers(passenger_filename, passenger_output)
-loader.load_subtable(cards_filepath, 'card_uid', [], cards_bq)
-loader.load_subtable(addrs_filepath, 'addr_uid', [], addrs_bq)
+loader.load_subtable(cards_filepath, 'card_uid', ["street_address",
+                                                  "city",
+                                                  "state_code",
+                                                  "from_date",
+                                                  "to_date"], cards_bq)
+loader.load_subtable(addrs_filepath, 'addr_uid', ["street_address",
+                                                  "city",
+                                                  "state_code",
+                                                  "from_date",
+                                                  "to_date"], addrs_bq)
