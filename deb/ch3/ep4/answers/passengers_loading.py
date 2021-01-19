@@ -10,8 +10,16 @@ from deb.utils.config import config
 
 
 class PassengerUtils:
+    """
+    Class of methods to load passenger data and associated tables into BigQuery
+    """
 
     def __init__(self, bucket):
+        """
+        Initialized our util with default parameters
+        :param bucket: str name of GCG bucket which will be used by this util
+        to load data from and as temporary storage for Dataproc
+        """
         logger.info(f"Starting SparkSession and using {bucket} as our bucket")
         self.sparkql = SparkSession.builder.master('yarn').getOrCreate()
         self.bucket = bucket
@@ -20,6 +28,12 @@ class PassengerUtils:
         self.datetime = f"{datetime.now():%Y%m%d%H%M%S}"
 
     def load_passengers(self, passenger_filename, passenger_output):
+        """
+        Function to load the passenger data from csv in GCS, clean, add UID,
+        and upload to BigQuery
+        :param passenger_filename: str input file name
+        :param passenger_output: str of project.dataset.table to save passenger data
+        """
         self.passenger_filename = passenger_filename
         self.passenger_output = passenger_output
         people_path = 'gs://{}/{}'.format(self.bucket, passenger_filename)
@@ -51,6 +65,14 @@ class PassengerUtils:
         self.passengers_df = passengers_df
 
     def load_subtable(self, csv_filepath, uid_name, uid_col_list, csv_bq, passenger_bq=None):
+        """
+        Function to load a supporting table to passengers from GCS and save in BigQuery.
+        :param csv_filepath: str input filename
+        :param uid_name: str name to give the UID column
+        :param uid_col_list: list of str column names to combine into UID
+        :param csv_bq: str output project.datset.table where the dat will be saved
+        :param passenger_bq: str, optional. If passengers_df already has been loaded
+        """
         csv_path = 'gs://{}/{}'.format(self.bucket, csv_filepath)
         logger.info(f"Loading address info from {csv_path}")
         csv_df = self.sparkql.read.csv(csv_path, header=True)
@@ -79,6 +101,10 @@ class PassengerUtils:
           .save()
 
     def archive_csv(self, input_file):
+        """
+        Archive a csv in GCS based off date
+        :param input_file: str path to file to be archived
+        """
         source_bucket = self.storage_client.bucket(self.bucket)
         source_blob = source_bucket.blob(input_file)
         destination_blob_name = f"{self.datetime}/{input_file}"
@@ -91,6 +117,10 @@ class PassengerUtils:
 
 
 def main():
+    """
+    Load parameters from our config file and run the PassengerUtil with 
+    these parameters
+    """
     t0 = now()
 
     logger.info("Loading configuration")
