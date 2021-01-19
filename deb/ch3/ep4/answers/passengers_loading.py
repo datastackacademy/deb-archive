@@ -1,7 +1,10 @@
 from time import time as now
+from datetime import datetime
 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import initcap, concat_ws, col, sha2
+from google.cloud import storage
+
 from deb.utils.logging import logger
 from deb.utils.config import config
 
@@ -13,6 +16,8 @@ class PassengerUtils:
         self.sparkql = SparkSession.builder.master('yarn').getOrCreate()
         self.bucket = bucket
         self.sparkql.conf.set('temporaryGcsBucket', bucket)
+        self.storage_client = storage.Client()
+        self.datetime = f"{datetime.now():%Y%m%d%H%M%S}"
 
     def load_passengers(self, passenger_filename, passenger_output):
         self.passenger_filename = passenger_filename
@@ -73,7 +78,15 @@ class PassengerUtils:
           .option('table', csv_bq) \
           .save()
 
-    def write_status(self):
+    def archive_csv(self, input_file):
+        source_bucket = self.storage_client.bucket(self.bucket)
+        source_blob = source_bucket.blob(input_file)
+        destination_blob_name = f"{self.datetime}/{input_file}"
+        logger.info(f"Moving to {destination_blob_name}")
+        blob_move = source_bucket.rename_blob(
+            source_blob, destination_blob_name
+        )
+
 
 
 
@@ -93,16 +106,19 @@ def main():
 
     loader = PassengerUtils(bucket)
     loader.load_passengers(passenger_filename, passenger_output)
+    loader.archive_csv(passenger_filename)
     loader.load_subtable(cards_filepath, 'card_uid', ["street_address",
                                                       "city",
                                                       "state_code",
                                                       "from_date",
                                                       "to_date"], cards_bq)
+    loader.archive_csv(cards_filepath)
     loader.load_subtable(addrs_filepath, 'addr_uid', ["street_address",
                                                       "city",
                                                       "state_code",
                                                       "from_date",
-                                                      "to_date"], addrs_bq)
+                                                      "to_date"], addrs_bq) 
+    loader.archive_csv(addrs_filepath)
     logger.info(f"total time: {(now() - t0):,.6f} secs")
 
 
