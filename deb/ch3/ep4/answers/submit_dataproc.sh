@@ -4,11 +4,8 @@ gcloud dataproc clusters create dln-test \
 --region=us-west1 \
 --project=deb-sandbox \
 --single-node -\
--metadata='PIP_PACKAGES=confuse>=1.3.0' \
+-metadata='PIP_PACKAGES=confuse>=1.3.0 google-cloud-storage>=1.29.0' \
 --initialization-actions=gs://goog-dataproc-initialization-actions-us-west1/python/pip-install.sh
-
-
-
 
 # Zip up the logger and config
 zip -r deb_utils.zip deb/
