@@ -1,3 +1,5 @@
+from time import time as now
+
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import initcap, concat_ws, col, sha2
 from deb.utils.logging import logger
@@ -71,8 +73,13 @@ class PassengerUtils:
           .option('table', csv_bq) \
           .save()
 
+    def write_status(self):
+
+
 
 def main():
+    t0 = now()
+
     logger.info("Loading configuration")
     bucket = config['defaults']['ch3']['ep4']['input_bucket'].get(str)
     passenger_filename = config['defaults']['ch3']['ep4']['input_passengers'].get(
@@ -96,6 +103,8 @@ def main():
                                                       "state_code",
                                                       "from_date",
                                                       "to_date"], addrs_bq)
+    logger.info(f"total time: {(now() - t0):,.6f} secs")
+
 
 
 if __name__ == '__main__':
