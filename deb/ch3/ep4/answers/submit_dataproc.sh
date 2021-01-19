@@ -14,28 +14,10 @@ gcloud dataproc clusters create dln-test \
 zip -r deb_utils.zip deb/
 
 # submit passengers
-gcloud dataproc jobs submit pyspark deb/ch3/ep4/answers/passengers.py \
+gcloud dataproc jobs submit pyspark deb/ch3/ep4/answers/passengers_loading.py \
 --cluster=dln-test \
 --region=us-west1 \
 --project=deb-sandbox \
 --jars=gs://spark-lib/bigquery/spark-bigquery-latest.jar \
 --py-files=deb_utils.zip \
---files=config.yaml \
-
-# Submit addresses
-gcloud dataproc jobs submit pyspark deb/ch3/ep4/answers/addrs.py \
---cluster=dln-test \
---region=us-west1 \
---project=deb-sandbox \
---jars=gs://spark-lib/bigquery/spark-bigquery-latest.jar \
---py-files=deb_utils.zip \
---files=config.yaml \
-
-# Submit cards
-gcloud dataproc jobs submit pyspark deb/ch3/ep4/answers/cards.py \
---cluster=dln-test \
---region=us-west1 \
---project=deb-sandbox \
---jars=gs://spark-lib/bigquery/spark-bigquery-latest.jar \
---py-files=deb_utils.zip \
---files=config.yaml \
+--files=config.yaml
