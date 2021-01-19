@@ -77,7 +77,6 @@ class PassengerUtils:
         logger.info(f"Loading address info from {csv_path}")
         csv_df = self.sparkql.read.csv(csv_path, header=True)
 
-        # Create uid for each
         csv_df = csv_df.withColumn(uid_name,
                                        sha2(concat_ws("",
                                                       *uid_col_list
