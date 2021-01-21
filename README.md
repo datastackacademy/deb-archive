@@ -32,6 +32,12 @@ If you have any suggestions for the course or website, please feel free to open 
 
 ## Patch Notes
 
+### 20210121 New Chapter 3 Episode 4 Added
+
+_Chapter 3_
+
+- Add [Chapter 3 Episode 4: Automate Passengers Upload](http://turalabs.com/docs/ch3/c3e4)
+
 ### 20210108 2 New Chapter 3 Episodes Added + Small Fixes
 
 _Chapter 1_
