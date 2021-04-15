@@ -50,6 +50,8 @@ class EngineTypeFileProcessor(object):
         # specific field parsers to apply data types and transformation rules 
         converters = {
             'CODE': (lambda v: str(v).strip()),
+            'MFR': (lambda v: str(v).strip()),
+            'MODEL': (lambda v: str(v).strip()),
             'TYPE': self.parse_engine_type,
             'HORSEPOWER': (lambda v: int(v) if str(v).strip().isdigit() else -1),
             'THRUST': (lambda v: int(v) if str(v).strip().isdigit() else -1),
@@ -106,6 +108,11 @@ class EngineTypeFileProcessor(object):
             else:
                 print(self.df.sample(n=sample_size))
 
+    def to_csv(self, output_file):
+        logger.info(f"writing engines types to csv: {output_file}")
+        df = self.df
+        df.to_csv(output_file, index=False)
+
 
 class AircraftTypeFileProcessor(object):
 
@@ -145,6 +152,8 @@ class AircraftTypeFileProcessor(object):
         # specific field parsers
         converters = {
             'CODE': (lambda v: str(v).strip()),
+            'MFR': (lambda v: str(v).strip()),
+            'MODEL': (lambda v: str(v).strip()),
             'TYPE-ACFT': self.parse_aircraft_type,
             'NO-ENG': (lambda v: int(v) if str(v).strip().isdigit() else -1),
             'NO-SEATS': (lambda v: int(v) if str(v).strip().isdigit() else -1),
@@ -204,8 +213,21 @@ class AircraftTypeFileProcessor(object):
             else:
                 print(self.df.sample(n=sample_size))
 
+    def to_csv(self, output_file):
+        logger.info(f"writing aircrafts types to csv: {output_file}")
+        df = self.df
+        df.to_csv(output_file, index=False)
+
+
 class AircraftMasterFileProcessor(object):
     
+    @staticmethod
+    def parse_n_number(v):
+        # add an uppercase M to the beginning
+        v = str(v).strip()
+        v = 'N'  + v if v[0].isdigit else v
+        return v
+
     @staticmethod
     def parse_registrant_type(v):
         # decode registrant type based on mapping rules below
@@ -224,6 +246,17 @@ class AircraftMasterFileProcessor(object):
         except (ValueError, KeyError):
             return None
     
+    @staticmethod
+    def erase_personal_info(row):
+        if row['registrant_type'] is None:
+            return (row['registrant_name'], row['street'], row['street2'])
+        elif row['registrant_type'] in ('Individual', 'Partnership', 'Co-Owned'):
+            return (None, None, None)
+        elif row['registrant_type'] == 'LLC':
+            return (row['registrant_name'], None, None)
+        else:
+            return (row['registrant_name'], row['street'], row['street2'])
+
     @staticmethod
     def parse_zipcode(v):
         # decode zipcode. shorten long zipcodes to US standard 5-digit zipcode
@@ -304,12 +337,20 @@ class AircraftMasterFileProcessor(object):
         ]
         # specific field parsers (converters)
         converters = {
+            'N-NUMBER': self.parse_n_number,
+            'SERIAL NUMBER': (lambda v: str(v).strip()),
             'MFR MDL CODE': (lambda v: str(v).strip()),
             'ENG MFR MDL': (lambda v: str(v).strip()),
             'YEAR MFR': (lambda v: int(v) if str(v).strip().isdigit() else -1),
             'TYPE REGISTRANT': self.parse_registrant_type,
+            'NAME': (lambda v: str(v).strip()),
+            'STREET': (lambda v: str(v).strip()),
+            'STREET2': (lambda v: str(v).strip()),
+            'CITY': (lambda v: str(v).strip()),
+            'STATE': (lambda v: str(v).strip()),
             'ZIP CODE': self.parse_zipcode,
             'REGION': self.parse_region,
+            'COUNTRY': (lambda v: str(v).strip()),
             'LAST ACTION DATE': self.parse_date,
             'CERT ISSUE DATE': self.parse_date,
             'STATUS CODE': self.parse_status,
@@ -342,6 +383,8 @@ class AircraftMasterFileProcessor(object):
         mapper = {col: str(col).strip().lower().replace(' ', '_').replace('-', '_') for col in list(df.columns)}
         df.rename(columns=mapper, inplace=True)
 
+   
+
     def transform(self):
         logger.debug(f"transforming master aircraft file")
         df = self.df
@@ -349,6 +392,8 @@ class AircraftMasterFileProcessor(object):
         self.rename_columns()
         # fix data types
         df['street2'] = df['street2'].astype(str)
+        # remove personal info
+        df['registrant_name'], df['street'], df['street2'] = zip(*df.apply(self.erase_personal_info, axis=1))
         # set index
         df.set_index(keys='n_number', inplace=True, drop=False)
     
@@ -374,6 +419,16 @@ class AircraftMasterFileProcessor(object):
         # set the df
         self.df = rdf
 
+    def lookup_n_number(self, n_numbers):
+        if isinstance(n_numbers, str):
+            n_numbers = [n_numbers]
+        elif isinstance(n_numbers, tuple) or isinstance(n_numbers, set):
+            n_numbers = list(n_numbers)
+        df = self.df
+        for n in n_numbers:
+            logger.info(f'looking up N Number: {n}')
+            print(df.loc[n])
+
     def load(self, output_table, output_file):
         self.to_parquet(output_file)
         self.gbq_create(output_table)
@@ -384,6 +439,11 @@ class AircraftMasterFileProcessor(object):
         df: pd.DataFrame = self.df
         # write parquet file
         df.to_parquet(output_file, engine='pyarrow', compression='gzip', index=False)
+
+    def to_csv(self, output_file):
+        logger.info(f"writing aircrafts to csv: {output_file}")
+        df: pd.DataFrame = self.df
+        df.to_csv(output_file, index=False)
 
     def gbq_create(self, table_name):
         schema = [
@@ -459,6 +519,7 @@ def register_cmdline_args(parser:argparse.ArgumentParser):
     # add command line args
     parser.add_argument('command', choices=('etl', 'test-engine', 'test-aircraft', 'test-master', 'help'), help='what to do')
     parser.add_argument('-p', '--print', action='store_true', help='print to console')
+    parser.add_argument('-w', '--write-csv', action='store_true', help='write a csv output file. use -o for file name')
     parser.add_argument('-n', '--row-count', type=int, default=100, 
                         help="number of sample rows to print")
     parser.add_argument('--engine-file', help='aircraft engine file',
@@ -496,6 +557,7 @@ def run():
         master = AircraftMasterFileProcessor(source_file=args.master_file)
         master.lookup_aircraft_type(aircraft)
         master.lookup_engine_type(engine)
+        master.lookup_n_number(['N794JB', 'N518AS', 'N292JB'])
         target = master
     elif args.command == 'etl':
         # extract, transform, and load (etl) all 3 files
@@ -511,6 +573,8 @@ def run():
     # print df
     if args.print and target is not None:
         target.print(sample_size=args.row_count)
+    if args.write_csv and target is not None:
+        target.to_csv(args.output_file)
 
 
 if __name__ == "__main__":
